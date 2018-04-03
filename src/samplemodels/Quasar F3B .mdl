@@ -1,0 +1,50 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="F3B" beschreibung="">
+      <ProfilInnen>RG-15</ProfilInnen>
+      <ProfilAussen>RG-15</ProfilAussen>
+      <Spannweite>3070</Spannweite>
+      <Flaechenbelastung>41</Flaechenbelastung>
+      <Wurzeltiefe>250</Wurzeltiefe>
+      <LageTrapezstoss>740</LageTrapezstoss>
+      <TiefeTrapezstoss>235</TiefeTrapezstoss>
+      <TiefeRandbogen>185</TiefeRandbogen>
+      <Leitwerkshebel>9.06</Leitwerkshebel>
+      <Stabilitaetsmass>14.4</Stabilitaetsmass>
+      <Schwerpunkt>0.5</Schwerpunkt>
+      <ParamFromCa>0.2</ParamFromCa>
+      <ParamToCa>0.9</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung>F3B / F3J / F3F</ParamAuslegung>
+      <ParamMaxCa>0.8</ParamMaxCa>
+      <ParamMaxV>50</ParamMaxV>
+      <ParamArtSteckverbindung>1</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>20</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>15</HolmbreiteRandbogen>
+          <ProfildickeWurzel>8.92</ProfildickeWurzel>
+          <ProfildickeRandbogen>8.92</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>740</Abstand>
+              <Fluegeltiefe>235</Fluegeltiefe>
+              <Pfeilung>0</Pfeilung>
+              <Profildicke>8.92</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>930</AbstandFluegelHlw>
+          <Spannweite>560</Spannweite>
+          <Wurzeltiefe>140</Wurzeltiefe>
+          <Aussentiefe>120</Aussentiefe>
+          <Pfeilung>10</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

@@ -1,0 +1,16 @@
+To install Indy manually, please do the following:
+
+1. Run the appropriate batch file for your Borland Product.
+   Delphi 4.0 - c:\Indy\Source\Fulld4.bat
+   Delphi 5.0 - c:\Indy\Source\Fulld5.bat
+   C++Builder 4.0 - c:\Indy\Source\Fullc4.bat
+   C++Builder 5.0 - c:\Indy\Source\Fullc5.bat
+2. In your Integrated Development Evnornment, install the DclIndy*.bpl which is located in the appropriate directory.  Those are:
+   Delphi 4.0 - c:\Indy\d4
+   Delphi 5.0 - c:\Indy\d5
+   C++Builder 4.0 - c:\Indy\C4
+   C++Builder 5.0 - c:\Indy\D4
+3. Add the appropriate directory from the ones listed above to your library path.  To do this, click Tools|Environment Options...|Library.  Just add the directory in Library path to end of the path preceded by a ";" such as:
+  ;c:\Indy\d5 
+
+Please visit our website at http://www.nevrona.com/indy for the latest updates and information.

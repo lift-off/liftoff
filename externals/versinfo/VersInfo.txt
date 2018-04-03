@@ -1,0 +1,285 @@
+TdfsVersionInfoResource v2.36
+
+Description:
+  A component to read version info resources.  It is intended for Delphi 3,
+  but should work with any file that contains a properly formatted resource.
+
+
+Contact Information:
+  The lateset version will always be available on the web at:
+    http://www.delphifreestuff.com
+  If you have any questions, comments or suggestions, please use the Delphi
+  Free Stuff Support Forum at: 
+    http://www.delphifreestuff.com/discus/
+  If, for some reason, you can not use the web-based support forum, you can
+  email me at bstowers@delphifreestuff.com.  However, the support forum will
+  always take precedence over direct email since it provides a resource that
+  others can use when they have a problem.  Every message posted to the forum
+  is emailed directly to this account, so emailing me directly will not get 
+  your message to me any faster.  It will only make the message less important
+  for me to respond to since only one person (you) is benefiting from it
+  instead of everyone interested.  Having said all that, please do email me 
+  directly if it is regarding something that isn't really support related, 
+  i.e. just to say thanks (as novel as that idea is).  
+
+
+Installation:
+  Delphi 1:
+    * Select the 'Options | Install Components' menu item.
+    * In the Install Components dialog, click the Add button.
+    * In the Add Module dialog, enter the full path name of the component's 
+      registration unit (the unit that ends with 'Reg.pas', i.e. 
+      'BrowseDrReg.pas') and click OK.
+    * In the Add Module dialog, click OK.
+    * The component library will be rebuilt and a new tab named 'DFS' will
+      be available on the Component Palette.
+  
+  Delphi 2, C++Builder 1:
+    * Select the 'Component | Install' menu item.
+    * In the Install Components dialog, click the Add button.
+    * In the Add Module dialog, enter the full path name of the component's 
+      registration unit (the unit that ends with 'Reg.pas', i.e. 
+      'BrowseDrReg.pas') and click OK.
+    * In the Add Module dialog, click OK.
+    * The component library will be rebuilt and a new tab named 'DFS' will be 
+      available on the Component Palette.
+  
+  Delphi 3, 4, 5, C++Builder 3 & 4:
+    * Do one of the following:
+      + Create a new package by selecting File | New and choosing Package from
+        the New tab in the dialog.
+      + Open an existing package file.  I suggest you do this if you already
+        have a package that you like to use for small, third party components.
+        I specifically have a package named "3rdParty.dpk" that I use for 
+        small components that come from other people.  Or, if you are using
+        several of my components, you might create a "DFS.dpk" package and 
+        use it for all of my DFS components.
+    * In the resulting package window, click the Add button.
+    * In the Add dialog, on the Add Unit tab, enter the full path name of the 
+      component's registration unit (the unit that ends with 'Reg.pas', i.e. 
+      'BrowseDrReg.pas') and click OK.
+    * You may want to add the other source files (*.pas) to the package as 
+      well in the same manner as you did the registration unit.  While this is
+      not required, not doing it will cause compiler warnings when the package
+      is compiled.  The component will function fine either way, but I 
+      personally find the warnings very irritating and am not happy until 
+      every compiler warning and hint is gone.
+    * If this package is new, or it has never been installed, click the 
+      Install button in the package window.  If this package is already 
+      installed in Delphi, click the Compile button.
+
+  C++Builder 5 and up:
+    * Perform the "Delphi 3 and up, C++Builder 3 and up" steps above, except
+      for the last step (Compile or Install).
+    * Select the package the component has been added to, and choose 
+      Project | Edit Option Source to open the package options in the editor.
+    * In the entry for PFLAGS, add the "-LUvcl50" option.  For example:
+        <PFLAGS value="-$YD -$W -$O -v -JPHNE -M -LUvcl50"/>
+    * Perform the final step from above, Compile or Install.
+    * For Borland's official word on this situation, open the C++Builder help
+      file and search the index for "dsgnintf.dcu" and see the "Compiling
+      packages with DsgnIntf" section.
+
+  Delphi 6 and up:
+    * Perform the "Delphi 3, 4, 5, C++Builder 3 & 4" steps above, except
+      for the last step (Compile or Install).
+    * Add the DesignIDE package to the Requires list of the package into which
+      the component is being installed.
+    * Perform the final step from above, Compile or Install.
+    * This is necessary because of changes to the design-time support units
+      introduced in Delphi 6.  For complete information, see the Del6New.hlp
+      file in your Delphi 6 Help directory.  In the index, search for
+      "upgrade issues" and in the resulting list of topics, select the
+      "DsgnIntf renamed and related changes" topic.
+
+
+Notes:
+  * You can now compile TdfsVersionInfoResource as a non-component class. I had the
+    need for using version info in an app that was needed to remain very small
+    in size, but as it was, many of the Delphi units were being used by this
+    component that bloated the compiled size horribly. The worst offenders were
+    the Forms and DsgnIntf units.  So, I added a DFS_VERSION_INFO_AS_CLASS
+    conditional directive that will cause TdfsVersionInfoResource as a descendant
+    of TObject instead of TComponent.  This means that you lose the ability to
+    drop it on a form and fool with it at design time, but it also means you
+    will cut 150k to 200k from the compiled size of your app.  Now, you won't
+    get this savings if you are already using those VCL units in your app.  In
+    practice, this is really only useful for console apps since any "normal"
+    delphi app uses these core units anyway.  Also, it could be useful for
+    DLLs since they may not need those units.  The biggest problem you are
+    likely to run into using this directive is switching between projects that
+    use the different versions.  You will need to make sure you do a full build
+    of the project, otherwise you will get nasty errors since it could link the
+    component version DCU into your app that uses the TObject version, and vice
+    versa.  I can not stress this enough:  If you use this conditional define,
+    REBUILD YOUR PROJECT IMMEDIATELY when switching between projects that use
+    different versions.
+  * I have not tested this on anything but Delphi 3, 4 and C++Builder 3
+    generated EXEs with proper version info resources, and on Triplex generated
+    16-bit version info resources in a Delphi 1 EXE.
+  * The CreationDate property is faked under Delphi 1.  If anyone has a
+    function, or even pseudo-code, for converting the dwFileDateLS and MS
+    variables into TDateTime format, please send it to me.  For now, I just
+    get the date/time stamp of the file containing the ver info resource.
+
+Known Issues:
+  * Using the version information built with Delphi 3 or C++Builder 3 and above
+    IDEs, (Project | Options | VersionInfo tab) will cause your ProductVersion
+    to always match your FileVersion.  Here is what I've found:
+
+    It seems to me that this is a bug in the way Delphi builds the version
+    information resource.  Here is what Delphi 3 builds in the project's .RES
+    file:
+
+1 VERSIONINFO LOADONCALL MOVEABLE DISCARDABLE IMPURE
+FILEVERSION 2, 1, 5, 3
+PRODUCTVERSION 2, 1, 5, 3
+[..snip...]
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   [..snip...]
+   VALUE "FileVersion", "2.1.5.3\000\000\000\000\000R\203\003\000"
+   VALUE "ProductVersion", "1.0.0.0\000\000\000\000\000R\203\003\000"
+  }
+
+ }
+}
+
+
+    Note in the "StringFileInfo" section, ProductVersion is 1.0.0.0.  But,
+    notice in the fixed information (at the top), PRODUCTVERSION is 2, 1, 5, 3.
+    It looks like everything you put into the version info grid in the IDE ends
+    up in the StringFileInfo section.  I'm pulling version numbers from the
+    fixed information, and it looks like the Delphi IDE just copies whatever
+    you assign to the FileVersion over to the ProductVersion for that.
+
+    You've got a few options to deal with this:  1) don't use the IDE generated
+    version info, build your own with a resource editor and use {$R xxx.res}
+    to compile it into your app, or 2) pull the product version from the string
+    info like this:
+
+      Info.Lines.Add('ProductVersion = ' + VersionInfo.ProductVersion.AsString);
+
+    I've set up the AsString property to work such that it reads the version
+    from the StringFileInfo section (if it's there) rather than just building it
+    from the fixed information numbers.  That means that the numbers in
+    ProductVersion may be completely different than the AsString numbers in it.
+    That is, using the above example, if you read the numbers from
+    ProductVersion you would get 2.1.5.3, but if you used
+    ProductVersion.AsString you would get 1.0.0.0.
+
+
+Revision History:
+2.36:  + Fixed a problem that occurred with some oddball version info resources.
+         Notably, Borland's Resource Workshop WORKSHOP.EXE file was unreadable
+         to the component (it crashed it even, I think).  I finally figured out
+         what they were doing that was goofy and it now gets along fine with it.
+       + Updated for Delphi 6 compatibility.  See updated install directions
+         above.
+2.35:  + Updated for C++Builder 5 compatibility.
+2.34:  + Changing the Filename property wouldn't cause controls to be
+         repopluated.
+2.33:  + Changed the way the TVersionNumberInformation class' AsString property
+         works.  Before, it just converted the number into a string, but now it
+         reads the string from the stringfileinfo section.  This makes it
+         possible that the version number and the AsString version number could
+         be different.  See Known Issues section above for full discussion.
+2.32:  + It's *really* D5 compatible now.  Small change between the D5 eval
+         version and the real, shipping D5 version broke it.
+2.31:  + Classname changed.
+       + D5 compatibility.
+2.30:  + Under Delphi 4, you could get AVs if the version resource didn't have
+         any translation info (I think).  Stemmed from the fact that I was
+         mixing an unsigned for control variable with a signed value to loop
+         to.  Thanks to Steve Sherwood for finding and fixing this.
+       + Delphi 2 style line comment ("//") snuck in, so it wouldn't compile
+         under Delphi 1 without fixing it.  I hate that...
+2.29:  + There were some strings left that should have gone into resource
+         strings for completeness' sake.  The strings were never used in a
+         compiled application, but only in the property editor (Delphi IDE).
+         They have been fixed for those who want a "full" translation.
+       + Added DFS_VERSION_INFO_AS_CLASS conditional directive.  See Notes
+         section above for full description.
+       + Added VInfoReg unit.  All IDE specific code (i.e. registering the
+         component, property editors, etc.) are contained in this unit.  This
+         was done for two primary reasons:  1) Using the component in a Delphi
+         or C++Builder expert would register the component as well.  2) Reduce
+         code size in some cases -- usually the smart linker removes this sort
+         of stuff since the app never references it, but now it's for certain
+         since it isn't even in the unit.  This change means that you need to
+         install the component using the new "registration" unit instead of
+         the unit containing the component.
+2.28:  + Moved hard-coded strings to resourcestrings for Delphi/Builder 3 and
+         higher.  They are normal consts for older compilers.  This aids in
+         internationalizing an app.
+2.27:  + Peforming a Project | Build would cause an Internal Error L511 to be
+         generated.  It has something to do with the way the VersForm and
+         VersInfo units used each other, but I couldn't isolate exactly what
+         was causing it.  So, I've moved everything that was in VersForm into
+         VersInfo.  You can safely delete VersForm.* from your system if you are
+         upgrading from a previous version.
+2.26:  + Update for Delphi 4 compatibility:  Linked controls are no longer
+         populated at design-time because of a change in Delphi 4.  Shouldn't
+         matter since you usually got the Delphi IDE version info at design
+         time anyway.
+       + Some version info resources (notably those in Microsoft Office apps)
+         use a "language neutral" ID (zero value) for the language ID and only
+         give a valid char set ID.  But, the actual version info uses a full
+         language and char set ID value.  So, apparently this neutral value is
+         supposed to be treated as a wildcard, but I can't find that behavior
+         documented anywhere, and it is not supported directly by the API calls.
+         So, I have implemented it such that if the ID value(s) is zero, a
+         default is inserted ('0409' for language and '04E4' for char set).
+         This does fix the MS Office apps, but I can't guarantee it'll fix
+         everything that uses this (somewhat questionable) scheme.  If you find
+         anything that it doesn't work for, let me know.
+2.25:  + Added Version property.
+2.24:  + If the resource does not have any language character set information,
+         a default value of '040904E4' is used now instead of ''.  There are a
+         couple of DLLs out there like this, and using '' will not find the
+         info in them.  Thanks to Jens Bretschneider
+         (j.bretschneider@hardsoft.de) for this.
+2.23:  + Fixed problem with C++Builder 3 run-time packages.
+2.22:  + The Comments element of the version information was not getting added
+         to the linked listview/grid.
+2.21:  + Updated for new DFS.INC file, component tab name, history/comments
+         file.
+2.20:  + Delphi 1 compile problems... '//' is habit forming...
+       + The VERSFORM unit is no longer installed seperately.  It is now
+         compatible with both Win16 and Win32.
+2.12:  + Fixed nasty little recursion bug (wasn't supposed to recurse).
+2.11:  + Small change for C++Builder compatibility.
+2.10:  + All items in version 2.10 were done by Grahame S. Marsh
+         (grahame.s.marsh@corp.courtaulds.co.uk).  Many thanks to him!
+         name and email at work and will insert them here ASAP.
+         + noted that build numbers were not cleared, fixed by adding
+         boolean to show when the data is valid.
+       + Changed filename property from string to its own type to allow a
+         property editor to be hooked in.
+       + Added a TListView for WIN32, retained TStringGrid for 16 bit.
+       + Added ability to choose which resources are visible in the grid or
+         listview by a set selector.
+       + Provided a filename property editor, and a component editor that
+         shows the current resource values of an attached file.  This is
+         available in WIN 32 only, sorry.  (Note from Brad, I will look
+         into adding this under Win 16 soon)   Both of these are provided
+         in the VersForm unit -- this unit must be installed into Delphi to
+         use this functionality.
+2.00:  + In a nutshell, Greg Nixon (gnixon@whanganui.ac.nz) added the
+         CopyrightLabel, DescriptionLabel, ProductLabel, VersionLabel and
+         VersionGrid properties. I tweaked and fiddled with some of it, but
+         he gets the credit for the work.
+       + Changed FileVersion and ProductVersion to be a new class type.
+         This class type will let you check individual values, as well as
+         get the entire version as a string.  The properties are:
+           Major, Minor, Release, Build, AsString
+         AsString is built like this:
+           <major>.<minor>.<release>.<build>  ex.  "2.1.0.391"
+         Thanks to Stefan de Vogelaere (Stefan.de.Vogelaere@telenet.be) for
+         this idea.
+1.10:  + 16-bit compatibility. (not released as 2.00 version came too fast)
+1.00:  + Initial release.
+

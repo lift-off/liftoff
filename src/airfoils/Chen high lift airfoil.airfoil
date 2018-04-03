@@ -1,0 +1,175 @@
+<airfoil version="1.0" description="University of Illinois/Chen high lift airfoil">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="0.036" y="0.178"/>
+    <point x="0.184" y="0.847"/>
+    <point x="0.471" y="1.605"/>
+    <point x="0.903" y="2.43"/>
+    <point x="1.48" y="3.302"/>
+    <point x="2.209" y="4.202"/>
+    <point x="3.048" y="5.101"/>
+    <point x="4.071" y="6.045"/>
+    <point x="5.223" y="6.987"/>
+    <point x="6.515" y="7.917"/>
+    <point x="7.935" y="8.825"/>
+    <point x="9.491" y="9.691"/>
+    <point x="11.153" y="10.518"/>
+    <point x="12.931" y="11.284"/>
+    <point x="14.822" y="11.98"/>
+    <point x="16.796" y="12.599"/>
+    <point x="18.853" y="13.13"/>
+    <point x="20.99" y="13.553"/>
+    <point x="23.196" y="13.85"/>
+    <point x="25.439" y="14.003"/>
+    <point x="27.716" y="13.962"/>
+    <point x="29.973" y="13.592"/>
+    <point x="32.457" y="12.951"/>
+    <point x="35.328" y="12.285"/>
+    <point x="38.397" y="11.582"/>
+    <point x="41.614" y="10.866"/>
+    <point x="44.938" y="10.12"/>
+    <point x="48.363" y="9.375"/>
+    <point x="51.857" y="8.625"/>
+    <point x="55.403" y="7.889"/>
+    <point x="58.951" y="7.184"/>
+    <point x="62.491" y="6.5"/>
+    <point x="65.994" y="5.858"/>
+    <point x="69.43" y="5.243"/>
+    <point x="72.781" y="4.676"/>
+    <point x="76.013" y="4.139"/>
+    <point x="79.111" y="3.654"/>
+    <point x="82.05" y="3.194"/>
+    <point x="84.824" y="2.778"/>
+    <point x="87.391" y="2.4"/>
+    <point x="89.761" y="2.06"/>
+    <point x="91.903" y="1.74"/>
+    <point x="93.807" y="1.451"/>
+    <point x="95.464" y="1.184"/>
+    <point x="96.882" y="0.928"/>
+    <point x="98.029" y="0.676"/>
+    <point x="98.905" y="0.398"/>
+    <point x="99.544" y="0.271"/>
+    <point x="99.879" y="0.101"/>
+    <point x="100" y="0"/>
+    <point x="0" y="0"/>
+    <point x="0.015" y="-0.403"/>
+    <point x="0.116" y="-0.843"/>
+    <point x="0.32" y="-1.143"/>
+    <point x="0.62" y="-1.37"/>
+    <point x="1.065" y="-1.54"/>
+    <point x="1.755" y="-1.651"/>
+    <point x="2.652" y="-1.69"/>
+    <point x="3.759" y="-1.607"/>
+    <point x="5.177" y="-1.401"/>
+    <point x="6.908" y="-1.043"/>
+    <point x="8.644" y="-0.634"/>
+    <point x="10.681" y="-0.212"/>
+    <point x="12.719" y="0.22"/>
+    <point x="14.961" y="0.695"/>
+    <point x="17.598" y="1.114"/>
+    <point x="20.625" y="1.428"/>
+    <point x="22.635" y="1.542"/>
+    <point x="26.635" y="1.539"/>
+    <point x="29.622" y="1.396"/>
+    <point x="32.604" y="1.182"/>
+    <point x="35.878" y="0.893"/>
+    <point x="38.852" y="0.589"/>
+    <point x="41.775" y="0.291"/>
+    <point x="45.676" y="-0.044"/>
+    <point x="49.355" y="-0.289"/>
+    <point x="52.956" y="-0.497"/>
+    <point x="56.488" y="-0.709"/>
+    <point x="59.942" y="-0.884"/>
+    <point x="63.322" y="-1.003"/>
+    <point x="66.623" y="-1.104"/>
+    <point x="69.835" y="-1.197"/>
+    <point x="72.977" y="-1.284"/>
+    <point x="76.001" y="-1.361"/>
+    <point x="78.885" y="-1.425"/>
+    <point x="81.641" y="-1.468"/>
+    <point x="84.254" y="-1.438"/>
+    <point x="86.69" y="-1.363"/>
+    <point x="88.999" y="-1.266"/>
+    <point x="91.141" y="-1.134"/>
+    <point x="93.064" y="-0.983"/>
+    <point x="94.798" y="-0.815"/>
+    <point x="96.306" y="-0.617"/>
+    <point x="97.563" y="-0.427"/>
+    <point x="98.564" y="-0.295"/>
+    <point x="99.303" y="-0.199"/>
+    <point x="99.803" y="-0.083"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000">
+        <value cl="0.3846" cd="0.1255"/>
+        <value cl="0.4355" cd="0.1303"/>
+        <value cl="0.5703" cd="0.1441"/>
+        <value cl="0.616" cd="0.1528"/>
+        <value cl="0.631" cd="0.1568"/>
+        <value cl="0.6507" cd="0.1618"/>
+        <value cl="0.7159" cd="0.178"/>
+        <value cl="0.7184" cd="0.1757"/>
+        <value cl="0.7259" cd="0.1751"/>
+        <value cl="0.7542" cd="0.1872"/>
+        <value cl="0.7688" cd="0.1945"/>
+        <value cl="0.7805" cd="0.1934"/>
+        <value cl="0.8471" cd="0.2116"/>
+      </re_set>
+      <re_set value="40000"/>
+      <re_set value="50000">
+        <value cl="0.6408" cd="0.1349"/>
+        <value cl="0.6836" cd="0.1448"/>
+        <value cl="0.7224" cd="0.1545"/>
+        <value cl="0.7537" cd="0.1643"/>
+        <value cl="0.7706" cd="0.1561"/>
+        <value cl="0.7763" cd="0.174"/>
+        <value cl="0.7988" cd="0.184"/>
+        <value cl="0.8033" cd="0.1661"/>
+        <value cl="0.8333" cd="0.1764"/>
+        <value cl="0.8497" cd="0.1858"/>
+        <value cl="0.8584" cd="0.1948"/>
+      </re_set>
+      <re_set value="60000"/>
+      <re_set value="70000"/>
+      <re_set value="80000">
+        <value cl="0.5612" cd="0.1206"/>
+      </re_set>
+      <re_set value="90000">
+        <value cl="0.5545" cd="0.1181"/>
+      </re_set>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000">
+        <value cl="0.5414" cd="0.1056"/>
+        <value cl="0.6171" cd="0.1098"/>
+        <value cl="0.698" cd="0.1144"/>
+      </re_set>
+      <re_set value="150000">
+        <value cl="0.5151" cd="0.1004"/>
+        <value cl="0.579" cd="0.1035"/>
+      </re_set>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000"/>
+      <re_set value="300000">
+        <value cl="0.7324" cd="0.0921"/>
+      </re_set>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000">
+        <value cl="0.7346" cd="0.0354"/>
+        <value cl="0.7665" cd="0.037"/>
+        <value cl="0.7912" cd="0.0389"/>
+        <value cl="0.8086" cd="0.0416"/>
+        <value cl="0.8375" cd="0.0437"/>
+        <value cl="0.9065" cd="0.0419"/>
+        <value cl="1.2533" cd="0.043"/>
+        <value cl="1.3254" cd="0.0418"/>
+      </re_set>
+    </calculation>
+  </polar>
+</airfoil>

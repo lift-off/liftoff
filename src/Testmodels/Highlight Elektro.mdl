@@ -1,0 +1,38 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="SD 7037" beschreibung="">
+      <ProfilInnen>SD 7037</ProfilInnen>
+      <ProfilAussen>SD 7037</ProfilAussen>
+      <Spannweite>1800</Spannweite>
+      <Flaechenbelastung>23</Flaechenbelastung>
+      <Wurzeltiefe>185</Wurzeltiefe>
+      <LageTrapezstoss>440</LageTrapezstoss>
+      <TiefeTrapezstoss>170</TiefeTrapezstoss>
+      <TiefeRandbogen>120</TiefeRandbogen>
+      <Leitwerkshebel>6.8</Leitwerkshebel>
+      <Stabilitaetsmass>15.2</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+      <Details>
+        <Flaeche>
+          <Randbogen>65</Randbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>440</Abstand>
+              <Fluegeltiefe>170</Fluegeltiefe>
+              <Pfeilung>15</Pfeilung>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>690</AbstandFluegelHlw>
+          <Spannweite>310</Spannweite>
+          <Wurzeltiefe>105</Wurzeltiefe>
+          <Aussentiefe>70</Aussentiefe>
+          <Pfeilung>35</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

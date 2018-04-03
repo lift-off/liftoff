@@ -1,0 +1,95 @@
+TMS Component pack 2.6
+for Delphi 3.0,4.0,5.0,6.0,7.0 & C++Builder 4.0,5.0,6.0
+
+Installation :
+--------------
+
+ Installing components
+ _____________________
+
+ In Delphi or C++Builder, select File, Open
+ and browse for the appropriate package file :
+
+  Delphi 3  : TMSD3.DPK
+  Delphi 4  : TMSD4.DPK
+  Delphi 5  : TMSD5.DPK
+  Delphi 6  : TMSD6PERS.DPK (Personal)
+  Delphi 6  : TMSD6.DPK (Professional and Enterprise)
+  Delphi 7  : TMSD7PERS.DPK (Personal)
+  Delphi 7  : TMSD7.DPK (Professional, Enterprise, Architect versions) 
+
+  C++Builder 4 : TMSC4.BPK
+  C++Builder 5 : TMSC5.BPK
+  C++Builder 6 : TMSC6PERS.BPK (Personal)
+  C++Builder 6 : TMSC6.BPK (Professional and Enterprise) 
+
+  After opening the package file, choose Compile and after
+  compilation, select Install.
+
+
+  Notes for TeeChart Pro users:
+
+  The TMS Component Pack comes with support for the default installed
+  TeeChart in Delphi & C++Builder. If you have installed another version
+  of TeeChart, open the TMS Component Pack package file, remove TEE*.*
+  from the requires list of the package an press Install. Delphi or 
+  C++Builder will then automatically add the correct TeeChart library
+  reference to the TMS Component Pack package file.
+
+  Setting library paths
+  _____________________
+
+
+  Under Tools, Environment Options, Library, add the directory where
+  the TMS components have been installed to the library path.
+
+  Installing online help
+  ______________________
+
+  Go through menu Help, Customize and add following file to the Index tab:
+  
+  C++Builder 4 : TMSPACKB4.HLP 
+  C++Builder 5 : TMSPACKB5.HLP 
+  C++Builder 6 : TMSPACKB6.HLP 
+  Delphi 4     : TMSPACKD4.HLP
+  Delphi 5     : TMSPACKD5.HLP
+  Delphi 6     : TMSPACKD6.HLP
+  Delphi 7     : TMSPACKD6.HLP
+
+  For Delphi 6,7 it is required to first put the TMSPACK.ALS file in the
+  {$DELPHI}\Help directory.
+
+
+Examples
+--------
+Examples for components usage can be obtained after login on the
+website with registration email & code and are included as well
+in the freeware distribution files and available for free download 
+at : http://www.tmssoftware.com
+
+
+Free updates for a full version cycle :
+---------------------------------------
+Free source code updates to all new versions
+during a full TMS Component Pack version cycle
+are available upon request. New versions are
+released at : http://www.tmssoftware.com
+and source code can be obtained after login on
+our website in the registered users section.
+
+
+Installing Add-on components
+----------------------------
+Several add-on components require other 3rd party libraries to be installed.
+In case you have these 3rd party libraries installed, you can use the components.
+
+Installation can be done by adding following files to the TMS Component Pack package
+file :
+
+TChartLink : Add ChartLinkReg.pas
+TAddictPlannerCheck : Add AddictPlannerCheckReg.pas
+TEmailAlarm : Add PlanEmailAlarm.pas
+TOxygenSMSAlaram : Add PlanSMSAlarm.pas
+
+
+

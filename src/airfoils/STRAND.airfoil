@@ -1,0 +1,68 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="0.44" y="1.33"/>
+    <point x="1.14" y="2.32"/>
+    <point x="1.98" y="3.2"/>
+    <point x="4.88" y="5.41"/>
+    <point x="10.3" y="8.15"/>
+    <point x="16.07" y="10.05"/>
+    <point x="20.03" y="10.93"/>
+    <point x="26.07" y="11.67"/>
+    <point x="32.14" y="11.6"/>
+    <point x="38.05" y="10.18"/>
+    <point x="41" y="9.43"/>
+    <point x="43.95" y="8.68"/>
+    <point x="51.86" y="6.9"/>
+    <point x="59.81" y="5.24"/>
+    <point x="69.78" y="3.41"/>
+    <point x="79.01" y="2.03"/>
+    <point x="89.49" y="0.82"/>
+    <point x="95.4" y="0.31"/>
+    <point x="100" y="0"/>
+    <point x="0" y="0"/>
+    <point x="0.48" y="-1.52"/>
+    <point x="1.06" y="-2.08"/>
+    <point x="2.4" y="-2.37"/>
+    <point x="4.59" y="-2.73"/>
+    <point x="10.69" y="-3.66"/>
+    <point x="16.52" y="-3.99"/>
+    <point x="20.9" y="-3.97"/>
+    <point x="26.32" y="-3.77"/>
+    <point x="31.93" y="-3.44"/>
+    <point x="39.72" y="-2.81"/>
+    <point x="41.71" y="-2.63"/>
+    <point x="43.74" y="-2.43"/>
+    <point x="52" y="-1.64"/>
+    <point x="60.44" y="-0.89"/>
+    <point x="69.14" y="-0.27"/>
+    <point x="78" y="0.23"/>
+    <point x="89.17" y="0.42"/>
+    <point x="95.79" y="0.26"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000"/>
+      <re_set value="40000"/>
+      <re_set value="50000"/>
+      <re_set value="60000"/>
+      <re_set value="70000"/>
+      <re_set value="80000"/>
+      <re_set value="90000"/>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000"/>
+      <re_set value="150000"/>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000"/>
+      <re_set value="300000"/>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000"/>
+    </calculation>
+  </polar>
+</airfoil>

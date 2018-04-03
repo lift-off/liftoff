@@ -1,0 +1,95 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="RG 15A 2.5/13" beschreibung="">
+      <ProfilInnen>RG 15A 2.5-13.0</ProfilInnen>
+      <ProfilAussen>RG 15A 2.5-13.0</ProfilAussen>
+      <Spannweite>4286</Spannweite>
+      <Flaechenbelastung>65</Flaechenbelastung>
+      <Wurzeltiefe>260</Wurzeltiefe>
+      <LageTrapezstoss>1242</LageTrapezstoss>
+      <TiefeTrapezstoss>220</TiefeTrapezstoss>
+      <TiefeRandbogen>120</TiefeRandbogen>
+      <Leitwerkshebel>10.15</Leitwerkshebel>
+      <Stabilitaetsmass>16.3</Stabilitaetsmass>
+      <Schwerpunkt>0.6</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.1</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung>Grossegler</ParamAuslegung>
+      <ParamMaxCa>0.8</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>1</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>35</Randbogen>
+          <HolmbreiteWurzel>20</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>10</HolmbreiteRandbogen>
+          <ProfildickeWurzel>14</ProfildickeWurzel>
+          <ProfildickeRandbogen>15</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>1242</Abstand>
+              <Fluegeltiefe>220</Fluegeltiefe>
+              <Pfeilung>10</Pfeilung>
+              <Profildicke>13</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>1040</AbstandFluegelHlw>
+          <Spannweite>815</Spannweite>
+          <Wurzeltiefe>160</Wurzeltiefe>
+          <Aussentiefe>115</Aussentiefe>
+          <Pfeilung>11</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+    <variante name="Negative Pfeilung" beschreibung="">
+      <ProfilInnen>RG 15A 2.5-13.0</ProfilInnen>
+      <ProfilAussen>RG 15A 2.5-13.0</ProfilAussen>
+      <Spannweite>4286</Spannweite>
+      <Flaechenbelastung>65</Flaechenbelastung>
+      <Wurzeltiefe>260</Wurzeltiefe>
+      <LageTrapezstoss>1242</LageTrapezstoss>
+      <TiefeTrapezstoss>220</TiefeTrapezstoss>
+      <TiefeRandbogen>120</TiefeRandbogen>
+      <Leitwerkshebel>10.15</Leitwerkshebel>
+      <Stabilitaetsmass>16.3</Stabilitaetsmass>
+      <Schwerpunkt>0.6</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.1</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung>Grossegler</ParamAuslegung>
+      <ParamMaxCa>0.8</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>1</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>-10</Randbogen>
+          <HolmbreiteWurzel>20</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>10</HolmbreiteRandbogen>
+          <ProfildickeWurzel>14</ProfildickeWurzel>
+          <ProfildickeRandbogen>15</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>1242</Abstand>
+              <Fluegeltiefe>220</Fluegeltiefe>
+              <Pfeilung>-3</Pfeilung>
+              <Profildicke>13</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>1040</AbstandFluegelHlw>
+          <Spannweite>815</Spannweite>
+          <Wurzeltiefe>160</Wurzeltiefe>
+          <Aussentiefe>115</Aussentiefe>
+          <Pfeilung>-2</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

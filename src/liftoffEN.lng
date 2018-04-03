@@ -1,0 +1,770 @@
+[strings]
+
+#
+# Define the language name as it gets displayed in the "View" menu
+#
+languageName=English
+
+#
+# Some languages need special bidirectional modes for the controls
+# The following values are supported:
+#
+# LeftToRight
+# - Reading order is left to right.
+# - Alignment is not changed.
+# - The vertical scroll bar appears on the right edge of the control.
+#
+# RightToLeft
+# - Reading order is right to left.
+# - Alignment is changed.
+# - The vertical scroll bar appears on the left edge of the control.
+#
+# RightToLeftNoAlign
+# - Reading order is right to left.
+# - Alignment is not changed.
+# - The vertical scroll bar appears on the left edge of the control.
+#
+# RightToLeftReadingOnly
+# - Reading order is right to left.
+# - Alignment and scroll bar are not changed.
+#
+bidirectionalMode=LeftToRight
+
+#
+# Main Data Module
+#
+
+dmMain.Translator.literals.ApplicationName=Lift-Off
+dmMain.Translator.literals.ImportModelText=The current model is not yet stored in your personal model database. Do you like to import this model to your personal model database now?
+dmMain.Translator.literals.ImportModelCaption=Import model
+dmMain.Translator.literals.ModelIsWriteProtectedText=This model is write protected. Please note that changes to this model can not be saved.
+dmMain.Translator.literals.ModelIsWriteProtectedCaption=Model is write-protected
+dmMain.Translator.literals.ModelfileForModelNotFound=File for model %s not found!
+dmMain.Translator.literals.ModelIsWriteProtectedErrorText=This model is write protected. Changes can not be saved.
+dmMain.Translator.literals.AirfoilNotFoundText=The airfoil file %s could not be found! Please check the used airfoil.
+dmMain.Translator.literals.AirfoilNotFoundCaption=Airfoil file not found
+dmMain.Translator.literals.AirfoilSaveErrorText=Error while saving airfoild file %s!
+dmMain.Translator.literals.AirfoilSaveErrorCaption=Error while saving airfoil
+dmMain.Translator.literals.AirfoilNewCaption=New airfoil
+dmMain.Translator.literals.AirfoilNewNoName=An airfoil name is required to create a new airfoil!
+dmMain.Translator.literals.AirfoilErrorCalcMethod=No matching calculation method found in PEF file. Import aborted.
+dmMain.Translator.literals.AirfoilImportCaption=Import PEF file
+dmMain.Translator.literals.AirfoilAlreadyExists=An airfoil with name %s already exists! Please try a different name.
+dmMain.Translator.literals.JoinerTypes=square#13round
+dmMain.Translator.literals.ErrorDuringSparCalcText=Error during spare calculation! Check your inputs.#13Message: %s
+dmMain.Translator.literals.ErrorDuringCalculationCaption=Error during calculations
+dmMain.Translator.literals.GliderAllround=Allround glider
+dmMain.Translator.literals.GliderLarge=Large glider
+dmMain.Translator.literals.GliderSpeed=F3B / F3J / F3F
+dmMain.Translator.literals.GliderCustom=Custom for extreme load
+dmMain.Translator.literals.GliderThermal=Thermal glider
+dmMain.Translator.literals.CustomDimensioning=Custom dimensioning
+
+dmMain.Translator.literals.MaterialCFKDescription=Carbon fiber reinforced plastic spare
+dmMain.Translator.literals.MaterialCFKSparCap=Carbon fiber Roving 24000 FIL (this may differ depending on the FIL count)
+dmMain.Translator.literals.MaterialCFKSparWeb=GRP
+dmMain.Translator.literals.MaterialCFKCore=Rohacell 51
+dmMain.Translator.literals.MaterialWoodDescription=Pines spare
+dmMain.Translator.literals.MaterialWoodSparCap=Pines, with  small  annular  rings
+dmMain.Translator.literals.MaterialWoodSparWeb=Air-ply
+dmMain.Translator.literals.MaterialWoodCore=no core material
+
+dmMain.Translator.literals.ModelpainterModelLabel=Model:
+dmMain.Translator.literals.ModelpainterMissingData=No drawing because of laking data.
+
+dmMain.Translator.literals.SweepListDistance=Distance
+dmMain.Translator.literals.SweepListCord=Chord
+dmMain.Translator.literals.SweepListSweep=Sweep
+dmMain.Translator.literals.SweepListAirfoilThickness=Thickness % **
+dmMain.Translator.literals.SweepListPanelEndNo=Panel no.
+
+dmMain.Translator.literals.SplashLiceneceNameCaption=Name: %s
+dmMain.Translator.literals.SplashLicenceSerialNo=License-Key.: %s
+
+dmMain.Translator.literals.CalcErrorStabilityMarginToLow=Calculation not possible. Stability margin to low!
+dmMain.Translator.literals.CalcErrorNotPossible=Calculation of spare not possible. Choose a wider spare width or a deeper design.
+
+dmMain.Translator.literals.WDImportWingTitle=Import wing from Wing Desinger file
+dmMain.Translator.literals.WDImportElevatorTitle=Import elevator from Wing Desinger file
+dmMain.Translator.literals.WDImportErrorFileNotFound=Wing Designer file %s not found. Import aborted.
+dmMain.Translator.literals.WDFileNotFound=File not found
+dmMain.Translator.literals.WDInvalidMeasurmentBase=Invalid measurment %s !
+dmMain.Translator.literals.WDInvalidMeasurment1=WURZELPROFIL > TI (Wing root chord)
+dmMain.Translator.literals.WDInvalidMeasurment2=WURZELPROFIL > DI (Wing root thickness)
+dmMain.Translator.literals.WDInvalidMeasurment3=%s > SL (Panel length)
+dmMain.Translator.literals.WDInvalidMeasurment4=%s > SL (Panel chord)
+dmMain.Translator.literals.WDInvalidMeasurment5=%s > DI (Panel thickness)
+dmMain.Translator.literals.WDInvalidMeasurment6=%s > PN (Sweep leading edge)
+dmMain.Translator.literals.WDInvalidMeasurment7=%s > PE (Sweep ending edge)
+dmMain.Translator.literals.WDExportWingTitle=Export wing into Wing Designer file
+dmMain.Translator.literals.WDExportElevatorTitle=Export elevator into Wing Designer file
+
+dmMain.Translator.literals.ValidationErrorCaption=Validation error
+dmMain.Translator.literals.ValidationErrorInvalidValue=Invalid value for %s!
+dmMain.Translator.literals.ValidationErrorRangeMessage=The value must be between %f and %f.
+dmMain.Translator.literals.ValidationErrorGreaterMessage=The value must be greater then %f.
+dmMain.Translator.literals.ValidationErrorLessMessage=The value must be less then %f.
+dmMain.Translator.literals.ValidationErrorInvalidMessage="%s" is not a valid value for "%s"! %s. Please correct this.
+dmMain.Translator.literals.ValidationErrorInvalidEmptyMessage="%s" is not a valid value for "%s"! Please correct this.
+dmMain.Translator.literals.ValidationErrorInvalidNumberMessage=This is not a numeric value. Please correct this. The value should be in format %s.
+dmMain.Translator.literals.ValidationInvalidFromCl=Invalid value for "From Cl"! Use '%s' as the decimal separator.
+dmMain.Translator.literals.ValidationInvalidToCl=Invalid value for "To Cl"! Use '%s' as the decimal separator.
+dmMain.Translator.literals.ValidationInvalidMaxLift=Invalid value for "maximum lift coefficient"!
+dmMain.Translator.literals.ValidationInvalidMaxSpeed=Invalid value for "maximum speed"!
+dmMain.Translator.literals.ValidationInvalidSpareWidthWingRoot=Spar width at the wing root must be greater then zero!
+dmMain.Translator.literals.ValidationInvalidSpareWidthWingTip=Spar width at the wing tip must be greater then zero!
+dmMain.Translator.literals.ValidationInvalidWingPanelEndpoint=Wing panel endpoint no. %d contains invalid values (distance and/or chord)!
+dmMain.Translator.literals.ValidationInvalidElevatorPanelEndpoint=Elevator panel endpoint no. %d contains invalid values (distance and/or chord)!
+dmMain.Translator.literals.ValidationEnterAModelname=Enter a model name!
+dmMain.Translator.literals.ValidationEnterAVersionname=Enter a version name!
+dmMain.Translator.literals.ValidationModelAlreadyExists=A model with the modelname %s already exists!#13Use another name.
+dmMain.Translator.literals.ValidationModelAlreadyExistsCaption=Model already exists
+dmMain.Translator.literals.ValidationInvalidReValue=Invalid RE value! Enter a numeric value.
+dmMain.Translator.literals.ValidationWingSpanRequired=A wing span is required!
+dmMain.Translator.literals.ValidationVersionAlreadyExists=The version name %s already exists!#13#13Please choose a different name.
+dmMain.Translator.literals.ValidationVersionNameMustNotBeEmpy=Version name must not be empty.
+dmMain.Translator.literals.ValidationModelAlreadyContainsThatVersion=This model already contains a version with the name %s!
+
+dmMain.Translator.literals.ReportProgramCaption=Calculated using %s V %s
+
+dmMain.Translator.literals.ReportGSPolarsTitle=Glide and sink polars
+dmMain.Translator.literals.ReportGSPolarsSubtitle=Sweep: chord/4 = 0°
+dmMain.Translator.literals.ReportGSPolarsModelname=Model:
+dmMain.Translator.literals.ReportGSPolarsVersionname=Version:
+dmMain.Translator.literals.ReportGSPolarsSeriesSink=Sinkpolars
+dmMain.Translator.literals.ReportGSPolarsSeriesGlide=Glidepolars
+dmMain.Translator.literals.ReportGSPolarsSeriesSinkAxis=Speed of sinking in dm/sec
+dmMain.Translator.literals.ReportGSPolarsSeriesGlideAxis=Speed in m/sec
+
+dmMain.Translator.literals.ReportSpareTitle=Spar calculation
+dmMain.Translator.literals.ReportSpareSubtitle=Sweep: custom
+dmMain.Translator.literals.ReportSpareInfoCaption=Spar construction:
+dmMain.Translator.literals.ReportSpareInfoText=The following materials are used for selected spar construction. If other materials are used the calculations may be wrong and need to be fixed manually!
+dmMain.Translator.literals.ReportSpareGraphicCaption=Graphic:
+dmMain.Translator.literals.ReportSpareCapMatCaption=Spar cap material:
+dmMain.Translator.literals.ReportSpareWebMatCaption=Spar web material:
+dmMain.Translator.literals.ReportSpareCoreMatCaption=Core material:
+dmMain.Translator.literals.ReportSpareDesignCaption=Design:
+dmMain.Translator.literals.ReportSpareMaxLiftCoefficientCaption=Max. lift coefficient cl:
+dmMain.Translator.literals.ReportSpareMaxSpeedCaption=Max. speed V m/s:
+dmMain.Translator.literals.ReportSpareDimensionsCaption=Spar dimensions:
+dmMain.Translator.literals.ReportSpareColDistance=Distance from mid fuse
+dmMain.Translator.literals.ReportSpareColWidth=Spar width at this point
+dmMain.Translator.literals.ReportSpareColBendingMoment=Bending moment at this point L(x)
+dmMain.Translator.literals.ReportSpareColShearForce=Shear force at L(x)
+dmMain.Translator.literals.ReportSpareColAirfoilThickness=Airfoil thickness (see graphic) at point L(x)
+dmMain.Translator.literals.ReportSpareColAirfoilThicknessReduced=Airfoil thickness (see graphic) reduced by shelf
+dmMain.Translator.literals.ReportSpareColDragMoment=Drag moment
+dmMain.Translator.literals.ReportSpareColAreaForShearForce=Cross-sectional area used by shear force
+dmMain.Translator.literals.ReportSpareColShearLoad=Shear load of web core
+dmMain.Translator.literals.ReportSpareColWebBetweenSparCab=Web height between spar cab
+dmMain.Translator.literals.ReportSpareColShearWeb=Shear web thickness
+dmMain.Translator.literals.ReportSpareColSparCabHeight=Spar cab height
+dmMain.Translator.literals.ReportSpareColCountRovings=Number of rovings at point L(x)
+dmMain.Translator.literals.ReportSpareColPointList=Point list for rovings done:
+dmMain.Translator.literals.ReportSpareColDistanceUnit=L(x) in mm
+dmMain.Translator.literals.ReportSpareColWidthUnit=b(x) in mm
+dmMain.Translator.literals.ReportSpareColBendingMomentUnit=Mb(x) in Nmm
+dmMain.Translator.literals.ReportSpareColShearForceUnit=Q(x) in N
+dmMain.Translator.literals.ReportSpareColAirfoilThicknessUnit=H in mm
+dmMain.Translator.literals.ReportSpareColAirfoilThicknessReducedUnit=h in mm
+dmMain.Translator.literals.ReportSpareColDragMomentUnit=Wb(erf) in mm³
+dmMain.Translator.literals.ReportSpareColAreaForShearForceUnit=F(erf) in mm²
+dmMain.Translator.literals.ReportSpareColShearLoadUnit=Q in N 
+dmMain.Translator.literals.ReportSpareColWebBetweenSparCabUnit=h1 in mm
+dmMain.Translator.literals.ReportSpareColShearWebUnit=t1 in mm
+dmMain.Translator.literals.ReportSpareColSparCabHeightUnit=t in mm
+dmMain.Translator.literals.ReportSpareColCountRovingsUnit=n
+
+dmMain.Translator.literals.ReportDesignReportTitle=Modeldesign
+dmMain.Translator.literals.ReportDesignCenterGravity=Center gravity for cl %1.1f = %d mm.
+dmMain.Translator.literals.ReportDesignSubtitle=Sweep: t/4 = 0°
+dmMain.Translator.literals.ReportDesignHeading1=Modeldesign, Dimensions and static properties:
+dmMain.Translator.literals.ReportDesignAirfoilRoot=Airfoil root:
+dmMain.Translator.literals.ReportDesignAirfoilTip=Airfoil tip:
+dmMain.Translator.literals.ReportDesignWeight=Weight:
+dmMain.Translator.literals.ReportDesignWingLoading=Wing loading:
+dmMain.Translator.literals.ReportDesignWingSpan=Wing span:
+dmMain.Translator.literals.ReportDesignWingRootChord=Wing root chord:
+dmMain.Translator.literals.ReportDesignWingCenterlineChord=Wing centerline chord:
+dmMain.Translator.literals.ReportDesignDistanceFromPanelLine=Distance from panel line:
+dmMain.Translator.literals.ReportDesignWingTipChord=Wing tip chord:
+dmMain.Translator.literals.ReportDesignWingSurface=Wing surface:
+dmMain.Translator.literals.ReportDesignEffectiveTaper=Effective taper:
+dmMain.Translator.literals.ReportDesignAspectRatio=Aspect ratio:
+dmMain.Translator.literals.ReportDesignMeanChord=Mean chord:
+dmMain.Translator.literals.ReportDesignMeanGeometricChord=Mean geometric chord:
+dmMain.Translator.literals.ReportDesignDistanceMeanGeometricChordFromCenterline=Distance mean geom. Chord from center line:
+dmMain.Translator.literals.ReportDesignFAIWingLoadWithTail=FAI wing load:
+dmMain.Translator.literals.ReportDesignModelNeutralPoint=Model neutral point:
+dmMain.Translator.literals.ReportDesignCenterGravityCl=Center gravity at cl =
+dmMain.Translator.literals.ReportDesignDistanceToNeutralPoint=Distance to neutral point:
+dmMain.Translator.literals.ReportDesignStabilityMargin=Stability margin:
+dmMain.Translator.literals.ReportDesignStabLeverArm=Stab lever elevator and fin:
+dmMain.Translator.literals.ReportDesignElevatorSurface=Elevator surface:
+dmMain.Translator.literals.ReportDesignRelativeSizeElevatorWing=Relative size elev. and wing:
+dmMain.Translator.literals.ReportDesignElevatorAspectRatio=Elev. aspect ratio:
+dmMain.Translator.literals.ReportDesignElevatorSpan=Elev. span:
+dmMain.Translator.literals.ReportDesignElevatorMeanChord=Elev. mean chord:
+dmMain.Translator.literals.ReportDesignVerticalTailSurface=Fin surface:
+dmMain.Translator.literals.ReportDesignCm0AtMeanChord=Cm0 at mean geom. chord cent.line:
+dmMain.Translator.literals.ReportDesignAdditionalInformation=Additional Information:
+dmMain.Translator.literals.ReportDesignStabilityMarginPerseke=Recommended stability margin for airfoil (Perseke):
+dmMain.Translator.literals.ReportDesignLongitudalStability=Longitudal stability (Thies):
+dmMain.Translator.literals.ReportDesignYawStability=Yaw stability (Thies):
+dmMain.Translator.literals.ReportDesignHeading2=Performance, Re numbers, drag properties and installation values:
+dmMain.Translator.literals.ReportDesignColCl=Cl
+dmMain.Translator.literals.ReportDesignColSpeed=Velocity
+dmMain.Translator.literals.ReportDesignColSpeedUnit=m/s = km/h
+dmMain.Translator.literals.ReportDesignColRei=ReR
+dmMain.Translator.literals.ReportDesignColRem=ReM
+dmMain.Translator.literals.ReportDesignColRea=ReT
+dmMain.Translator.literals.ReportDesignColReUnit=x 1000
+dmMain.Translator.literals.ReportDesignColCwp=cdp
+dmMain.Translator.literals.ReportDesignColCwpUnit=Airfoil
+dmMain.Translator.literals.ReportDesignColCwi=cdi
+dmMain.Translator.literals.ReportDesignColCwiUnit=Induced
+dmMain.Translator.literals.ReportDesignColCw=cd
+dmMain.Translator.literals.ReportDesignColCwUnit=Fuse+Interf.
+dmMain.Translator.literals.ReportDesignColCwges=tot drag co.
+dmMain.Translator.literals.ReportDesignColE=Gl.rat.
+dmMain.Translator.literals.ReportDesignColVs=Sink
+dmMain.Translator.literals.ReportDesignColVsUnit=m/s
+dmMain.Translator.literals.ReportDesignColEwd=DAA
+dmMain.Translator.literals.ReportDesignColEwdUnit=Degree
+dmMain.Translator.literals.ReportDesignColSp=CG*
+dmMain.Translator.literals.ReportDesignColSpUnit=mm
+dmMain.Translator.literals.ReportDesignLegend1=* Distance from wing root nose for zero 1/4 line sweep. 
+dmMain.Translator.literals.ReportDesignLegend2=CG distance before AC calculated after Perseke:
+dmMain.Translator.literals.ReportDesignLegend3=With other sweep angel please use the function "AC and pressure points'.
+
+dmMain.Translator.literals.ReportJoinerReportTitle=Wing joiner calculation
+dmMain.Translator.literals.ReportJoinerSubtitle=Sweep: Custom
+dmMain.Translator.literals.ReportJoinerCalcMinDiameter=Calculated min. diameter
+dmMain.Translator.literals.ReportJoinerCalcMaxDiameter=max. diameter possible
+dmMain.Translator.literals.ReportJoinerHeading1=Wing joiner:
+dmMain.Translator.literals.ReportJoinerText1=Please only use advanced material for wing joiner.
+dmMain.Translator.literals.ReportJoinerText2=Its important to use wing joiner tube that fits well. The spars must go througt the tubes and reach the root airfoil.
+dmMain.Translator.literals.ReportJoinerHeading2=Joiner dimensions at points:
+dmMain.Translator.literals.ReportJoinerColDistanceFromMidFuse=Distance from mid fuse
+dmMain.Translator.literals.ReportJoinerColDistanceFromMidFuseUnit=L(x) in mm
+dmMain.Translator.literals.ReportJoinerColSparWidth=Spar width at point
+dmMain.Translator.literals.ReportJoinerColSparWidthUnit=b(x) in mm
+dmMain.Translator.literals.ReportJoinerColJoinerWidth=Calculated min. joiner width
+dmMain.Translator.literals.ReportJoinerColJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColMaxJoinerWidth=max. joiner width
+dmMain.Translator.literals.ReportJoinerColMaxJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColMaxJoinerHeight=max. joiner height
+dmMain.Translator.literals.ReportJoinerColMaxJoinerHeightUnit=mm
+dmMain.Translator.literals.ReportJoinerCalcMinJoinerWidth=Calculated min. joiner width
+dmMain.Translator.literals.ReportJoinerCalcMinJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColGFKMaxJoinerWidth=max. joiner width
+dmMain.Translator.literals.ReportJoinerColGFKMaxJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColGFKMaxJoinerHeight=max. joiner height
+dmMain.Translator.literals.ReportJoinerColGFKMaxJoinerHeightUnit=mm
+dmMain.Translator.literals.ReportJoinerColSteelCalcJoinerWidth=Calculated min. joiner width
+dmMain.Translator.literals.ReportJoinerColSteelCalcJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColSteelMaxJoinerWidth=max. joiner width
+dmMain.Translator.literals.ReportJoinerColSteelMaxJoinerWidthUnit=mm
+dmMain.Translator.literals.ReportJoinerColSteelMaxJoinerHeight=max. joiner height
+dmMain.Translator.literals.ReportJoinerColSteelMaxJoinerHeightUnit=mm
+dmMain.Translator.literals.ReportJoinerHeadingCFK=Carbon fiber reinforced plastic
+dmMain.Translator.literals.ReportJoinerHeadingGFK=Glass fiber reinforced plastic
+dmMain.Translator.literals.ReportJoinerHeadingSteel=Steel
+
+dmMain.Translator.literals.ReportNppReportTitle=Neutral- and Pressure Points
+dmMain.Translator.literals.ReportNppSubtitle=Sweep: Custom
+dmMain.Translator.literals.ReportNppAirfoilTitle=Airfoils:
+dmMain.Translator.literals.ReportNppAirfoilRoot=Root airfoil:
+dmMain.Translator.literals.ReportNppTitleWingData=Wing data:
+dmMain.Translator.literals.ReportNppCountWingPanels=Count panels:
+dmMain.Translator.literals.ReportNppWingSpan=Wing span:
+dmMain.Translator.literals.ReportNppWingSpanUnit=mm
+dmMain.Translator.literals.ReportNppRootChord=Root chord:
+dmMain.Translator.literals.ReportNppRootChordUnit=mm
+dmMain.Translator.literals.ReportNppTipChord=Tip chord:
+dmMain.Translator.literals.ReportNppTipChordUnit=mm
+dmMain.Translator.literals.ReportNppTipSweep=Sweep wing tip:
+dmMain.Translator.literals.ReportNppTipSweepUnit=mm
+dmMain.Translator.literals.ReportNppColPanelNo=Panel No.
+dmMain.Translator.literals.ReportNppColDistanceFromCenterLine=Distance from center line
+dmMain.Translator.literals.ReportNppColPanelChord=Panel chord
+dmMain.Translator.literals.ReportNppColSweep=Sweep
+dmMain.Translator.literals.ReportNppTitleElevator=Elevator data:
+dmMain.Translator.literals.ReportNppElevatorCountPanels=Count panels:
+dmMain.Translator.literals.ReportNppElevatorSpan=Elevator span:
+dmMain.Translator.literals.ReportNppElevatorSpanUnit=mm
+dmMain.Translator.literals.ReportNppElevatorRootChord=Root chord:
+dmMain.Translator.literals.ReportNppElevatorRootChordUnit=mm
+dmMain.Translator.literals.ReportNppElevatorDistanceWingElevator=Distance leading edge wing-elevator:
+dmMain.Translator.literals.ReportNppElevatorDistanceWingElevatorUnit=mm
+dmMain.Translator.literals.ReportNppElevatorTipChord=Tip chord:
+dmMain.Translator.literals.ReportNppElevatorTipChordUnit=mm
+dmMain.Translator.literals.ReportNppElevatorSweepTip=Tip sweep:
+dmMain.Translator.literals.ReportNppElevatorSweepTipUnit=mm
+dmMain.Translator.literals.ReportNppElevatorColPanelNo=Panel No.
+dmMain.Translator.literals.ReportNppElevatorColDistanceCenterLine=Distance f. centerline
+dmMain.Translator.literals.ReportNppElevatorColChord=Chord
+dmMain.Translator.literals.ReportNppElevatorColSweep=Sweep
+dmMain.Translator.literals.ReportNppResTitle=Results:
+dmMain.Translator.literals.ReportNppWingSize=Wing area:
+dmMain.Translator.literals.ReportNppWingSizeUnit=dm²
+dmMain.Translator.literals.ReportNppAspectRatio=Aspect ratop
+dmMain.Translator.literals.ReportNppAvarageWingChord=Avarage wing chord
+dmMain.Translator.literals.ReportNppAvarageWingChordUnit=mm
+dmMain.Translator.literals.ReportNppNeutralPointPosition=Neutralpoint wing:
+dmMain.Translator.literals.ReportNppNeutralPointPositionUnit=mm
+dmMain.Translator.literals.ReportNppStabLeverArm=Stab lever arm:
+dmMain.Translator.literals.ReportNppStabLeverArmUnit=mm
+dmMain.Translator.literals.ReportNppModelNeutralPoint=Neutralpoint model:
+dmMain.Translator.literals.ReportNppModelNeutralPointUnit=mm (Perseke) *
+dmMain.Translator.literals.ReportNppSetPoint=Setpoints
+dmMain.Translator.literals.ReportNppColCl=Cl
+dmMain.Translator.literals.ReportNppColEWD=EWD
+dmMain.Translator.literals.ReportNppColPressurePoint=Pressure points
+dmMain.Translator.literals.ReportNppColPP=PP *
+dmMain.Translator.literals.ReportNppCenterGravity=Center gravity *
+dmMain.Translator.literals.ReportNppStabilityMargin1=Stab. 1
+dmMain.Translator.literals.ReportNppStabilityMargin2=Stab. 2
+dmMain.Translator.literals.ReportNppStabilityMargin3=Stab. 3
+dmMain.Translator.literals.ReportNppDrawingTitle=Drawing:
+dmMain.Translator.literals.ReportNppStabilityMarginRecommendation=Stability margin recommendation:
+dmMain.Translator.literals.ReportNppStab1=Stab. 1:
+dmMain.Translator.literals.ReportNppStab2=Stab. 2:
+dmMain.Translator.literals.ReportNppStab3=Stab. 3:
+dmMain.Translator.literals.ReportNppStab1Text=Dimensioning according to Perseke with high stability center gravity.
+dmMain.Translator.literals.ReportNppStab2Text=Dimensioning for best gliding (F3J, large Glider, etc.) -> For experts
+dmMain.Translator.literals.ReportNppStab3Text=Dimensioning for speed (F3B, F3E, etc.) -> For experts
+dmMain.Translator.literals.ReportNppLegend=* Legend:
+dmMain.Translator.literals.ReportNppLegendText=Distance from leading edge root airfoil
+
+#
+# Mainform
+#
+
+frmMain.MainTranslator.literals.SidebarBasics=Basics
+frmMain.MainTranslator.literals.SidebarPlanform=Planform
+frmMain.MainTranslator.literals.SidebarCalculations=Calculations
+frmMain.MainTranslator.literals.SaveChangesMessage=Changes to airplane %s not yet saved!#13#13Save changes now (otherwise all changed data will be lost)?
+frmMain.MainTranslator.literals.SaveChangesCaption=Save changes
+frmMain.MainTranslator.literals.AirplaneDescription=Airplane description
+frmMain.MainTranslator.literals.VersionDescription=Version description
+frmMain.MainTranslator.literals.DeleteVersionCaption=Delete version
+frmMain.MainTranslator.literals.DeleteLastVersionNotAllowed=Can not delete the one and only version of this airplane. An airplane needs at least one version.#13Create a new version or copy an existing version and delete this version afterwards.
+frmMain.MainTranslator.literals.DeleteVersionMessage=Are you sure to delete the airplane version '%s'?
+frmMain.MainTranslator.literals.DeleteAirplaneMessage=Are you sure to delete the whole airplane %s?
+frmMain.MainTranslator.literals.DeleteAirplaneCaption=Delete airplane
+frmMain.MainTranslator.literals.UpdateCheckSaveMessage=To search of a Software Update the current changes must be saved. Save the changes to the airplane now?
+frmMain.MainTranslator.literals.UpdateCheckSaveCaption=Save changes
+frmMain.MainTranslator.literals.MapiLogonFailt=Logon to your Mailclient (MAPI) failt!
+frmMain.MainTranslator.literals.SendByEmailCaption=Send airplane by email
+frmMain.MainTranslator.literals.ModelExportedSuccessfullyMessage=A copy of the airplane was successfully exported to %s.
+frmMain.MainTranslator.literals.ModelExportedSuccessfullyCaption=Export successfull
+frmMain.MainTranslator.literals.ModelExportedErrorMessage=The airplane could not be exported to %s!
+frmMain.MainTranslator.literals.ModelExportedErrorCaption=Export failt
+frmMain.MainTranslator.literals.ModelImportAlreadyExistsMessage=An airplane with this name already exists in the database. Override it?
+frmMain.MainTranslator.literals.ModelAlreadyExistsCaption=Airplane already exists
+frmMain.MainTranslator.literals.ModelImportedSuccessfullyMessage=The airplane was successfully imported from %s.
+frmMain.MainTranslator.literals.ModelImportedSuccessfullyCaption=Import successfull
+frmMain.MainTranslator.literals.ModelImportedShowNowMessage=The airplane was imported successfully from %s. Show the new airplane now?
+frmMain.MainTranslator.literals.ModelImportErrorMessage=Could not import airplane from %s!
+frmMain.MainTranslator.literals.ModelImportErrorCaption=Import failt
+frmMain.MainTranslator.literals.WingDesignerInterfaceNoModelVersionOpen=An airplane version must be open.
+frmMain.MainTranslator.literals.WingDesignerInterfaceNoModelVersionOpenCaption=No open airplane
+frmMain.MainTranslator.literals.WingDesignerInterfaceImportSuccessfullMessage=Data is successfully imported from Wing-Designer into LiftOff. Complete the data in the planform by hand.
+frmMain.MainTranslator.literals.WingDesignerInterfaceExportSuccessfullMessage=Data is successfully exported. As much data as possible got exportet. Please complete the missing data in Wing-Designer by hand.
+
+frmMain.MainTranslator.components.frmMain.Caption=LiftOff
+frmMain.MainTranslator.components.frmMain.Label1.Caption=Airplane:
+frmMain.MainTranslator.components.frmMain.lbVariante.Caption=Version:
+frmMain.MainTranslator.components.frmMain.lbModellBeschreibung.Caption=Description:
+frmMain.MainTranslator.components.frmMain.btnModellBeschreibung.Hint=Click here to view and edit the airplane description.
+frmMain.MainTranslator.components.frmMain.lblVarBeschr.Caption=Version description:
+frmMain.MainTranslator.components.frmMain.btnVariantenBeschreibung.Hint=Click here to view and edit the version description.
+frmMain.MainTranslator.components.frmMain.SpeedButton1.Hint=Open Airplane
+frmMain.MainTranslator.components.frmMain.miExit.Caption=Exit
+frmMain.MainTranslator.components.frmMain.miModell.Caption=&Airplane
+frmMain.MainTranslator.components.frmMain.miVariante.Caption=&Version
+frmMain.MainTranslator.components.frmMain.miProfile.Caption=Airf&oil
+frmMain.MainTranslator.components.frmMain.miAbout.Caption=&About ...
+frmMain.MainTranslator.components.frmMain.miAbout.Hint=About
+frmMain.MainTranslator.components.frmMain.miModellNeu.Caption=&New airplane
+frmMain.MainTranslator.components.frmMain.miModellNeu.Hint=New airplane
+frmMain.MainTranslator.components.frmMain.miHelp.Caption=&?
+frmMain.MainTranslator.components.frmMain.miModellLoeschen.Caption=&Delete airplane ...
+frmMain.MainTranslator.components.frmMain.miModellLoeschen.Hint=Delete airplane
+frmMain.MainTranslator.components.frmMain.miProfilBearbeiten.Caption=Manage &Airfoils ...
+frmMain.MainTranslator.components.frmMain.miProfilBearbeiten.Hint=Manage airfoils
+frmMain.MainTranslator.components.frmMain.miHilfeUpdate.Caption=Check for updates ...
+frmMain.MainTranslator.components.frmMain.miHilfeUpdate.Hint=Check for newer versions of Lift-Off
+frmMain.MainTranslator.components.frmMain.miVarianteNeu.Caption=&New Version ...
+frmMain.MainTranslator.components.frmMain.miVarianteNeu.Hint=Create a new version for this airplane
+frmMain.MainTranslator.components.frmMain.miVarianteLoeschen.Caption=Delete version
+frmMain.MainTranslator.components.frmMain.miVarianteLoeschen.Hint=Delete version
+frmMain.MainTranslator.components.frmMain.miVarianteModellauslegungAnzeigen.Caption=Modellauslegung &anzeigen ...
+frmMain.MainTranslator.components.frmMain.miVarianteModellauslegungAnzeigen.Hint=Modellauslegung anzeigen
+frmMain.MainTranslator.components.frmMain.miVarianteModellauslegungDrucken.Caption=Modellauslegung &drucken
+frmMain.MainTranslator.components.frmMain.miVarianteModellauslegungDrucken.Hint=Modellauslegung drucken
+frmMain.MainTranslator.components.frmMain.miAnsicht.Caption=&View
+frmMain.MainTranslator.components.frmMain.miViewModellauslegung.Caption=&Basics
+frmMain.MainTranslator.components.frmMain.miViewModellauslegung.Hint=Basic airplane data
+frmMain.MainTranslator.components.frmMain.miViewNeutralpunkte.Caption=&Planform
+frmMain.MainTranslator.components.frmMain.miViewNeutralpunkte.Hint=Planform
+frmMain.MainTranslator.components.frmMain.miLanguage.Caption=Languages
+frmMain.MainTranslator.components.frmMain.miLanguage.Hint=Chance language
+frmMain.MainTranslator.components.frmMain.miStatModell.Caption=Airplane:
+frmMain.MainTranslator.components.frmMain.miStatModell.Hint=Airplane:
+frmMain.MainTranslator.components.frmMain.miStatVariante.Caption=Version
+frmMain.MainTranslator.components.frmMain.miStatVariante.Hint=Version
+frmMain.MainTranslator.components.frmMain.miStatAltered.Caption=Modified data
+frmMain.MainTranslator.components.frmMain.miStatAltered.Hint=Data is modified and not saved
+frmMain.MainTranslator.components.frmMain.miModellSpeichern.Caption=&Save airplane
+frmMain.MainTranslator.components.frmMain.miModellSpeichern.Hint=Saves the airplane and the versions
+frmMain.MainTranslator.components.frmMain.miModellLoad.Caption=Open airplane ...
+frmMain.MainTranslator.components.frmMain.miModellLoad.Hint=Open a airplane
+frmMain.MainTranslator.components.frmMain.miHelpWeb.Caption=Liftoff in the Web
+frmMain.MainTranslator.components.frmMain.miHelpWebMan.Caption=Online Manual ...
+frmMain.MainTranslator.components.frmMain.miHelpWebMan.Hint=Online Manual
+frmMain.MainTranslator.components.frmMain.miHelpForum.Caption=Online Support
+frmMain.MainTranslator.components.frmMain.miHelpForum.Hint=Online Support
+frmMain.MainTranslator.components.frmMain.miOrder.Caption=Order license
+frmMain.MainTranslator.components.frmMain.miOrder.Hint=Order a license in our online shop
+frmMain.MainTranslator.components.frmMain.miHelpWebProduct.Caption=Liftoff Product Website ...
+frmMain.MainTranslator.components.frmMain.miHelpWebProduct.Hint=Liftoff Website
+frmMain.MainTranslator.components.frmMain.miViewFunctions.Caption=&Calculation
+frmMain.MainTranslator.components.frmMain.miViewFunctions.Hint=Calculation
+frmMain.MainTranslator.components.frmMain.miModellGraphicOverview.Caption=Drawing of the airplane
+frmMain.MainTranslator.components.frmMain.miModellGraphicOverview.Hint=Shows a rough drawing of the airplane
+frmMain.MainTranslator.components.frmMain.miSenden.Caption=Send airplane by email ...
+frmMain.MainTranslator.components.frmMain.miSenden.Hint=Send airplane by email
+frmMain.MainTranslator.components.frmMain.miExport.Caption=Export airplane ...
+frmMain.MainTranslator.components.frmMain.miExport.Hint=Export airplane
+frmMain.MainTranslator.components.frmMain.miImport.Caption=Import airplane ...
+frmMain.MainTranslator.components.frmMain.miImport.Hint=Import airplane
+frmMain.MainTranslator.components.frmMain.miReadOnly.Caption=Airplane is write-protected
+frmMain.MainTranslator.components.frmMain.miReadOnly.Hint=Airplane is write-protected
+frmMain.MainTranslator.components.frmMain.miLicence.Caption=License ...
+frmMain.MainTranslator.components.frmMain.miLicence.Hint=Enter license details
+frmMain.MainTranslator.components.frmMain.miWingDesigner.Caption=Wing-Designer Import/Export
+frmMain.MainTranslator.components.frmMain.miWDImportTragflaeche.Caption=Import Wing ...
+frmMain.MainTranslator.components.frmMain.miWDImportTragflaeche.Hint=Import wing fron Wing-Designer
+frmMain.MainTranslator.components.frmMain.dxBarStatic1.Caption=Wing
+frmMain.MainTranslator.components.frmMain.dxBarStatic1.Hint=Wing
+frmMain.MainTranslator.components.frmMain.miWDImportHlw.Caption=Import elevator...
+frmMain.MainTranslator.components.frmMain.miWDImportHlw.Hint=Import elevator
+frmMain.MainTranslator.components.frmMain.miWDExportTragflaeche.Caption=Export wing ...
+frmMain.MainTranslator.components.frmMain.miWDExportTragflaeche.Hint=Export wing
+frmMain.MainTranslator.components.frmMain.miWDExportHlw.Caption=Export elevator ...
+frmMain.MainTranslator.components.frmMain.miWDExportHlw.Hint=Export elevator
+frmMain.MainTranslator.components.frmMain.lblUpdateAvailableCaption.Caption=A LiftOff Update is available!
+frmMain.MainTranslator.components.frmMain.lblAvailableVersionText.Caption=Available version:
+frmMain.MainTranslator.components.frmMain.lblInstalledVersionText.Caption=Currently installed version:
+frmMain.MainTranslator.components.frmMain.lblUpdateReleaseNotes.Caption=Update information ...
+frmMain.MainTranslator.components.frmMain.btnDownloadAndInstallUpdate.Caption=Download and install now
+frmMain.MainTranslator.components.frmMain.miLanguageList.Caption=Languages
+frmMain.MainTranslator.components.frmMain.miAutoCheckForUpdates.Caption=Automatically check for updates
+frmMain.MainTranslator.components.frmMain.miAutoCheckForUpdates.Hint=Automatically check for new updates of Lift-Off
+
+fraBasics.Translator.components.fraBasics.Label26.Caption=Basics
+fraBasics.translator.components.fraBasics.Label1.Caption=Basics
+fraBasics.translator.components.fraBasics.Label2.Caption=Basics data to calculate the design and glid-/sink polars using sweep T/4=0°.
+fraBasics.translator.components.fraBasics.Label5.Caption=Wing loading:
+fraBasics.Translator.components.fraBasics.Label7.Caption=Wing Span:
+fraBasics.Translator.components.fraBasics.Label9.Caption=Wing root chord:
+fraBasics.Translator.components.fraBasics.Label11.Caption=Position of centerline:
+fraBasics.Translator.components.fraBasics.Label13.Caption=Wing centerline chord:
+fraBasics.Translator.components.fraBasics.Label15.Caption=Wing tip chord:
+fraBasics.Translator.components.fraBasics.Label17.Caption=Tail bellcrank:
+fraBasics.Translator.components.fraBasics.Label19.Caption=Desired stability margin:
+fraBasics.Translator.components.fraBasics.Label21.Caption=CG (Center Gravity) for cl:
+fraBasics.translator.components.fraBasics.Label6.Caption=g/dm²
+fraBasics.translator.components.fraBasics.SpeedButton1.Caption=Calculate ...
+fraBasics.Translator.components.fraBasics.Label8.Caption=mm
+fraBasics.Translator.components.fraBasics.Label10.Caption=mm
+fraBasics.Translator.components.fraBasics.Label12.Caption=mm (optional)
+fraBasics.Translator.components.fraBasics.Label14.Caption=mm
+fraBasics.Translator.components.fraBasics.Label16.Caption=mm
+fraBasics.Translator.components.fraBasics.Label18.Caption=mm (optional)
+fraBasics.Translator.components.fraBasics.Label20.Caption=%
+fraBasics.translator.components.fraBasics.Label3.Caption=Airfoil filename (Wing root):
+fraBasics.translator.components.fraBasics.Label4.Caption=Airfoil filename (Wing tip):
+fraBasics.translator.components.fraBasics.Label22.Caption=Alpha 0:
+fraBasics.translator.components.fraBasics.Label24.Caption=Alpha 0:
+fraBasics.translator.components.fraBasics.Label23.Caption=cm 0:
+fraBasics.translator.components.fraBasics.Label25.Caption=cm 0:
+fraBasics.Translator.components.fraBasics.btnCalcLeitwerkshebel.Caption=Calculate ...
+fraBasics.Translator.components.fraBasics.btnCalcLeitwerkshebel.Hint=Calculate proposed value for tail bellcrank
+fraBasics.Translator.components.fraBasics.edSchwerpunkt.Hint=
+fraBasics.Translator.components.fraBasics.edStabilitaetsmass.Hint=
+fraBasics.Translator.components.fraBasics.edLeitwerkshebel.Hint=If you like to specify a bellcrank enter its dimensions here; otherwise leave this field empty.
+fraBasics.translator.components.fraBasics.BitBtn3.Hint=Choose airfoil
+fraBasics.translator.components.fraBasics.BitBtn4.Hint=Chose airfoil
+fraBasics.Translator.components.fraBasics.Label27.Caption=Fill in all mandatory fields.
+fraBasics.Translator.components.fraBasics.BitBtn1.Caption=Show model graphic
+fraBasics.Translator.components.fraBasics.BitBtn2.Caption=Calculate design
+fraBasics.Translator.components.fraBasics.BitBtn2.Hint=Calcualtes the design for this version of the model
+fraBasics.Translator.components.fraBasics.TitleLabel.Caption=Basics
+fraBasics.Translator.components.fraBasics.SubtitleLabel.Caption=Basics data to calculate the design and glid-/sink polars using sweep T/4=0°.
+fraBasics.Translator.components.fraBasics.WingLoadingLabel.Caption=Wing loading
+fraBasics.Translator.components.fraBasics.WingLoadingUnitLabel.Caption=g/dm²
+fraBasics.Translator.components.fraBasics.WingLoadingCalcButton.Caption=Calculate ...
+fraBasics.Translator.components.fraBasics.AirfoilFilenameNearLabel.Caption=Airfoil filename (Wing root):
+fraBasics.Translator.components.fraBasics.AirfoilFilenameFarLabel.Caption=Airfoil filename (Wing tip):
+fraBasics.Translator.components.fraBasics.AirfoilAlphaNearLabel.Caption=Alpha 0:
+fraBasics.Translator.components.fraBasics.AirfoilAlphaFarLabel.Caption=Alpha 0:
+fraBasics.Translator.components.fraBasics.AirfoilCm0NearLabel.Caption=cm 0:
+fraBasics.Translator.components.fraBasics.AirfoilCm0FarLabel.Caption=cm 0:
+fraBasics.Translator.components.fraBasics.ChooseAirfoilNearButton.Hint=Choose airfoil
+fraBasics.Translator.components.fraBasics.ChooseAirfoilFarButton.Hint=Choose airfoil
+
+fraWingGeo.Translator.components.fraWingGeo.Label26.Caption=Planform
+fraWingGeo.Translator.components.fraWingGeo.Label1.Caption=Planform
+fraWingGeo.Translator.components.fraWingGeo.Label2.Caption=Specify the detailed planform for the more advanced calculations.
+fraWingGeo.Translator.components.fraWingGeo.tsTragflaeche.Caption=Wing
+fraWingGeo.Translator.components.fraWingGeo.Label6.Caption=Sweep tip leading edge:
+fraWingGeo.Translator.components.fraWingGeo.Label3.Caption=Spare width at wing root:
+fraWingGeo.Translator.components.fraWingGeo.Label4.Caption=Spare width at wing tip:
+fraWingGeo.Translator.components.fraWingGeo.Label5.Caption=Airfoil thickness % at root: **
+fraWingGeo.Translator.components.fraWingGeo.Label12.Caption=Airfoil thickness % at tip:: **
+fraWingGeo.Translator.components.fraWingGeo.Label14.Caption=%
+fraWingGeo.Translator.components.fraWingGeo.Label15.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label16.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label19.Caption=%
+fraWingGeo.Translator.components.fraWingGeo.Label20.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.idTitleBar2.Caption=Panels:
+fraWingGeo.Translator.components.fraWingGeo.btnFlAdd.Caption=Add panel
+fraWingGeo.Translator.components.fraWingGeo.btnFlInsert.Caption=Insert panel
+fraWingGeo.Translator.components.fraWingGeo.btnFlDelete.Caption=Delete panel
+fraWingGeo.Translator.components.fraWingGeo.Label30.Caption=Values in mm.
+fraWingGeo.Translator.components.fraWingGeo.Label13.Caption=** = Optional. Use for spar calculations.
+fraWingGeo.Translator.components.fraWingGeo.tsHLW.Caption=Elevator
+fraWingGeo.Translator.components.fraWingGeo.Label7.Caption=Wing span:
+fraWingGeo.Translator.components.fraWingGeo.Label8.Caption=Wing root chord:
+fraWingGeo.Translator.components.fraWingGeo.Label9.Caption=Wing tip chord:
+fraWingGeo.Translator.components.fraWingGeo.Label10.Caption=Sweep leading edge tip:
+fraWingGeo.Translator.components.fraWingGeo.Label11.Caption=Distance leading edge wing to elevator:
+fraWingGeo.Translator.components.fraWingGeo.Label21.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label22.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label23.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label27.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.Label28.Caption=mm
+fraWingGeo.Translator.components.fraWingGeo.idTitleBar4.Caption=Panels:
+fraWingGeo.Translator.components.fraWingGeo.btnHlwAdd.Caption=Add panel
+fraWingGeo.Translator.components.fraWingGeo.btnHlwInsert.Caption=Insert panel
+fraWingGeo.Translator.components.fraWingGeo.btnHlwDelete.Caption=Delete panel
+fraWingGeo.Translator.components.fraWingGeo.Label29.Caption=Enter values in mm.
+fraWingGeo.Translator.components.fraWingGeo.Label17.Caption=** = Optional. Used for spar calculations.
+fraWingGeo.Translator.components.fraWingGeo.BitBtn1.Caption=Show model graphic
+fraWingGeo.Translator.components.fraWingGeo.btnCalcND.Caption=Neutral and pressure points
+fraWingGeo.Translator.components.fraWingGeo.btnCalcND.Hint=Calculate neutral and pressure points for piching moment free flying.
+
+dmMain.Transaltor.literals.JoinerTypes=square#13round
+fraFunctions.Translator.components.fraFunctions.Label26.Caption=Functions
+fraFunctions.Translator.components.fraFunctions.Label1.Caption=Functions
+fraFunctions.Translator.components.fraFunctions.Label2.Caption=Function all about model calculations.
+fraFunctions.Translator.components.fraFunctions.idTitleBar2.Caption=Model design
+fraFunctions.Translator.components.fraFunctions.BitBtn2.Caption=Compare versions
+fraFunctions.Translator.components.fraFunctions.BitBtn2.Hint=Compares the models versions
+fraFunctions.Translator.components.fraFunctions.BitBtn1.Caption=Calcualte design
+fraFunctions.Translator.components.fraFunctions.BitBtn1.Hint=Calcualte the design for the current version
+fraFunctions.Translator.components.fraFunctions.BitBtn3.Caption=Show glide and sink polars
+fraFunctions.Translator.components.fraFunctions.BitBtn3.Hint=Shows the glide and sink polars as a diagram on screen.
+fraFunctions.Translator.components.fraFunctions.BitBtn4.Caption=Print glide and sink polars
+fraFunctions.Translator.components.fraFunctions.BitBtn4.Hint=Print the glide and sink polars as a diagram to the printer.
+fraFunctions.Translator.components.fraFunctions.Label3.Caption=List from cl:
+fraFunctions.Translator.components.fraFunctions.Label4.Caption=List to cl:
+fraFunctions.Translator.components.fraFunctions.Label6.Caption=Calculate neutral and pressure points for piching moment free flying:
+fraFunctions.Translator.components.fraFunctions.btnCalcND.Caption=Neutral points
+fraFunctions.Translator.components.fraFunctions.btnCalcND.Hint=Calculate neutral and pressure points for piching moment free flying:
+fraFunctions.Translator.components.fraFunctions.idTitleBar3.Caption=Neutral and pressure points
+fraFunctions.Translator.components.fraFunctions.Label5.Caption=maximum lift coefficient (cl):
+fraFunctions.Translator.components.fraFunctions.Label7.Caption=maximum speed V (m/s):
+fraFunctions.Translator.components.fraFunctions.Label8.Caption=Calcualte spar for D-Box wings and shell constructions.
+fraFunctions.Translator.components.fraFunctions.Label9.Caption=Spar construction:
+fraFunctions.Translator.components.fraFunctions.Label10.Caption=Kind of joiner:
+fraFunctions.Translator.components.fraFunctions.Label11.Caption=Design:
+fraFunctions.Translator.components.fraFunctions.btnHolme.Caption=Calculate spar
+fraFunctions.Translator.components.fraFunctions.btnHolme.Hint=Calcualtes spar for sandwich or shell constructions
+fraFunctions.Translator.components.fraFunctions.idTitleBar4.Caption=Spar calculations
+fraFunctions.Translator.components.fraFunctions.btnSteckung.Caption=Calculate joiner
+fraFunctions.Translator.components.fraFunctions.btnSteckung.Hint=Calcualtes spar for sandwich or shell constructions
+fraFunctions.Translator.components.fraFunctions.btnSelectAuslegung.Caption=...
+fraFunctions.Translator.components.fraFunctions.btnSelectAuslegung.Hint=Choose design
+fraFunctions.Translator.components.fraFunctions.btnExperten.Caption=Experts ...
+fraFunctions.Translator.components.fraFunctions.btnExperten.Hint=Use this button to enter custom Cl and speed values.
+
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Caption=Calcualte wing loading
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label1.Caption=Calculates values for wing loading and weight based on entered values.
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label2.Caption=Approximate wing span:
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label3.Caption=Approcimate aspect ratio:
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label4.Caption=Total weight of fuselage: (incl. Stabs/Tail, radio equipment, load weights and battery)
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label5.Caption=Recommended weight for wing:
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label6.Caption=Recommended airfoil thickness:
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label7.Caption=Recommended wing loading:
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label8.Caption=g/dm²
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label9.Caption=%
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label10.Caption=g/dm²
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label11.Caption=ca.
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label12.Caption=ca.
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label13.Caption=ca.
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label14.Caption=mm
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.Label15.Caption=kg
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.btnOk.Caption=Apply
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.btnCancel.Caption=Refuse
+frmCalcFlaechenbelastung.translator.components.frmCalcFlaechenbelastung.BitBtn1.Caption=Calculate
+
+frmEnterAuslegung.translator.components.frmEnterAuslegung.Caption=Expertsettings
+frmEnterAuslegung.translator.components.frmEnterAuslegung.Label5.Caption=Max. lift coefficient cl:
+frmEnterAuslegung.translator.components.frmEnterAuslegung.Label7.Caption=Max. speed V:
+frmEnterAuslegung.translator.components.frmEnterAuslegung.btnOk.Caption=&Ok
+frmEnterAuslegung.translator.components.frmEnterAuslegung.btnCancel.Caption=&Cancel
+
+frmModelGraphic.translator.components.frmModelGraphic.Caption=Modelgraphic
+frmModelGraphic.translator.components.frmModelGraphic.miAlwaysOnTop.Caption=Always in foreground
+frmModelGraphic.translator.components.frmModelGraphic.miAlwaysOnTop.Hint=Always in foreground
+frmModelGraphic.translator.components.frmModelGraphic.miShowGrid.Caption=Grid
+frmModelGraphic.translator.components.frmModelGraphic.miShowGrid.Hint=Grid
+frmModelGraphic.translator.components.frmModelGraphic.miClose.Caption=Close
+frmModelGraphic.translator.components.frmModelGraphic.miClose.Hint=Close
+frmModelGraphic.translator.components.frmModelGraphic.miZoomAuto.Caption=Auto
+frmModelGraphic.translator.components.frmModelGraphic.miZoomAuto.Hint=Auto
+frmModelGraphic.translator.components.frmModelGraphic.miZoomFactor.Caption=Zoomfactor
+frmModelGraphic.translator.components.frmModelGraphic.miZoomFactor.Hint=Zoomfactor
+frmModelGraphic.translator.components.frmModelGraphic.dxBarStatic1.Caption=Zoom:
+frmModelGraphic.translator.components.frmModelGraphic.dxBarStatic1.Hint=Zoom:
+frmModelGraphic.translator.components.frmModelGraphic.dxBarStatic2.Caption=View:
+frmModelGraphic.translator.components.frmModelGraphic.dxBarStatic2.Hint=Pan view
+frmModelGraphic.translator.components.frmModelGraphic.miPanLeft.Caption=Left
+frmModelGraphic.translator.components.frmModelGraphic.miPanLeft.Hint=Pan left
+frmModelGraphic.translator.components.frmModelGraphic.miPanRight.Caption=Right
+frmModelGraphic.translator.components.frmModelGraphic.miPanRight.Hint=Pan right
+frmModelGraphic.translator.components.frmModelGraphic.miPanUp.Caption=Up
+frmModelGraphic.translator.components.frmModelGraphic.miPanUp.Hint=Pan up
+frmModelGraphic.translator.components.frmModelGraphic.miPanDown.Caption=Down
+frmModelGraphic.translator.components.frmModelGraphic.miPanDown.Hint=Pan down
+
+frmModellAuswahl.translator.literals.ChooseAModel=Please select a model.
+frmModellAuswahl.translator.components.frmModellAuswahl.Caption=Choose model
+frmModellAuswahl.translator.components.frmModellAuswahl.btnOk.Caption=&Ok
+frmModellAuswahl.translator.components.frmModellAuswahl.btnCancel.Caption=&Cancel
+frmModellAuswahl.translator.components.frmModellAuswahl.Label1.Caption=No model found in model database.
+frmModellAuswahl.translator.components.frmModellAuswahl.Label4.Caption=new model.
+frmModellAuswahl.translator.components.frmModellAuswahl.Label3.Caption=to create a
+frmModellAuswahl.translator.components.frmModellAuswahl.Label2.Caption=Click
+frmModellAuswahl.translator.components.frmModellAuswahl.tsOwnModels.Caption=Your models
+frmModellAuswahl.translator.components.frmModellAuswahl.tsSampleModels.Caption=Samplemodels
+frmModellAuswahl.translator.components.frmModellAuswahl.Label5.Caption=Samplemodels can be opened and used but not saved (read-only).
+
+frmModellNeu.translator.components.frmModellNeu.Caption=Create a new model
+frmModellNeu.translator.components.frmModellNeu.Label1.Caption=Enter a name for the model as well as a name for the first version. Every model requires at least one version.
+frmModellNeu.translator.components.frmModellNeu.Label2.Caption=Modelname:
+frmModellNeu.translator.components.frmModellNeu.Label3.Caption=Versionname:
+frmModellNeu.translator.components.frmModellNeu.btnOk.Caption=&Ok
+frmModellNeu.translator.components.frmModellNeu.btnCancel.Caption=&Cancel
+
+frmProfilChoose.translator.components.frmProfilChoose.Caption=Choose airfoil
+frmProfilChoose.translator.components.frmProfilChoose.btnOk.Caption=&Ok
+frmProfilChoose.translator.components.frmProfilChoose.btnCancel.Caption=&Cancel
+
+frmProfileMan.translator.literals.NewAirfoilCaption=Create new airfoil
+frmProfileMan.translator.literals.NewAirfoilName=Enter a name for the new airfoil:
+frmProfileMan.translator.literals.DeleteAirfoilQuestion=Are you sure to delete airfoil %s?
+frmProfileMan.translator.literals.DeleteAirfoilCaption=Delete airfoil
+frmProfileMan.translator.literals.CopyAirfoilCaption=Copy airfoil
+frmProfileMan.translator.literals.CopyAirfoilText=Enter a name ofr the new airfoil:
+frmProfileMan.translator.components.frmProfileMan.Caption=Airfoil manager
+frmProfileMan.translator.components.frmProfileMan.miNew.Caption=&New airfoil
+frmProfileMan.translator.components.frmProfileMan.miNew.Hint=Create new airfoil
+frmProfileMan.translator.components.frmProfileMan.miEdit.Caption=&Edit airfoil
+frmProfileMan.translator.components.frmProfileMan.miEdit.Hint=Edit airfoil
+frmProfileMan.translator.components.frmProfileMan.miDelete.Caption=&Delete airfoil
+frmProfileMan.translator.components.frmProfileMan.miDelete.Hint=Delete airfoil
+frmProfileMan.translator.components.frmProfileMan.miCopy.Caption=&Copy airfoil
+frmProfileMan.translator.components.frmProfileMan.miCopy.Hint=Copy airfoil
+frmProfileMan.translator.components.frmProfileMan.dxBarButton1.Caption=Debug
+frmProfileMan.translator.components.frmProfileMan.dxBarButton1.Hint=Debug
+frmProfileMan.translator.components.frmProfileMan.dxBarButton2.Caption=New Item
+frmProfileMan.translator.components.frmProfileMan.dxBarButton2.Hint=New Item
+frmProfileMan.translator.components.frmProfileMan.miDebug.Caption=Debug
+frmProfileMan.translator.components.frmProfileMan.dxBarButton3.Caption=List of airfoils with invalid polars
+frmProfileMan.translator.components.frmProfileMan.dxBarButton3.Hint=List of airfoils with invalid polars
+
+frmProfilDetails.translator.literals.Caption=Airfoil details
+frmProfilDetails.translator.literals.PolarClCaption=cl
+frmProfilDetails.translator.literals.PolarCwCaption=cw
+frmProfilDetails.translator.literals.Re=re
+frmProfilDetails.translator.literals.AddReCaption=Add new RE value
+frmProfilDetails.translator.literals.AddReText=RE value:
+frmProfilDetails.translator.literals.DeleteRe=Are you sure to delete all values for RE %s?
+frmProfilDetails.translator.literals.DeleteReCaption=Delete RE value
+frmProfilDetails.translator.literals.EditReCaption=Edit RE value
+frmProfilDetails.translator.literals.EditReText=Edit RE value
+frmProfilDetails.translator.literals.CoordiantesExportedSuccessfullyMessage=Coordinates successfully exportet into file %s.
+frmProfilDetails.translator.literals.CoordiantesExportedSuccessfullyCaption=Export successfull
+frmProfilDetails.translator.components.frmProfilDetails.Caption=Profildetails - AG 03 
+frmProfilDetails.translator.components.frmProfilDetails.btnOk.Caption=&Ok
+frmProfilDetails.translator.components.frmProfilDetails.btnCancel.Caption=&Cancel
+frmProfilDetails.translator.components.frmProfilDetails.Label1.Caption=Airfoilname:
+frmProfilDetails.translator.components.frmProfilDetails.Label3.Caption=Alpha 0:
+frmProfilDetails.translator.components.frmProfilDetails.Label4.Caption=cm 0:
+frmProfilDetails.translator.components.frmProfilDetails.Label5.Caption=Description:
+frmProfilDetails.translator.components.frmProfilDetails.Label2.Caption=Airfoilname:
+frmProfilDetails.translator.components.frmProfilDetails.TabSheet1.Caption=Coordinates
+frmProfilDetails.translator.components.frmProfilDetails.TabSheet2.Caption=Polars
+frmProfilDetails.translator.components.frmProfilDetails.Panel7.Caption=RE numbers
+frmProfilDetails.translator.components.frmProfilDetails.miReAdd.Caption=Add
+frmProfilDetails.translator.components.frmProfilDetails.miReAdd.Hint=Add RE number
+frmProfilDetails.translator.components.frmProfilDetails.miReDel.Caption=Delete
+frmProfilDetails.translator.components.frmProfilDetails.miReDel.Hint=Delete RE numbers
+frmProfilDetails.translator.components.frmProfilDetails.miPolAdd.Caption=Add
+frmProfilDetails.translator.components.frmProfilDetails.miPolAdd.Hint=Add
+frmProfilDetails.translator.components.frmProfilDetails.miReEdit.Caption=Edit
+frmProfilDetails.translator.components.frmProfilDetails.miReEdit.Hint=Edit RE numbers
+frmProfilDetails.translator.components.frmProfilDetails.miPolDel.Caption=Edit
+frmProfilDetails.translator.components.frmProfilDetails.miPolDel.Hint=Edit
+frmProfilDetails.translator.components.frmProfilDetails.miCoordAdd.Caption=&Add
+frmProfilDetails.translator.components.frmProfilDetails.miCoordAdd.Hint=Add coordiantes
+frmProfilDetails.translator.components.frmProfilDetails.miCoordDel.Caption=&Delete
+frmProfilDetails.translator.components.frmProfilDetails.miCoordDel.Hint=Delete Coordinates
+frmProfilDetails.translator.components.frmProfilDetails.miCoordImport.Caption=Import &coordinates
+frmProfilDetails.translator.components.frmProfilDetails.miCoordImport.Hint=Import coordiantes
+frmProfilDetails.translator.components.frmProfilDetails.miPolImport.Caption=Import polars
+frmProfilDetails.translator.components.frmProfilDetails.miPolImport.Hint=Import polars from a PEF file
+frmProfilDetails.translator.components.frmProfilDetails.dxBarButton1.Caption=Export coordinates
+frmProfilDetails.translator.components.frmProfilDetails.dxBarButton1.Hint=Export coordinates
+
+frmSelectAuslegung.translator.literals.colDescription=Description
+frmSelectAuslegung.translator.literals.colCl=Cl
+frmSelectAuslegung.translator.literals.colMaxSpeed=Speed max.
+frmSelectAuslegung.translator.components.frmSelectAuslegung.Caption=Choose design
+frmSelectAuslegung.translator.components.frmSelectAuslegung.btnOk.Caption=&Ok
+frmSelectAuslegung.translator.components.frmSelectAuslegung.btnCancel.Caption=&Cancel
+
+frmTextEdit.translator.components.frmTextEdit.Caption=Edit description
+frmTextEdit.translator.components.frmTextEdit.btnOk.Caption=&Ok
+frmTextEdit.translator.components.frmTextEdit.btnCancel.Caption=&Cancel
+
+frmVarianteNeu.translator.components.frmVarianteNeu.Caption=Create new version
+frmVarianteNeu.translator.components.frmVarianteNeu.Label1.Caption=Enter a name for the new model. To carry over the values from the current version set the option "Carry over values from current version".
+frmVarianteNeu.translator.components.frmVarianteNeu.Label2.Caption=Versionname:
+frmVarianteNeu.translator.components.frmVarianteNeu.cbCopyValues.Caption=Carry over values from current version
+frmVarianteNeu.translator.components.frmVarianteNeu.btnOk.Caption=&Ok
+frmVarianteNeu.translator.components.frmVarianteNeu.btncancel.Caption=&Cancel
+
+AskSerialsForm.translator.literals.ErrorSavingLicense=Uable to validate and save the license. Please correct the license details and save again.
+AskSerialsForm.translator.literals.SuccessSavingLicense=License saved successfully.
+AskSerialsForm.translator.literals.ErrorSavingActivation=Activation-Key did not validate and therefore could not be saved. Please correct the activation-key and save again.
+AskSerialsForm.translator.literals.SuccessSavingActivation=Activation-Key saved successfully.
+AskSerialsForm.translator.literals.InfoLicenseCopiedToClipboard=The details for the activation-key request where copied to the clipboard.#13Please paste them into an email and send the email to liftoff@idev.ch.#13If you don't get an activation-key from us within a few days please contact us. The mail meight be lost/filtered somewhere on the way.
+AskSerialsForm.translator.components.AskSerialsForm.Caption=Lift-Off Licensing
+AskSerialsForm.translator.components.AskSerialsForm.Label1.Caption=To unlock all features of Lift-Off you need a valid license (per person) and a valid activation (per woerkstation). You can order a license online in our shop at http://www.idev.ch/liftoff. Enter this license here. Then you can request an activation for your license on this computer/workstation. Send us your license-key and your machine-key. You can use the button below to copy these information to the clipboard from where you can use it to send it by email to liftoff@idev.ch. If you don't get an activation-key within a few days please context us - the email may get filtered somewhere on the way to us.
+AskSerialsForm.translator.components.AskSerialsForm.Label2.Caption=Name of license holder:
+AskSerialsForm.translator.components.AskSerialsForm.Label4.Caption=License-Key:
+AskSerialsForm.translator.components.AskSerialsForm.Label5.Caption=Activation-Key::
+AskSerialsForm.translator.components.AskSerialsForm.Label6.Caption=Information about licensing and activation:
+AskSerialsForm.translator.components.AskSerialsForm.Label3.Caption=1. License
+AskSerialsForm.translator.components.AskSerialsForm.Label7.Caption=2. Activation
+AskSerialsForm.translator.components.AskSerialsForm.Label8.Caption=Machine-Key:
+AskSerialsForm.translator.components.AskSerialsForm.Button1.Caption=&OK
+AskSerialsForm.translator.components.AskSerialsForm.btnRequestActivationKey.Caption=Request activation key
+AskSerialsForm.translator.components.AskSerialsForm.Button2.Caption=Cancel

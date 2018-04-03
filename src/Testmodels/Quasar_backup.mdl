@@ -1,0 +1,18 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="Standard" beschreibung="">
+      <ProfilInnen>rg 15</ProfilInnen>
+      <ProfilAussen>rg 15</ProfilAussen>
+      <Spannweite>3070</Spannweite>
+      <Flaechenbelastung>41</Flaechenbelastung>
+      <Wurzeltiefe>250</Wurzeltiefe>
+      <LageTrapezstoss>740</LageTrapezstoss>
+      <TiefeTrapezstoss>235</TiefeTrapezstoss>
+      <TiefeRandbogen>185</TiefeRandbogen>
+      <Leitwerkshebel>9.06</Leitwerkshebel>
+      <Stabilitaetsmass>14.4</Stabilitaetsmass>
+      <Schwerpunkt>0.5</Schwerpunkt>
+    </variante>
+  </varianten>
+</modell>

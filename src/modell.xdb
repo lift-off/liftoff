@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xdb="http://www.borland.com/schemas/delphi/6.0/XMLDataBinding">
+  <xs:element name="modell" type="modellType"/>
+  <xs:complexType name="modellType"><xs:annotation>
+      <xs:appinfo xdb:docElement="modell"/>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="varianten" type="variantenType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="variantenType">
+    <xs:sequence>
+      <xs:element name="variante" type="varianteType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="varianteType"><xs:annotation>
+      
+      <xs:appinfo/>
+    </xs:annotation>
+    
+    <xs:sequence>
+      <xs:element name="ProfilInnen" type="xs:string"/>
+      <xs:element name="ProfilAussen" type="xs:string"/>
+      <xs:element name="Spannweite" type="xs:integer"/>
+      <xs:element name="Flaechenbelastung" type="xs:integer"/>
+      <xs:element name="Wurzeltiefe" type="xs:integer"/>
+      <xs:element name="LageTrapezstoss" type="xs:integer"/>
+      <xs:element name="TiefeTrapezstoss" type="xs:integer"/>
+      <xs:element name="TiefeRandbogen" type="xs:integer"/>
+      <xs:element name="Leitwerkshebel" type="xs:decimal"/>
+      <xs:element name="Stabilitaetsmass" type="xs:decimal"/>
+      <xs:element name="Schwerpunkt" type="xs:decimal"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>

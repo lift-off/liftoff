@@ -1,0 +1,822 @@
+***************************************************
+TMS Component pack v2.7 : update June 9, 2003
+***************************************************
+Update: TAdvStringGrid v2.5.0.0
+-------------------------------
+- New :  Undo/redo for cell edits capability
+- New : Multilevel nodes
+- New : Fixed cell editing
+- New : Grouping with summary lines and automatic coloring, merging
+- New : Support for detail rows with embedded controls
+- New : Filtering with suffix / prefix ignoring for conditions for numbers supported
+- New : Filtering with selectable logic operations between multiple filter conditions
+- Improved : Significantly improved filter speed
+- New : Always visible comboboxes 
+- New : QUnSort method added to undo sorts
+- New : SortSettings InitSortDirection & UndoSort for tristate sort setting (ascending / descending / undo)
+- New : ReadOnly[Col,Row]: Boolean property added to control read-only cells by properties
+- New : MouseActions.PreciseCheckBoxCheck property added to make checkbox clicks sensitive on checkbox area only
+- New : MouseActions.CheckAllCheck property added to check / uncheck all checkboxes per column by header checkbox
+- New : MouseActions.NodeAllExpandContract property added to expand / contract all nodes by header node click
+- New : Persistent disjunct row selections with hidden rows / filtered grids
+- New : XP node style
+- New : XP fixed cell look
+- Improved : progressbar appearance, XP style progress bar + progressbar margins properties
+- New : FindWide function for Unicode find added
+- New : MouseActions.DirectDateDrop property added
+- New : SaveToBinFile, SaveToBinStream uses public SaveFixedCells property
+- New : Progress event added for SaveToBinFile, SaveToBinStream
+- New : IsSelSuperscript, IsSelSubScript methods added to detect rich text subscript / superscript in cells
+- New : Exposed internal incremental search text
+- New : OnBeforecontractNode, OnBeforeExpandNode events added
+- New : Navigation.TabToEndAtEnd property added
+- New : Preview dialog : PrintSelection property added to show preview of selected cells only
+- Improved : LookupItems + combobox items used for inplace comboedit
+- Improved : support for time editing with no entry for seconds
+- Improved : Support for merged cells in floating footer added
+- Improved : support for row moving with visible floating footer
+- Improved : Multiline clipboard copy & paste with Excel supported
+- Improved : proportional & flat scrolling style
+- Improved : All fixed columns can be sized
+- New : Grid design time preference save & restore
+- New : MouseActions.MoveRowOnNodeClick added controls whether cell selection changes or not on node click
+- New : Gradient cells with Colors[col,row] and ColorsTo[col,row] properties
+- New : Find function for empty cells with "" capability added
+- New : helper function GetXLSSheets() to assist for LoadFromXLSSheet method
+- Improved : Custom inplace editors use goTabs style
+- New : UseDisplayFont & FixedFont setting in grid PrintSettings
+- New : Navigation.SkipFixedCells added for keyboard navigation control with fixed cells in grid
+- Improved : Column moving synchronised through hidden rows
+- Improved : selection resizing and new OnSelectionResize event
+- New : Removing rows while rows are hidden or filtered support added
+- Improved : Automatic numeric alignment in printing
+- New : OnCellValidateWide added for validation of unicode editing
+- New : Simultaneous use of RowSelect mode and nodes capability added
+- Lots of smaller optimizations and improvements
+
+
+***************************************************
+TMS Component pack v2.6 : update Apr 29, 2003
+***************************************************
+Update : TAdvMemo v1.3
+----------------------
+- New : configurable parameter hints
+- New : configurable auto completion
+- New : extra settings for printing
+- New : design time property editor
+- New : auto begin/end block marking
+- New : toggle gutter line numbers on and off
+- New : gutter gradient
+- New : error marking
+- New : various new methods
+- Improved : speed, drawing & new keyboard shortcuts, Ctrl-F, Ctrl-H, Shift-Ctrl-End, Shift-Ctrl-Home
+
+Update : TAdvListView v1.6
+--------------------------
+- New : OnURLClick to choose custom handling of URL clicks or built-in handling
+- New : Capability to add progress bars in cells
+- Improved : painting
+- Improved : HTML export
+- Various smaller improvements
+
+Update : TAdvStringGrid v2.4.0.6
+--------------------------------
+- Improved : small fixes and optimizations
+
+Update : TDBAdvStringGrid 1.7.0.8
+---------------------------------
+- Improved : small fixes and optimizations
+
+Update : TPlanner 1.7.0.5 / TDBPlanner v1.5.0.5
+-----------------------------------------------
+- Improved : small fixes and optimizations
+
+***************************************************
+TMS Component pack v2.6 : update Mar 31, 2003
+***************************************************
+New : TAdvTreeComboBox v1.0
+---------------------------
+- Combobox with true treeview dropdown
+
+New : THTMLCredit v1.0
+----------------------
+- Supports a subset of the HTML formatting tags (see the mini HTML reference)
+- Supports various images embedded in HTML formatted text.
+- Support for new gradient paragraphs 
+- Enables to set auto scroll speed, scroll step and scrollposition
+
+Update : TDBAdvNavigator v1.1
+-----------------------------
+- New : Large & small button style
+- New : Horizontal & vertical button orientation
+- New : Extra search, set bookmark & get bookmark button added
+
+Update : TMS Parameter Controls v1.3
+------------------------------------
+- New : various built-in inplace editors: 
+       - normal edit, spin edit, mask edit
+       - popup list, popup menu
+       - datepicker, timeselector
+       - input query 
+       - directory picker
+       - capability to use custom inplace editors
+       - toggle value
+- New : design time property editors for parameter definition
+- New : various methods for handling setting and getting parameter values
+- New : parameter hint attributes
+- New : empty parameter property
+- New : hovering in all parameter controls
+- New : autosizing parameter edit control
+- New : auto advance on return 
+- New : developers guide
+
+Update : TMS InspectorBar v1.2
+------------------------------
+- New : Password inplace editing
+- New : Hi resolution icon support
+- New : Bitmap support in addition to icons
+- New : Single and Multiselect item support
+- New : InspectorPanel visibility control added
+- New : Editable labels added
+- New : Item & Panel shortcut support added
+- Various smaller improvements ...
+
+Update : TAdvStringGrid v2.4.0.5
+--------------------------------
+- Maintenance update
+
+Update : TPlanner v1.7.0.3 & TDBPlanner 1.5.0.3
+-----------------------------------------------
+- Maintenance update
+
+Update : TCheckListEdit v1.1
+----------------------------
+- Improvement to position wide dropdown 
+
+Update : TAdvListView v1.55
+---------------------------
+- Item and header drawing improvements
+- New HeaderColor property
+
+Update : TAdvMemo 1.2
+---------------------
+Improvement for C++Builder compatibility
+
+Update : THTMLStaticText
+------------------------
+- Improved painting
+- Improved anchor handling
+
+Update : THTMLHint
+------------------
+- Fix for HTMLHint use on non main form
+
+Update : TWebUpdate
+-------------------
+- Improved handling of cancelled updates
+
+Update : TAdvMaskEdit
+---------------------
+- Improved handling of borderstyle property 
+
+Update : TPlannerCalendar
+-------------------------
+- Improved handling of min. & max. dates
+
+Update : TAdvDirectoryEdit
+--------------------------
+- Added capability to browse for folder without creating a new folder
+
+
+***************************************************
+TMS Component pack v2.5 : update Feb 13, 2003
+***************************************************
+Update : TPlanner v1.5.0.3 & TDBPlanner v1.7.0.3
+------------------------------------------------
+- Maintenance update
+
+Update : TAdvStringGrid v2.4.0.4
+--------------------------------
+- Maintenance update
+
+Update : TDBAdvStringGrid v1.7.0.7
+----------------------------------
+- Maintenance update
+
+Update : TAdvMemo v1.2
+----------------------
+- New : URL aware
+- New : proportional scrollbars
+- New : Print support
+- New : SaveToHTML and CopyHTMLToClipboard functions added
+- New : SQL highlighter
+- New : Find & replace dialogs
+- New : Ctrl-A, Ctrl-PageUp,Ctrl-Home,Ctrl-End, Ctrl-PageDown shortcuts added
+- New : DB-aware version TDBAdvMemo
+- Improved : faster rendering
+- Improved : tab handling
+
+
+Update : TPlannerCalendar, TPlannerCalendarGroup, TPlannerDatePicker v1.3
+-------------------------------------------------------------------------
+- New : Gradient in caption and calendar
+- New : Soft XP style border drawing
+- New : Event for dynamic change of event look
+- New : Goto today indication added
+- New : Event fontcolor property added
+- New : Possibility to add glyphs for next/prev month and year
+- New : Datepicker and DBDatePicker inherit all TAdvEdit features such as focus, modified color, flat look and much more
+
++ Various smaller updates and fixes in components
+
+***************************************************
+TMS Component pack v2.5 : update Jan 12, 2003
+***************************************************
+Update : TAdvStringGrid v2.4.0.3
+--------------------------------
+- Improved printing with merged cells
+- small improvements
+
+Update : TPlanner v1.5.0.1 & TDBPlanner v1.7.0.1
+------------------------------------------------
+- Maintenance update
+
+Update : TAdvEdit v2.4
+----------------------
+- New : Outlook style Lookup
+
+Update : TAdvPanel v1.5
+----------------------- 
+- New : Caption & Panel Gradients 
+- New : BorderShadow / BorderColor
+- New : Buffered property added
+- New : TAdvPanelStyler component
+- New : Caption button position can be controlled
+- Improved drawing
+  
+Update : TAdvPanelGroup v1.5
+----------------------------
+- New : methods AddPanel, InsertPanel, RemovePanel, MovePanel
+- New : DefaultPanel settings
+- New : Columns support 
+- Improved panel positioning
+
+New : TGradientLabel v1.0
+-------------------------
+- New : Label with gradient background or gradient line 
+
+Update : TAdvDBLookupComboBox v1.1
+----------------------------------
+- New : Property DropSizeable added
+- Improved code
+  
+***************************************************
+TMS Component pack v2.5 : update Dec 18, 2002
+***************************************************
+Update : TAdvMemo v1.1
+----------------------
+- New : Basic syntax highlighting
+- New : Gutter breakpoint, executable code and active sourcecode line display
+- New : mousewheel support
+- Improved : faster painting
+- Improved : keyboard handling
+
+***************************************************
+TMS Component pack v2.5 : update Dec 17, 2002
+***************************************************
+Update : TPlanner v1.7 & TDBPlanner v1.5
+----------------------------------------
+- New : Timeline mode
+- New : Active cell indication in sidebar
+- New : Completion display
+- New : PositionZoom in horizontal mode
+- New : Header popup & item popup handling
+- New : Alarm times relative to event start or end time or both
+- New : Support for virtual notes text
+- New : Transparent overlapable background items
+- New : Grid cellrectangle function added
+- New : Design time property preference handling
+- New : OnPlannerIsActive event added
+- New : ItemSelection property added to control item selection methods and improved selection
+- New : LineColor setting in PlannerHeader added
+- New : Pen style selection for planner grid cells through OnPlannerBottomLine possible
+- New : Display.CurrentPosFrom, Display.CurrentPosTo properties added
+- New : Custom time interval display
+- New : TDBHalfDayPeriodSource & TDBTimeLineSource 
+- New : RefreshItem function added for single appointment reload in DBPlanner 
+- New : Event OnItemsRead added in TDBxxxSource components
+- Improved : Bitmap background drawing
+- Improved : Additional AM/PM display capabilities in SideBar
+- Improved : Sidebar display for better readability in high resolution time display
+- Improved : Printing 
+- Improved : HTML export
+- Updated : over 50 pages printable PDF developers guide for registered users
+- Lots of smaller improvements + optimizations ...
+
+New : TDBAdvLookupCombo v1.0
+----------------------------
+- Multi column DB lookup combobox
+- Can perform type-ahead lookup on multiple columns
+- Allows filtering of lookup listsource for limited selection lookups
+- Allows sorting on columns in lookup dropdown
+- Various settings for column display & dropdown behaviour
+- Attached label with position control and optional display of listfield
+
+Update : TAdvSpinEdit
+---------------------
+- Improved label positioning
+- LabelAlwaysEnabled property added
+- Signed property added
+
+Update : TAdvMaskEdit, TDBAdvMaskEdit
+-------------------------------------
+- Improved color handling
+
+Update : TAdvCombo
+------------------
+- Improved flat underline to match AdvEdit underline
+
+Update : TAdvStringGrid v2.4.0.2
+--------------------------------
+- Improved SaveToHTML with Font export
+- Improved edFloat and edFloatEditBtn decimal/thousand separator handling
+- Improved SaveToXLSSheet
+- SaveVirtCells public property added
+- Improved HTML engine for lists and hidden text tags
+
+Update : TCheckListEdit
+-----------------------
+- OnClose event added
+- Public property DroppedDown added
+
+Update : THTMLStatusbar
+-----------------------
+- Fix for vertical centered drawing in narrow status bar
+
+Update : TWebUpdate   
+-------------------
+-  TWebUpdate UpdateCOnnect = wucNone added to disable any checks or trials to connect
+
+Update : TColumnListBox
+-----------------------
+- Improved default access to collection items
+  
+Update : TAdvListview
+---------------------
+- Pubic property StretchColumn added
+- Improved header drawing
+
+
+***************************************************
+TMS Component pack v2.4 : update Nov 9, 2002
+***************************************************
+Update : TAdvStringGrid v2.4
+----------------------------
+- AllColCount, AllRowCount properties added
+- Improved XML export with & character
+- Improved handling quoted text in CSV import/export
+- ClearNormalRows, ClearNormalCols functions added
+- Improved SizeWhileTyping
+- OnEndRowSize triggered during SizeWhileTyping
+- Improved indication on row/column moving
+- SetColumnOrder, ResetColumnOrder methods added
+- SaveColPositions, LoadColPositions methods added
+- MouseActions.NoAutoRangeScroll property added
+- RemoveAllNodes method added
+- virtual method LoadCell added 
+- OnGetFloatFormat event added
+- Unicode display & editing support added
+- Enhanced control for AutoNumberCol, AutoNumberRow
+- CellControls[] property to add any control into a cell
+- Autopositioning find dialog
+- Improved find function with tests for empty strings & use of quotes
+- Public property SaveWithHTML added
+- Tab navigation direction control added
+- Auto tab to next control on form after tabbing through complete grid
+- PrintSelection method added
+- Print preview of selection only capability added
+- ProgressPie indicators added
+- Combined drawing of images & sort indicator
+- Index sort glyph properties added
+- OnPrintCancel event added
+- Readonly cell control for merged cells fixed - based on topleft cell settings
+- Find & Replace dialog for grid added
+- Disjunct column selection, column printing, column clipboard handling
+
+Update : TAdvColumnGrid v2.4
+----------------------------
+- FloatFormat property added in Columns
+- Combined filtering & sorting from column header capability added
+
+Update : TAdvMemo
+-----------------
+- New : Anchors property added
+
+Update : HTMLHint
+-----------------
+- Improved multimonitor support
+
+Update : TParamTreeview
+-----------------------
+- New : WordWrap property 
+
+Update : TWebPost
+-----------------
+- New : support to specify port number added
+
+Update : TInspectorBar
+----------------------
+- Improved Wordwrap in psButtons style
+
+Update : TAdvSpinEdit
+---------------------
+- Improved label positioning
+
+***************************************************
+TMS Component pack v2.4 : update Oct 21, 2002
+***************************************************
+Update : TWebUpdate v1.5
+------------------------
+- New : includes Web update wizard
+- New : separately callable steps in update process
+- New : HTTP keep alive setting
+- New : auto compare with local file dates capability
+- New : dynamic URL change per file
+- New : OnSuccess event after download of all updated files
+- New : Control to update only existing files and not install new files
+- New : Option to keep CAB or Patch files after update
+- New : List of file details for update
+- New : total update download size property
+- New : short update description field
+- New : log to file capability
+- Improved : CAB extraction 
+- Improved : EULA dialog handling
+- Improved : update registry only after success
+
+Update : TAdvEdit v2.3
+----------------------
+- Improved ShowModified handling 
+- Improved default key handling
+
+Update : TWebData v1.0
+----------------------
+- Improved handling of multiple threaded instances
+
+
+***************************************************
+TMS Component pack v2.4 : update Oct 7, 2002
+***************************************************
+Update : TInspectorBars v1.1
+----------------------------
+- New : Added support for nodes
+- New : Variable item height
+- New : visible and hidden items
+- New : help panel
+- New : HTML formatted text support in items
+- New : Indent control per item
+- New : Improved editing support
+- New : several new events for edit handling
+- New : auto scroll inside InspectorPanel
+- New : always-open InspectorPanel style
+- New : subproperty handling in RTTIInspectorBar
+- New : full width hovering style
+- New : various new properties for finetuning colors
+- New : shows items in modified style when edited
+- Numerous smaller improvements
+
+New : TAdvMemo v1.0
+-------------------
+- Lightweight memo control with configurable syntax highlighting
+- Highlighting for HTML, Javascript, Web, CSS and Pascal included
+- Undo and redo functions
+- Optional gutter
+- Clipboard operations
+
+New : TAdvShaper v1.0
+---------------------
+- Easy to use component that turns any form into the shape of a complex shaped bitmap 
+  with very fast algorithm
+- As simple as loading the bitmap and setting the mask color to turn a form into a 
+  complex bitmap shape
+
+Update : THotSpotImage v1.1
+---------------------------
+- Added : supports zooming
+- Added : allows to specify cursor over hotspots
+- Added : allows to show hotspots clicked
+- Improved : faster hotspot detection algorithm
+- Improved : hotspot hover image drawing
+
+Update : THTMLTreeView 
+----------------------
+- SelectionNFColor, SelectionNFFontColor added
+- Right click select improvement 
+- Anchor font size problem solved
+
+Update : THTMLTreeList 
+----------------------
+- Column access improvement
+
+Update : TParamTreeview
+-----------------------
+- Anchor font size problem solved
+
+Update : TAdvCombo 
+------------------
+- New : attached label
+- New : FlatLineColor, FlatParentColor
+- Improved flat style control, underline color
+- Improved XP look 
+
+Update : TAdvEditBtn
+--------------------
+- Improved XP style handling & flat underline style
+  
+Update : TAdvEdit
+-----------------
+- Errormarkers, improved flat style
+- Enhanced color control for various modes of the edit control
+
+Update : TAdvSpinEdit
+---------------------
+- New : control to show seconds in time spin mode
+- New : set minute and second increment in time spin mode
+- Improved XP look
+
+Update : TAdvMoneyEdit
+----------------------
+- Combines TMoneyEdit with TAdvEdit
+
+Update : THTMLCheckBox
+----------------------
+- Checkbox state & OnClick event handling correction
+
+Update :TColumnComboBox
+-----------------------
+- Fix combo edit part paint issue
+
+Update : THTMListBox
+--------------------
+- Improved handling of very high HTML text in listbox
+
+Update : THTMLStaticText
+------------------------
+- Improved design time painting
+
+Update : THTMLPopup 
+-------------------
+- Improved autosize
+
+Update : THTMLHint
+------------------
+- Corrected handling for multiscreen use
+
+
+***************************************************
+TMS Component pack v2.3 : update Aug 29, 2002
+***************************************************
+Update : TPlanner v1.6.0.2 TDBPlanner v1.4.0.2
+----------------------------------------------
+- Maintenance update with various improvements:
+- Improved : multi-day, multi-resource handling
+- Improved : multi-month mode handling
+- Improved : item editor handling
+- Improved : multiday and day crossing handling in day mode
+- Improved : HTML rendering
+- Added : Gradient sidebar, gradient step control, gradient direction in PlannerItem caption control 
+
+Update: TAdvStringGrid v2.3.0.7
+-------------------------------
+- Added : IndexColor property for SortSettings to control color of sort indicator for indexed sorts
+- Fixed problem with range selection & editing combined with read only cells
+- Further small fixes and improvements
+
+***************************************************
+TMS Component pack v2.3 : update Aug 9, 2002
+***************************************************
+
+Update TAdvEdit, TDBAdvEdit, TAdvLUEdit, TDBAdvLUEdit, TAdvMaskEdit, TDBAdvMaskEdit
+-----------------------------------------------------------------------------------
+- New : TDBAdvMaskEdit component
+- Improved focus color and enabled color handling
+- Improved DB aware version of TAdvEdit
+- Added FocusBorder and FlatLineColor properties in TAdvMaskEdit
+
+Update : THTMLPopup v1.1
+------------------------
+- New : AutoSize capability
+- New : always on top capability
+- New : RollUp and RollDown methods
+
+***************************************************
+TMS Component pack v2.3 : update July 9, 2002
+***************************************************
+
+Update TPlanner v1.6
+--------------------
+- New : Overlapped items on background items
+- New : over 50 pages printable PDF developers guide for registered users
+- New : 3 popup item editors & interfaces for custom popup editors
+- New : interface for custom drawing appointments or events and sample drawer class
+- New : OnItemClipboardAction event added for tracking clipboard actions in inplace editing
+- New : Bands property to control coloring banding in planner grid
+- New : new AM/PM time indication modes & AM/PM display position control
+- New : OnExit, OnEnter events for planner 
+- New : IndicateNonVisibleItems property to show indicators for non visible appointments in sidebar
+- New : OnItemPlaceUpdate event added for dynamic item placement changing
+- New : PlannerItem.ItemRect read-only property added for easier custom inplace item handling
+- New : TPlannerItem Shadow & global ShadowColor setting
+- New : Gradient item captions & gradient planner caption
+- New : PositionProps Use property to control using or not using the PositionProps
+- New : OnHeaderStartEdit, OnHeaderEndEdit event added
+- New : sample application for popup editor handling
+- New : Indy based alarm email sender
+- Improved precision time handling
+- Improved editing of large items
+- Improved printing
+
+Update TDBPlanner v1.4
+----------------------
+- New : Multimonth DB mode, can be used as year mode DBPlanner
+- New : sample applications for DBIsam, Apollo, BDE, Access, Interbase
+- Improved clipboard handling in DB aware mode
+- Improved DBDaySource DB handling
+
+Update TAdvPanel & TAdvPanelGroup v1.4
+--------------------------------------
+- New : smooth expand / collaps of panel
+- New : C++Builder 6 support
+- New : SavePositions/LoadPositions for TAdvPanelGroup
+- Improved : alignment of controls in panel
+- Improved : Panel caption drawing and mouse handling
+
+
+***************************************************
+TMS Component pack v2.3 : update June 10, 2002
+***************************************************
+
+Update : TAdvStringGrid v2.3.0.1
+--------------------------------
+- New : mini HTML form support in cells.
+- New : ssCheckBox sort style added
+- New : OnClipboardBeforePasteCell event added
+- New : FilterRow method added for row per row filtering
+- New : ShowNullDates public property to control display of null dates
+- Improved : edit with tabs in grid with hidden columns
+- Improved : spin editor handling
+- Improved : columnsize handling in automatic columnsizing with grid size
+- Improved : inplace edit handling in automatic columnsizing with grid size
+- Improved : LoadFromMDB method 
+
+Update : TDBAdvStringGrid v1.7.0.1
+----------------------------------
+- Improved DB-aware handling with various database engines
+- DB Editing capability with PageMode active
+- Improved Floating footer handling with DB
+
+Update : TAdvColumnGrid v2.2.0.7
+--------------------------------
+- Improved checkbox handling 
+- Improved column move handling
+
+Update : TCABFile v1.4
+--------------------------------
+- Fix for CAB file decompression handling 
+
+
+***************************************************
+TMS Component pack v2.2 : update May 11, 2002
+***************************************************
+
+- Support added for Delphi 6 Personal and C++Builder 6 Personal editions
+
+***************************************************
+TMS Component pack v2.2 : update May 1, 2002
+***************************************************
+
+New : TUniHTMLabel, TUniHTMListbox, TUniHTMLCombobox
+----------------------------------------------------
+- label, listbox & combobox with support for Unicode HTML formatted text
+
+Update : TAdvStringGrid v2.2.0.8
+--------------------------------
+- Corrected image drawing issue in floating footer
+- Changed behaviour for ssNumeric sort style when used with non-numeric data
+- Improved AutoSizeCells
+- Disjunct row selection & sort improvement
+- Improved ActiveCellShow behaviour
+- Improved All cell and Column selection
+
+Update : TCABFile v1.4
+----------------------
+- Added methods to automatically add full directories to the CAB file
+
+***************************************************
+TMS Component pack v2.2 : update April 17, 2002
+***************************************************
+
+Update : TAdvStringGrid v2.2.0.7
+--------------------------------
+- Save/Load nodes with LoadFromBinFile / SaveToBinFile issue solved
+- Improved handling of Alt-Dn for combobox dropdown activation with keyboard
+- Improved vertical alignment handling for printing
+- Improved checkbox & image alignment handling for printing
+- Improved BiDi support for inplace editing
+- Fix for selected rich text painting
+- Improved printsettings dialog handling
+
+***************************************************
+TMS Component pack v2.2 : update April 10, 2002
+***************************************************
+
+Update : TAdvColumnGrid v2.2
+----------------------------
+- Added SaveColumnPositions / LoadColumnPosition methods
+- Added CreateColumns function to create descendent extended grid column properties
+- Added C++Builder 6 support
+- Inherits all new TAdvStringGrid features and improvements
+
+Update : TAdvStringGrid v2.2.0.6
+--------------------------------
+- Fixed IsXMergedCell, IsYMergedCell function calls
+- Fixed border drawing with styles Flat and Look glTmS, glSoft combined
+- Fixed CopyToClipboard / CutToClipboard with disjunct row selection
+- Added TMSGradientFrom / TMSGradientTo public properties for glTMS look gradient control
+
+Update : THTMLCheckBox 
+----------------------
+- Drawing issue solved with Windows XP visual style
+
+***************************************************
+TMS Component pack v2.2 : update April 2, 2002
+***************************************************
+
+Update : TAdvStringGrid v2.2.0.5
+--------------------------------
+- New version numbering for easier version identification
+- HideUnSelectedRows, RemoveUnSelectedRows method added
+- Significantly improved performance with LoadFromCSV
+- SplitAllCells method added
+- XYOffset public property for text/RTF/HTML position control
+- RangeSelectAndEdit property added in MouseActions allows range selection & editing simultanously
+- KeepHorizScroll property added to prevent scrollback with row selection
+- Improved handling of empty cells with date inplace editor & sorting
+- Column stretch on selectable column
+- Inplace or popup memo with scrollbar support
+- Improved & faster display with nodes
+- GetParentRow, InsertChildRow, RemoveChildRow methods added to add rows in grid with nodes
+- PrintSelectedRows, PrintPreviewSelectedRows
+- Preview dialog with PrintSelectedRows property
+- Translatable preview & find dialog 
+- Printer setup dialog capability from preview dialog
+- Improved OLE drag&drop with disjunct row drag&drop support
+- Hide comment indicator with clNone color
+- Improved alignment & autosizing with rotated text
+- OnResize event added
+- Cell level persistent color, fontcolor, fontstyle, fontsize, fontname, alignment properties
+- Improved virtual cell handling with filtering & hiding rows
+- Improved floating footer handling
+- Improved CSV file delimiter guess
+- glClassic and glTMS looks added
+- ActiveCellColor property added
+- SelectionResizer property added
+- Improved smart clipboard functionality
+- SaveToBinFile, LoadFromBinFile methods for saving full grid cell info
+- SaveToBinStream, LoadFromBinStream methods 
+- Full formatted cell clipboard support including images, checkbox, buttons, colors, comments ...
+- Improved virtual cell handling
+- Public properties MinRowHeight, MaxRowHeight, MinColWidth, MaxColWidth for AutoSizeRow,AutoSizeCol methods
+- NoAutoSizeRows property added under PrintSettings
+- New sample applications
+- C++Builder 6 support
+- Improved printing support
+- PrintSettings.PageNumberOffset & PrintSettings.MaxPagesOffset properties added
+- OnCustomCellDraw & OnCustomCellSize events added and demo 52 for custom drawing & printing support through these new events
+- In DragDropSettings, OleCopyAlways and OleColumnDragDrop properties added
+- Background bitmap style bcAll added
+- Windows XP shaded hint support
+- Built-in HTML formatted cell comment / hints support
+- Improved BIDI mode support
+- Capability to search in hidden cells added
+
+
+***************************************************
+TMS Component pack v2.1 : update March 19, 2002
+***************************************************
+
+Update : TPlannerCalendar v1.2
+------------------------------
+- Improved support for C++Builder 6
+
+New : TWebConnect v1.0
+----------------------
+- Component to connect to/disconnect from the Internet and check
+  the internet connection state
+
+Update : TWebCopy v1.4
+----------------------
+- Added support to copy only newer files
+
+New : THotSpotImage v1.0
+------------------------
+- Hotspot image component for Delphi 5,6 & C++Builder 5,6

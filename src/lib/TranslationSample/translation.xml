@@ -1,0 +1,201 @@
+﻿<TranslationDefs>
+  <Form1.Translator>
+    <components>
+      <Form1>
+        <Caption>
+          <EN>Form1</EN>
+        </Caption>
+        <lblLang>
+          <Caption>
+            <EN>Language:</EN>
+          </Caption>
+        </lblLang>
+        <SpeedButton1>
+          <Caption>
+            <EN>English (Default)ä</EN>
+          </Caption>
+        </SpeedButton1>
+        <SpeedButton2>
+          <Caption>
+            <EN>German ä</EN>
+          </Caption>
+        </SpeedButton2>
+        <Button3>
+          <Caption>
+            <EN>Write</EN>
+          </Caption>
+        </Button3>
+        <TabSheet1>
+          <Caption>
+            <EN>Standard</EN>
+          </Caption>
+        </TabSheet1>
+        <Label1>
+          <Caption>
+            <EN>Label1</EN>
+          </Caption>
+        </Label1>
+        <Label2>
+          <Caption>
+            <EN>Label2</EN>
+          </Caption>
+        </Label2>
+        <Label3>
+          <Caption>
+            <EN>Label3</EN>
+          </Caption>
+        </Label3>
+        <btnTest>
+          <Caption>
+            <EN>Testbutton</EN>
+          </Caption>
+        </btnTest>
+        <btnShowMessage>
+          <Caption>
+            <EN>Show Message ...</EN>
+          </Caption>
+        </btnShowMessage>
+        <cbTest1>
+          <Caption>
+            <EN>This is a checkbox</EN>
+          </Caption>
+        </cbTest1>
+        <rb1>
+          <Caption>
+            <EN>Radio Button 1</EN>
+          </Caption>
+        </rb1>
+        <rb2>
+          <Caption>
+            <EN>Radio Button 2</EN>
+          </Caption>
+        </rb2>
+        <gbTest1>
+          <Caption>
+            <EN>This is a group box</EN>
+          </Caption>
+        </gbTest1>
+        <rgGroup1>
+          <Caption>
+            <EN>Radio Group</EN>
+          </Caption>
+        </rgGroup1>
+        <pnlTest>
+          <Caption>
+            <EN>This is a panel</EN>
+          </Caption>
+        </pnlTest>
+        <Panel3>
+          <Caption>
+            <EN>Panel3</EN>
+          </Caption>
+        </Panel3>
+        <btnCasc1>
+          <Caption>
+            <EN>Cascaded Button 1</EN>
+          </Caption>
+        </btnCasc1>
+        <btnCasc2>
+          <Caption>
+            <EN>Cascaded Button 1</EN>
+          </Caption>
+        </btnCasc2>
+        <Button1>
+          <Caption>
+            <EN>Action 1</EN>
+          </Caption>
+        </Button1>
+        <Button2>
+          <Caption>
+            <EN>Action 2</EN>
+          </Caption>
+        </Button2>
+        <TabSheet2>
+          <Caption>
+            <EN>Dev Express</EN>
+          </Caption>
+        </TabSheet2>
+        <cxRadioButton1>
+          <Caption>
+            <EN>cxRadioButton1</EN>
+          </Caption>
+        </cxRadioButton1>
+        <cxRadioButton2>
+          <Caption>
+            <EN>cxRadioButton2</EN>
+          </Caption>
+        </cxRadioButton2>
+        <cxRadioGroup1>
+          <Caption>
+            <EN>cxRadioGroup1</EN>
+          </Caption>
+        </cxRadioGroup1>
+        <miFile>
+          <Caption>
+            <EN>&amp;File</EN>
+          </Caption>
+        </miFile>
+        <miNew>
+          <Caption>
+            <EN>New</EN>
+          </Caption>
+        </miNew>
+        <Action31>
+          <Caption>
+            <EN>Action 3</EN>
+          </Caption>
+        </Action31>
+        <N1>
+          <Caption>
+            <EN>-</EN>
+          </Caption>
+        </N1>
+        <miExit>
+          <Caption>
+            <EN>&amp;Exit</EN>
+          </Caption>
+        </miExit>
+        <miTest1>
+          <Caption>
+            <EN>Test 1</EN>
+          </Caption>
+        </miTest1>
+        <N2>
+          <Caption>
+            <EN>-</EN>
+          </Caption>
+        </N2>
+        <miTest2>
+          <Caption>
+            <EN>Test 2</EN>
+          </Caption>
+        </miTest2>
+        <actTest1>
+          <Caption>
+            <EN>Action 1</EN>
+          </Caption>
+        </actTest1>
+        <actTest2>
+          <Caption>
+            <EN>Action 2</EN>
+          </Caption>
+        </actTest2>
+        <actTest3>
+          <Caption>
+            <EN>Action 3</EN>
+          </Caption>
+        </actTest3>
+        <View>
+          <Caption>
+            <EN>&amp;View</EN>
+          </Caption>
+        </View>
+        <dxBarButton1>
+          <Caption>
+            <EN>Action 1</EN>
+          </Caption>
+        </dxBarButton1>
+      </Form1>
+    </components>
+  </Form1.Translator>
+</TranslationDefs>

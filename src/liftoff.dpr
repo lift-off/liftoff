@@ -1,0 +1,50 @@
+program liftoff;
+
+uses
+  Forms,
+  main in 'main.pas' {frmMain},
+  varianten in 'varianten.pas',
+  ad_consts in 'ad_consts.pas',
+  modell in 'modell.pas',
+  chBasics in 'chBasics.pas' {fraBasics: TFrame},
+  profile in 'profile.pas',
+  report_gleitsinkpolare in 'report_gleitsinkpolare.pas' {qrpGleitSinkpolare},
+  modellauswahl in 'modellauswahl.pas' {frmModellAuswahl},
+  textedit in 'textedit.pas' {frmTextEdit},
+  modellneu in 'modellneu.pas' {frmModellNeu},
+  splash in 'splash.pas' {frmSplash},
+  mainapp in 'mainapp.pas',
+  profileverwaltung in 'profileverwaltung.pas' {frmProfileMan},
+  profildetails in 'profildetails.pas' {frmProfilDetails},
+  idFrameContainer in 'lib\idFrameContainer.pas',
+  ProfilGraph in 'ProfilGraph.pas',
+  importpef in 'importpef.pas' {frmImportPEF},
+  ad_utils in 'ad_utils.pas',
+  chWingGeo in 'chWingGeo.pas' {fraWingGeo: TFrame},
+  chFunctions in 'chFunctions.pas' {fraFunctions: TFrame},
+  report_variantenvergleich in 'report_variantenvergleich.pas' {qrpVariantenVergleich},
+  profilchoose in 'profilchoose.pas' {frmProfilChoose},
+  calcflaechenbelastung in 'calcflaechenbelastung.pas' {frmCalcFlaechenbelastung},
+  varianteneu in 'varianteneu.pas' {frmVarianteNeu},
+  idWebupdate in 'lib\idWebupdate.pas',
+  pfeilungliste in 'pfeilungliste.pas',
+  report_neutralpunkt in 'report_neutralpunkt.pas' {qrpNeutralpunkt: TQuickRep},
+  chGraphic in 'chGraphic.pas' {fraGraphic: TFrame},
+  modellgraphic in 'modellgraphic.pas' {frmModelGraphic},
+  report_modellauslegung in 'report_modellauslegung.pas' {qrpModellauslegung},
+  report_holmberechnung in 'report_holmberechnung.pas' {qrpHolmberechnung},
+  modelpainter in 'modelpainter.pas',
+  materialien in 'materialien.pas',
+  report_steckung in 'report_steckung.pas' {qrpSteckung},
+  selectAuslegung in 'selectAuslegung.pas' {frmSelectAuslegung},
+  enterAuslegung in 'enterAuslegung.pas' {frmEnterAuslegung},
+  logging in 'logging.pas',
+  maindata in 'maindata.pas' {dmMain: TDataModule},
+  idShellFolder in 'lib\idShellFolder.pas',
+  WingDesignerInterface in 'WingDesignerInterface.pas' {dmWingDesigner: TDataModule},
+  configuration in 'configuration.pas';
+{$R *.res}
+
+begin
+  TLiftOff.InitializeAndRun;
+end.

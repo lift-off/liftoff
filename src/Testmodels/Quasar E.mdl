@@ -1,0 +1,50 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="CFK" beschreibung="">
+      <ProfilInnen>MH 32</ProfilInnen>
+      <ProfilAussen>MH 32</ProfilAussen>
+      <Spannweite>3300</Spannweite>
+      <Flaechenbelastung>39</Flaechenbelastung>
+      <Wurzeltiefe>250</Wurzeltiefe>
+      <LageTrapezstoss>893</LageTrapezstoss>
+      <TiefeTrapezstoss>230</TiefeTrapezstoss>
+      <TiefeRandbogen>160</TiefeRandbogen>
+      <Leitwerkshebel>9.06</Leitwerkshebel>
+      <Stabilitaetsmass>17.7</Stabilitaetsmass>
+      <Schwerpunkt>0.5</Schwerpunkt>
+      <ParamFromCa>0.4</ParamFromCa>
+      <ParamToCa>0.8</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung>Grossegler</ParamAuslegung>
+      <ParamMaxCa>1</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>1</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>90</Randbogen>
+          <HolmbreiteWurzel>16</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>6</HolmbreiteRandbogen>
+          <ProfildickeWurzel>8.71</ProfildickeWurzel>
+          <ProfildickeRandbogen>8</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>904</Abstand>
+              <Fluegeltiefe>230</Fluegeltiefe>
+              <Pfeilung>20</Pfeilung>
+              <Profildicke>8.71</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>920</AbstandFluegelHlw>
+          <Spannweite>560</Spannweite>
+          <Wurzeltiefe>140</Wurzeltiefe>
+          <Aussentiefe>120</Aussentiefe>
+          <Pfeilung>20</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

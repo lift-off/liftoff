@@ -1,0 +1,68 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="9.6"/>
+    <point x="2.5" y="11.7"/>
+    <point x="5" y="12.7"/>
+    <point x="7.5" y="13.6"/>
+    <point x="10" y="14"/>
+    <point x="15" y="14.7"/>
+    <point x="20" y="15.2"/>
+    <point x="25" y="15.4"/>
+    <point x="30" y="15.6"/>
+    <point x="40" y="15.4"/>
+    <point x="50" y="14.7"/>
+    <point x="60" y="13.6"/>
+    <point x="70" y="12.2"/>
+    <point x="80" y="10.5"/>
+    <point x="90" y="8.2"/>
+    <point x="100" y="5.5"/>
+    <point x="0" y="9.6"/>
+    <point x="2.5" y="8.2"/>
+    <point x="5" y="7.6"/>
+    <point x="7.5" y="7.2"/>
+    <point x="10" y="7"/>
+    <point x="15" y="6.6"/>
+    <point x="20" y="6.4"/>
+    <point x="25" y="6.2"/>
+    <point x="30" y="6.1"/>
+    <point x="40" y="5.9"/>
+    <point x="50" y="5.7"/>
+    <point x="60" y="5.8"/>
+    <point x="70" y="6.1"/>
+    <point x="80" y="6.2"/>
+    <point x="90" y="6"/>
+    <point x="100" y="5.5"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000">
+        <value cl="0.6692" cd="0.1502"/>
+        <value cl="0.6694" cd="0.1413"/>
+        <value cl="0.6809" cd="0.1667"/>
+        <value cl="0.9396" cd="0.2096"/>
+        <value cl="0.9694" cd="0.2382"/>
+        <value cl="0.9701" cd="0.2306"/>
+        <value cl="0.9728" cd="0.2228"/>
+      </re_set>
+      <re_set value="40000"/>
+      <re_set value="50000"/>
+      <re_set value="60000"/>
+      <re_set value="70000"/>
+      <re_set value="80000"/>
+      <re_set value="90000"/>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000"/>
+      <re_set value="150000"/>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000"/>
+      <re_set value="300000"/>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000"/>
+    </calculation>
+  </polar>
+</airfoil>

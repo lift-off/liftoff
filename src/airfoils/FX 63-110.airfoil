@@ -1,0 +1,62 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="0.9" y="2.147"/>
+    <point x="2.6" y="3.437"/>
+    <point x="3.8" y="4.104"/>
+    <point x="6.7" y="5.325"/>
+    <point x="10.3" y="6.484"/>
+    <point x="14.6" y="7.487"/>
+    <point x="19.6" y="8.318"/>
+    <point x="25" y="8.943"/>
+    <point x="30.8" y="9.315"/>
+    <point x="40.2" y="9.363"/>
+    <point x="50" y="8.893"/>
+    <point x="59.7" y="7.888"/>
+    <point x="69.1" y="6.516"/>
+    <point x="80.4" y="4.476"/>
+    <point x="89.6" y="2.641"/>
+    <point x="94.8" y="1.511"/>
+    <point x="100" y="0"/>
+    <point x="0" y="0"/>
+    <point x="0.9" y="-0.877"/>
+    <point x="2.6" y="-1.437"/>
+    <point x="10.3" y="-2.024"/>
+    <point x="14.6" y="-2.117"/>
+    <point x="19.6" y="-2.128"/>
+    <point x="25" y="-2.013"/>
+    <point x="30.8" y="-1.685"/>
+    <point x="40.2" y="-0.973"/>
+    <point x="50" y="-0.208"/>
+    <point x="59.7" y="0.732"/>
+    <point x="69.1" y="1.464"/>
+    <point x="80.4" y="1.894"/>
+    <point x="89.6" y="1.599"/>
+    <point x="94.8" y="1.079"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000"/>
+      <re_set value="40000"/>
+      <re_set value="50000"/>
+      <re_set value="60000"/>
+      <re_set value="70000"/>
+      <re_set value="80000"/>
+      <re_set value="90000"/>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000"/>
+      <re_set value="150000"/>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000"/>
+      <re_set value="300000"/>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000"/>
+    </calculation>
+  </polar>
+</airfoil>

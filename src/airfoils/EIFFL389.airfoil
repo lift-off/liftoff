@@ -1,0 +1,118 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="3.2"/>
+    <point x="2.5" y="4.37"/>
+    <point x="5" y="5.2"/>
+    <point x="7.5" y="5.8"/>
+    <point x="10" y="6.34"/>
+    <point x="20" y="7.73"/>
+    <point x="30" y="8.4"/>
+    <point x="40" y="8.4"/>
+    <point x="50" y="7.7"/>
+    <point x="60" y="6.73"/>
+    <point x="70" y="5.4"/>
+    <point x="80" y="3.47"/>
+    <point x="90" y="2"/>
+    <point x="100" y="0"/>
+    <point x="0" y="3.2"/>
+    <point x="2.5" y="2.13"/>
+    <point x="5" y="1.87"/>
+    <point x="7.5" y="1.6"/>
+    <point x="10" y="1.45"/>
+    <point x="20" y="1"/>
+    <point x="30" y="0.67"/>
+    <point x="40" y="0.47"/>
+    <point x="50" y="0.27"/>
+    <point x="60" y="0"/>
+    <point x="70" y="0"/>
+    <point x="80" y="0"/>
+    <point x="90" y="0"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000">
+        <value cl="-0.4542" cd="0.0587"/>
+        <value cl="-0.394" cd="0.0488"/>
+        <value cl="-0.3451" cd="0.0415"/>
+        <value cl="-0.3001" cd="0.0355"/>
+        <value cl="-0.2447" cd="0.0307"/>
+        <value cl="-0.1866" cd="0.0272"/>
+        <value cl="-0.1049" cd="0.0219"/>
+        <value cl="-0.0703" cd="0.0222"/>
+        <value cl="-0.0357" cd="0.0227"/>
+        <value cl="-0.0013" cd="0.0233"/>
+        <value cl="0.0326" cd="0.0241"/>
+        <value cl="0.0657" cd="0.0251"/>
+        <value cl="0.0981" cd="0.0263"/>
+        <value cl="0.1301" cd="0.0276"/>
+        <value cl="0.162" cd="0.0291"/>
+        <value cl="0.194" cd="0.0308"/>
+        <value cl="0.2261" cd="0.0326"/>
+        <value cl="0.258" cd="0.0345"/>
+        <value cl="0.2895" cd="0.0366"/>
+        <value cl="0.3204" cd="0.0389"/>
+        <value cl="0.3503" cd="0.0414"/>
+        <value cl="0.3791" cd="0.0443"/>
+        <value cl="0.4066" cd="0.0475"/>
+        <value cl="0.9018" cd="0.0488"/>
+        <value cl="0.9597" cd="0.0571"/>
+        <value cl="1.0098" cd="0.067"/>
+        <value cl="1.0156" cd="0.103"/>
+        <value cl="1.027" cd="0.0763"/>
+        <value cl="1.0352" cd="0.0887"/>
+      </re_set>
+      <re_set value="40000">
+        <value cl="0.9131" cd="0.0474"/>
+        <value cl="0.9691" cd="0.0557"/>
+        <value cl="1.0223" cd="0.0665"/>
+      </re_set>
+      <re_set value="50000">
+        <value cl="-0.3956" cd="0.0464"/>
+        <value cl="-0.3458" cd="0.0382"/>
+        <value cl="-0.3024" cd="0.0328"/>
+        <value cl="-0.2529" cd="0.0276"/>
+        <value cl="-0.2018" cd="0.0242"/>
+        <value cl="-0.1524" cd="0.0222"/>
+        <value cl="-0.0818" cd="0.0184"/>
+        <value cl="-0.0466" cd="0.0189"/>
+        <value cl="-0.0125" cd="0.0197"/>
+        <value cl="0.0203" cd="0.0206"/>
+        <value cl="0.0521" cd="0.0218"/>
+        <value cl="0.0989" cd="0.0234"/>
+        <value cl="0.1844" cd="0.0258"/>
+        <value cl="0.2567" cd="0.0278"/>
+        <value cl="0.3318" cd="0.0299"/>
+        <value cl="0.389" cd="0.0318"/>
+        <value cl="0.4466" cd="0.0339"/>
+        <value cl="0.6706" cd="0.0197"/>
+        <value cl="0.6738" cd="0.0254"/>
+        <value cl="0.6987" cd="0.0288"/>
+        <value cl="0.7678" cd="0.0333"/>
+        <value cl="0.9245" cd="0.047"/>
+        <value cl="0.9913" cd="0.0573"/>
+      </re_set>
+      <re_set value="60000">
+        <value cl="0.9411" cd="0.0486"/>
+      </re_set>
+      <re_set value="70000"/>
+      <re_set value="80000"/>
+      <re_set value="90000"/>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000"/>
+      <re_set value="150000"/>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000">
+        <value cl="0.768" cd="0.0247"/>
+      </re_set>
+      <re_set value="300000"/>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000"/>
+    </calculation>
+  </polar>
+</airfoil>

@@ -1,0 +1,32 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="test" beschreibung="">
+      <ProfilInnen></ProfilInnen>
+      <ProfilAussen></ProfilAussen>
+      <Spannweite>0</Spannweite>
+      <Flaechenbelastung>0</Flaechenbelastung>
+      <Wurzeltiefe>0</Wurzeltiefe>
+      <LageTrapezstoss>0</LageTrapezstoss>
+      <TiefeTrapezstoss>0</TiefeTrapezstoss>
+      <TiefeRandbogen>0</TiefeRandbogen>
+      <Leitwerkshebel>0</Leitwerkshebel>
+      <Stabilitaetsmass>0</Stabilitaetsmass>
+      <Schwerpunkt>0</Schwerpunkt>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

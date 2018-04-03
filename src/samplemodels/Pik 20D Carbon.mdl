@@ -1,0 +1,50 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="Demo Standard" beschreibung="">
+      <ProfilInnen>RG 15A 2.5-13.0</ProfilInnen>
+      <ProfilAussen>RG 15A 2.5-13.0</ProfilAussen>
+      <Spannweite>3750</Spannweite>
+      <Flaechenbelastung>69</Flaechenbelastung>
+      <Wurzeltiefe>225</Wurzeltiefe>
+      <LageTrapezstoss>1110</LageTrapezstoss>
+      <TiefeTrapezstoss>170</TiefeTrapezstoss>
+      <TiefeRandbogen>95</TiefeRandbogen>
+      <Leitwerkshebel>9.4</Leitwerkshebel>
+      <Stabilitaetsmass>16.3</Stabilitaetsmass>
+      <Schwerpunkt>0.6</Schwerpunkt>
+      <ParamFromCa>0.2</ParamFromCa>
+      <ParamToCa>0.9</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung>Grossegler</ParamAuslegung>
+      <ParamMaxCa>0.8</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>0</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>43</Randbogen>
+          <HolmbreiteWurzel>20</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>10</HolmbreiteRandbogen>
+          <ProfildickeWurzel>13</ProfildickeWurzel>
+          <ProfildickeRandbogen>13</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>1110</Abstand>
+              <Fluegeltiefe>170</Fluegeltiefe>
+              <Pfeilung>13</Pfeilung>
+              <Profildicke>13</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>955</AbstandFluegelHlw>
+          <Spannweite>625</Spannweite>
+          <Wurzeltiefe>140</Wurzeltiefe>
+          <Aussentiefe>100</Aussentiefe>
+          <Pfeilung>10</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

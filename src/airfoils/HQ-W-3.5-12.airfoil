@@ -1,0 +1,65 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="0.25" y="0.9"/>
+    <point x="0.5" y="1.35"/>
+    <point x="0.75" y="1.7"/>
+    <point x="1" y="2"/>
+    <point x="1.25" y="2.26"/>
+    <point x="2.5" y="3.33"/>
+    <point x="5" y="4.72"/>
+    <point x="10" y="6.41"/>
+    <point x="15" y="7.64"/>
+    <point x="20" y="8.34"/>
+    <point x="25" y="8.85"/>
+    <point x="30" y="9.16"/>
+    <point x="35" y="9.25"/>
+    <point x="40" y="9.26"/>
+    <point x="45" y="9.15"/>
+    <point x="50" y="8.89"/>
+    <point x="55" y="8.46"/>
+    <point x="60" y="7.94"/>
+    <point x="65" y="7.28"/>
+    <point x="70" y="6.56"/>
+    <point x="75" y="5.7"/>
+    <point x="80" y="4.74"/>
+    <point x="85" y="3.71"/>
+    <point x="90" y="2.6"/>
+    <point x="92.5" y="1.99"/>
+    <point x="95" y="1.38"/>
+    <point x="97.5" y="0.7"/>
+    <point x="100" y="0"/>
+    <point x="0" y="0"/>
+    <point x="0.25" y="-0.5"/>
+    <point x="0.5" y="-0.68"/>
+    <point x="0.75" y="-0.82"/>
+    <point x="1" y="-0.94"/>
+    <point x="1.25" y="-1.03"/>
+    <point x="2.5" y="-1.37"/>
+    <point x="5" y="-1.84"/>
+    <point x="10" y="-2.39"/>
+    <point x="15" y="-2.71"/>
+    <point x="20" y="-2.78"/>
+    <point x="25" y="-2.8"/>
+    <point x="30" y="-2.76"/>
+    <point x="35" y="-2.67"/>
+    <point x="40" y="-2.5"/>
+    <point x="45" y="-2.32"/>
+    <point x="50" y="-2.07"/>
+    <point x="55" y="-1.78"/>
+    <point x="60" y="-1.39"/>
+    <point x="65" y="-0.98"/>
+    <point x="70" y="-0.54"/>
+    <point x="75" y="-0.17"/>
+    <point x="80" y="0.13"/>
+    <point x="85" y="0.35"/>
+    <point x="90" y="0.44"/>
+    <point x="92.5" y="0.42"/>
+    <point x="95" y="0.34"/>
+    <point x="97.5" y="0.22"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default"/>
+  </polar>
+</airfoil>

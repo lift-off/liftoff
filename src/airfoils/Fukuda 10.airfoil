@@ -1,0 +1,56 @@
+<airfoil version="1.0" description="J. Fukuda (Japan)">
+  <coordinates>
+    <point x="0" y="3.69"/>
+    <point x="2.5" y="5.75"/>
+    <point x="5" y="6.74"/>
+    <point x="7.5" y="7.59"/>
+    <point x="10" y="8.07"/>
+    <point x="20" y="9.61"/>
+    <point x="30" y="10.07"/>
+    <point x="40" y="9.69"/>
+    <point x="50" y="8.92"/>
+    <point x="60" y="7.61"/>
+    <point x="70" y="6.15"/>
+    <point x="80" y="4.46"/>
+    <point x="90" y="2.38"/>
+    <point x="100" y="0.16"/>
+    <point x="0" y="3.69"/>
+    <point x="2.5" y="2.19"/>
+    <point x="5" y="1.56"/>
+    <point x="7.5" y="1.08"/>
+    <point x="10" y="0.76"/>
+    <point x="20" y="0"/>
+    <point x="30" y="0.15"/>
+    <point x="40" y="0.53"/>
+    <point x="50" y="0.84"/>
+    <point x="60" y="1.12"/>
+    <point x="70" y="1.12"/>
+    <point x="80" y="1.12"/>
+    <point x="90" y="0.7"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000"/>
+      <re_set value="40000"/>
+      <re_set value="50000"/>
+      <re_set value="60000"/>
+      <re_set value="70000"/>
+      <re_set value="80000"/>
+      <re_set value="90000"/>
+      <re_set value="100000"/>
+      <re_set value="110000"/>
+      <re_set value="120000"/>
+      <re_set value="130000"/>
+      <re_set value="140000"/>
+      <re_set value="150000"/>
+      <re_set value="170000"/>
+      <re_set value="200000"/>
+      <re_set value="250000"/>
+      <re_set value="300000"/>
+      <re_set value="350000"/>
+      <re_set value="400000"/>
+      <re_set value="500000"/>
+    </calculation>
+  </polar>
+</airfoil>

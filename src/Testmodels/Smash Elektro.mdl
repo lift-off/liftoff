@@ -1,0 +1,18 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="S-4083" beschreibung="">
+      <ProfilInnen>S 4083</ProfilInnen>
+      <ProfilAussen>S 4083</ProfilAussen>
+      <Spannweite>1470</Spannweite>
+      <Flaechenbelastung>19</Flaechenbelastung>
+      <Wurzeltiefe>200</Wurzeltiefe>
+      <LageTrapezstoss>450</LageTrapezstoss>
+      <TiefeTrapezstoss>200</TiefeTrapezstoss>
+      <TiefeRandbogen>110</TiefeRandbogen>
+      <Leitwerkshebel>6.3</Leitwerkshebel>
+      <Stabilitaetsmass>16.68</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+    </variante>
+  </varianten>
+</modell>

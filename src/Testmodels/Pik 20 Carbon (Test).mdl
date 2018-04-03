@@ -1,0 +1,32 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="Var 1" beschreibung="">
+      <ProfilInnen>RG 15A 2.5-13.0</ProfilInnen>
+      <ProfilAussen>RG 15A 2.5-13.0</ProfilAussen>
+      <Spannweite>3750</Spannweite>
+      <Flaechenbelastung>69</Flaechenbelastung>
+      <Wurzeltiefe>225</Wurzeltiefe>
+      <LageTrapezstoss>1110</LageTrapezstoss>
+      <TiefeTrapezstoss>170</TiefeTrapezstoss>
+      <TiefeRandbogen>95</TiefeRandbogen>
+      <Leitwerkshebel>0</Leitwerkshebel>
+      <Stabilitaetsmass>16</Stabilitaetsmass>
+      <Schwerpunkt>0.6</Schwerpunkt>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

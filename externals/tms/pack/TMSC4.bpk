@@ -1,0 +1,229 @@
+# ---------------------------------------------------------------------------
+!if !$d(BCB)
+BCB = $(MAKEDIR)\..
+!endif
+
+# ---------------------------------------------------------------------------
+# IDE SECTION
+# ---------------------------------------------------------------------------
+# The following section of the project makefile is managed by the BCB IDE.
+# It is recommended to use the IDE to change any of the values in this
+# section.
+# ---------------------------------------------------------------------------
+
+VERSION = BCB.04.04
+# ---------------------------------------------------------------------------
+PROJECT = TMSC4.bpl
+OBJFILES = alvreg.obj anireg.obj slstreg.obj mskreg.obj pdlgreg.obj rtflreg.obj \
+  scrlreg.obj planreg.obj Wupdreg.obj sysmreg.obj Spin.obj clistedr.obj \
+  htmlireg.obj htmlareg.obj edtbreg.obj htmhireg.obj htmcoreg.obj Hilireg.obj \
+  apreg.obj fsreg.obj llreg.obj wheelreg.obj olnkreg.obj Wdatreg.obj cabr.obj \
+  htmltvr.obj tlreg.obj htmbureg.obj flctrlr.obj asreg.obj webcreg.obj \
+  dbasreg.obj dbaereg.obj htmstbr.obj lfreg.obj htmstreg.obj dbhtmlar.obj \
+  dblucmbr.obj colcoreg.obj paramlstreg.obj paramlabreg.obj paramchklreg.obj \
+  datelbl.obj dbadvle.obj AdvEdBtn.obj advlued.obj advluedr.obj advedbr.obj \
+  dbadvler.obj wallpreg.obj collireg.obj MoneyEdr.obj advpnlreg.obj dbmereg.obj \
+  WebImgR.obj HTMLTLREG.obj advpicr.obj frmsreg.obj advqryr.obj htmldlgr.obj \
+  WebPostr.obj dbplanreg.obj imgpickr.obj vCalReg.obj edtlstreg.obj \
+  EllipsLblReg.obj ChartLinkReg.obj thumbreg.obj PlannerCalReg.obj \
+  PictureContainerReg.obj DBPlannerCalReg.obj acreg.obj aereg.obj calcreg.obj \
+  calpreg.obj lureg.obj parlreg.obj SHADER.obj paramtreeviewreg.obj dbslstreg.obj \
+  DBTodoListReg.obj DBAdvEdBtnReg.obj AstaPatchUtil.obj WinXP.obj TodoListReg.obj \
+  HTMLPopupReg.obj InspectorBarReg.obj INIInspectorBarReg.obj btnlireg.obj \
+  DBInspectorBarReg.obj atbreg.obj dbanreg.obj DBHTMLBtnsReg.obj \
+  WebConnectReg.obj uhtmlireg.obj uhtmlareg.obj uhtmcoreg.obj AdvMoneyEditReg.obj \
+  InspLinks.obj AdvDBLookupComboBoxReg.obj GradientLblReg.obj \
+  AdvTreeComboBoxReg.obj HTMLCreditReg.obj TMSC4.obj
+RESFILES = tmsc4.res alvreg.dcr anireg.dcr slstreg.dcr pdlgreg.dcr rtflreg.dcr planreg.dcr \
+  Wupdreg.dcr sysmreg.dcr clistedr.dcr htmlireg.dcr htmlareg.dcr edtbreg.dcr \
+  htmhireg.dcr htmcoreg.dcr Hilireg.dcr fsreg.dcr llreg.dcr wheelreg.dcr \
+  olnkreg.dcr Wdatreg.dcr cabr.dcr htmltvr.dcr tlreg.dcr htmbureg.dcr asreg.dcr \
+  webcreg.dcr dbasreg.dcr dbaereg.dcr htmstbr.dcr lfreg.dcr htmstreg.dcr \
+  dbhtmlar.dcr dblucmbr.dcr colcoreg.dcr paramlstreg.dcr paramlabreg.dcr \
+  paramchklreg.dcr datelbl.dcr advluedr.dcr advedbr.dcr dbadvler.dcr wallpreg.dcr \
+  collireg.dcr MoneyEdr.dcr advpnlreg.dcr dbmereg.dcr WebImgR.dcr HTMLTLREG.dcr \
+  advpicr.dcr frmsreg.dcr advqryr.dcr htmldlgr.dcr WebPostr.dcr dbplanreg.dcr \
+  imgpickr.dcr vCalReg.dcr edtlstreg.dcr EllipsLblReg.dcr thumbreg.dcr \
+  PlannerCalReg.dcr PictureContainerReg.dcr DBPlannerCalReg.dcr acreg.dcr \
+  aereg.dcr calcreg.dcr calpreg.dcr lureg.dcr parlreg.dcr SHADER.dcr \
+  paramtreeviewreg.dcr dbslstreg.dcr DBTodoListReg.dcr DBAdvEdBtnReg.dcr \
+  AstaPatchUtil.dcr WinXP.dcr TodoListReg.dcr HTMLPopupReg.dcr \
+  InspectorBarReg.dcr INIInspectorBarReg.dcr btnlireg.dcr DBInspectorBarReg.dcr \
+  atbreg.dcr dbanreg.dcr DBHTMLBtnsReg.dcr WebConnectReg.dcr uhtmlireg.dcr \
+  uhtmlareg.dcr uhtmcoreg.dcr AdvMoneyEditReg.dcr AdvDBLookupComboBoxReg.dcr \
+  GradientLblReg.dcr HTMLCreditReg.dcr
+RESDEPEN = $(RESFILES)
+LIBFILES = Wininet.lib odbc32.lib odbccp32.lib
+LIBRARIES = dclocx40.lib nmfast40.lib \
+  teedb40.lib teeui40.lib vcldbx40.lib ibsmp40.lib qrpt40.lib vcljpg40.lib
+SPARELIBS = vcl40.lib vclx40.lib vcljpg40.lib bcbsmp40.lib qrpt40.lib vcldb40.lib \
+  ibsmp40.lib vcldbx40.lib teeui40.lib teedb40.lib tee40.lib nmfast40.lib \
+  dclocx40.lib
+PACKAGES = vcl40.bpi VCLDB40.bpi VCLX40.bpi bcbsmp40.bpi tee40.bpi
+DEFFILE =
+# ---------------------------------------------------------------------------
+PATHCPP = .;
+PATHASM = .;
+PATHPAS = .;
+PATHRC = .;
+DEBUGLIBPATH = $(BCB)\lib\debug
+RELEASELIBPATH = $(BCB)\lib\release
+USERDEFINES =
+SYSDEFINES = _RTLDLL;NO_STRICT;USEPACKAGES
+# ---------------------------------------------------------------------------
+CFLAG1 = -I$(BCB)\include;$(BCB)\include\vcl -Od -Hc -H=$(BCB)\lib\vcl40.csm -w -Ve -r- \
+  -a8 -k -y -v -vi- -c -b- -w-par -w-inl -Vx -tWM -D$(SYSDEFINES);$(USERDEFINES)
+PFLAGS = -U"..\..\Program Files\Addict3\Source\cb4";"..\..\Program Files\Raize\CS2\LibBCB4";$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(RELEASELIBPATH) \
+  -I$(BCB)\include;$(BCB)\include\vcl -$YD -$W -$O- -v -JPHNE -M
+RFLAGS = -i$(BCB)\include;$(BCB)\include\vcl
+AFLAGS = /i$(BCB)\include /i$(BCB)\include\vcl /mx /w2 /zd
+LFLAGS = -L"..\..\Program Files\Addict3\Source\cb4";"..\..\Program Files\Raize\CS2\LibBCB4";$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(RELEASELIBPATH) \
+  -D"TMS Component Pack" -aa -Tpp -x -Gn -Gl -Gi -v
+# ---------------------------------------------------------------------------
+ALLOBJ = c0pkg32.obj Memmgr.Lib $(PACKAGES) sysinit.obj $(OBJFILES)
+ALLRES = $(RESFILES)
+ALLLIB = $(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib
+# ---------------------------------------------------------------------------
+!ifdef IDEOPTIONS
+
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2067
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=1
+Item0=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\..\Program Files\Addict3\Source\cb4;..\..\Program Files\Raize\CS2\LibBCB4;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\..\Program Files\Raize\CS2\LibBCB4;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+InMemoryExe=0
+ShowInfoMsgs=0
+
+!endif
+
+# ---------------------------------------------------------------------------
+# MAKE SECTION
+# ---------------------------------------------------------------------------
+# This section of the project file is not used by the BCB IDE.  It is for
+# the benefit of building from the command-line using the MAKE utility.
+# ---------------------------------------------------------------------------
+
+.autodepend
+# ---------------------------------------------------------------------------
+!if !$d(BCC32)
+BCC32 = bcc32
+!endif
+
+!if !$d(CPP32)
+CPP32 = cpp32
+!endif
+
+!if !$d(DCC32)
+DCC32 = dcc32
+!endif
+
+!if !$d(TASM32)
+TASM32 = tasm32
+!endif
+
+!if !$d(LINKER)
+LINKER = ilink32
+!endif
+
+!if !$d(BRCC32)
+BRCC32 = brcc32
+!endif
+
+# ---------------------------------------------------------------------------
+!if $d(PATHCPP)
+.PATH.CPP = $(PATHCPP)
+.PATH.C   = $(PATHCPP)
+!endif
+
+!if $d(PATHPAS)
+.PATH.PAS = $(PATHPAS)
+!endif
+
+!if $d(PATHASM)
+.PATH.ASM = $(PATHASM)
+!endif
+
+!if $d(PATHRC)
+.PATH.RC  = $(PATHRC)
+!endif
+# ---------------------------------------------------------------------------
+$(PROJECT): $(OBJFILES) $(RESDEPEN) $(DEFFILE)
+    $(BCB)\BIN\$(LINKER) @&&!
+    $(LFLAGS) +
+    $(ALLOBJ), +
+    $(PROJECT),, +
+    $(ALLLIB), +
+    $(DEFFILE), +
+    $(ALLRES)
+!
+# ---------------------------------------------------------------------------
+.pas.hpp:
+    $(BCB)\BIN\$(DCC32) $(PFLAGS) {$< }
+
+.pas.obj:
+    $(BCB)\BIN\$(DCC32) $(PFLAGS) {$< }
+
+.cpp.obj:
+    $(BCB)\BIN\$(BCC32) $(CFLAG1) -n$(@D) {$< }
+
+.c.obj:
+    $(BCB)\BIN\$(BCC32) $(CFLAG1) -n$(@D) {$< }
+
+.c.i:
+    $(BCB)\BIN\$(CPP32) $(CFLAG1) -n. {$< }
+
+.cpp.i:
+    $(BCB)\BIN\$(CPP32) $(CFLAG1) -n. {$< }
+
+.asm.obj:
+    $(BCB)\BIN\$(TASM32) $(AFLAGS) $<, $@
+
+.rc.res:
+    $(BCB)\BIN\$(BRCC32) $(RFLAGS) -fo$@ $<
+# ---------------------------------------------------------------------------

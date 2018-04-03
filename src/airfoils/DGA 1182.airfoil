@@ -1,0 +1,387 @@
+<airfoil version="1.0" description="Italy">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="1.25" y="1.2"/>
+    <point x="2.5" y="1.9"/>
+    <point x="5" y="2.5"/>
+    <point x="7.5" y="2.8"/>
+    <point x="10" y="3.1"/>
+    <point x="15" y="3.65"/>
+    <point x="20" y="4"/>
+    <point x="30" y="4.3"/>
+    <point x="40" y="4.3"/>
+    <point x="50" y="4"/>
+    <point x="60" y="3.5"/>
+    <point x="70" y="2.9"/>
+    <point x="80" y="2.1"/>
+    <point x="90" y="1.25"/>
+    <point x="100" y="0.3"/>
+    <point x="0" y="0"/>
+    <point x="1.25" y="-0.3"/>
+    <point x="2.5" y="-0.8"/>
+    <point x="5" y="-1.2"/>
+    <point x="7.5" y="-1.5"/>
+    <point x="10" y="-1.7"/>
+    <point x="15" y="-1.95"/>
+    <point x="20" y="-2.1"/>
+    <point x="30" y="-2.3"/>
+    <point x="40" y="-2.4"/>
+    <point x="50" y="-2.3"/>
+    <point x="60" y="-2"/>
+    <point x="70" y="-1.85"/>
+    <point x="80" y="-1.25"/>
+    <point x="90" y="-0.5"/>
+    <point x="100" y="0"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000">
+        <value cl="-0.515" cd="0.0553"/>
+        <value cl="-0.4541" cd="0.0465"/>
+        <value cl="-0.3939" cd="0.0395"/>
+        <value cl="-0.3324" cd="0.0337"/>
+        <value cl="-0.2671" cd="0.029"/>
+        <value cl="-0.113" cd="0.0195"/>
+        <value cl="-0.0747" cd="0.0193"/>
+        <value cl="-0.0375" cd="0.0191"/>
+        <value cl="-0.0002" cd="0.0191"/>
+        <value cl="0.0374" cd="0.0191"/>
+        <value cl="0.0755" cd="0.0193"/>
+        <value cl="0.1138" cd="0.0197"/>
+        <value cl="0.1522" cd="0.0202"/>
+        <value cl="0.1903" cd="0.0208"/>
+        <value cl="0.2276" cd="0.0217"/>
+        <value cl="0.2636" cd="0.023"/>
+        <value cl="0.2981" cd="0.0246"/>
+        <value cl="0.563" cd="0.0283"/>
+        <value cl="0.6219" cd="0.0318"/>
+        <value cl="0.6831" cd="0.0357"/>
+        <value cl="0.7162" cd="0.0389"/>
+        <value cl="0.7587" cd="0.0481"/>
+        <value cl="0.805" cd="0.0588"/>
+        <value cl="0.8346" cd="0.07"/>
+        <value cl="0.8589" cd="0.0836"/>
+        <value cl="0.8718" cd="0.1016"/>
+      </re_set>
+      <re_set value="40000">
+        <value cl="-0.4513" cd="0.0456"/>
+        <value cl="-0.3914" cd="0.0377"/>
+        <value cl="-0.3331" cd="0.0315"/>
+        <value cl="-0.272" cd="0.0271"/>
+        <value cl="-0.2178" cd="0.0234"/>
+        <value cl="-0.1116" cd="0.0171"/>
+        <value cl="-0.073" cd="0.0168"/>
+        <value cl="-0.0367" cd="0.0167"/>
+        <value cl="-0.0005" cd="0.0166"/>
+        <value cl="0.0364" cd="0.0167"/>
+        <value cl="0.0744" cd="0.0169"/>
+        <value cl="0.1519" cd="0.0178"/>
+        <value cl="0.1906" cd="0.0185"/>
+        <value cl="0.2285" cd="0.0194"/>
+        <value cl="0.2651" cd="0.0208"/>
+        <value cl="0.4722" cd="0.0191"/>
+        <value cl="0.5025" cd="0.0227"/>
+        <value cl="0.5548" cd="0.0255"/>
+        <value cl="0.6164" cd="0.0283"/>
+        <value cl="0.6597" cd="0.03"/>
+        <value cl="0.7022" cd="0.0359"/>
+        <value cl="0.7536" cd="0.0456"/>
+        <value cl="0.7972" cd="0.0551"/>
+        <value cl="0.8676" cd="0.0809"/>
+      </re_set>
+      <re_set value="50000">
+        <value cl="-0.0008" cd="0.0149"/>
+        <value cl="0.0355" cd="0.015"/>
+        <value cl="0.0734" cd="0.0153"/>
+        <value cl="0.152" cd="0.0162"/>
+        <value cl="0.1913" cd="0.0169"/>
+        <value cl="0.2296" cd="0.018"/>
+        <value cl="0.4036" cd="0.0179"/>
+        <value cl="0.4608" cd="0.018"/>
+        <value cl="0.5019" cd="0.0213"/>
+        <value cl="0.5565" cd="0.0235"/>
+        <value cl="0.6067" cd="0.0253"/>
+        <value cl="0.6527" cd="0.0269"/>
+        <value cl="0.6997" cd="0.0339"/>
+        <value cl="0.7473" cd="0.0408"/>
+        <value cl="0.788" cd="0.0477"/>
+        <value cl="0.8232" cd="0.0552"/>
+        <value cl="0.854" cd="0.0664"/>
+        <value cl="0.8557" cd="0.079"/>
+        <value cl="0.8664" cd="0.0917"/>
+      </re_set>
+      <re_set value="60000">
+        <value cl="-0.001" cd="0.0137"/>
+        <value cl="0.0348" cd="0.0138"/>
+        <value cl="0.0728" cd="0.0141"/>
+        <value cl="0.1522" cd="0.015"/>
+        <value cl="0.192" cd="0.0158"/>
+        <value cl="0.3009" cd="0.0166"/>
+        <value cl="0.4276" cd="0.0151"/>
+        <value cl="0.4563" cd="0.018"/>
+        <value cl="0.5052" cd="0.0202"/>
+        <value cl="0.5569" cd="0.0221"/>
+        <value cl="0.6034" cd="0.0234"/>
+        <value cl="0.65" cd="0.0252"/>
+        <value cl="0.6963" cd="0.0282"/>
+        <value cl="0.7446" cd="0.0328"/>
+        <value cl="0.7897" cd="0.0403"/>
+        <value cl="0.8238" cd="0.0517"/>
+        <value cl="0.8446" cd="0.0639"/>
+        <value cl="0.8648" cd="0.0756"/>
+        <value cl="0.8668" cd="0.0888"/>
+      </re_set>
+      <re_set value="70000"/>
+      <re_set value="80000">
+        <value cl="-0.0013" cd="0.012"/>
+        <value cl="0.0334" cd="0.0121"/>
+        <value cl="0.0717" cd="0.0124"/>
+        <value cl="0.1528" cd="0.0134"/>
+        <value cl="0.2701" cd="0.0138"/>
+        <value cl="0.3793" cd="0.0129"/>
+        <value cl="0.4142" cd="0.0142"/>
+        <value cl="0.4582" cd="0.0169"/>
+        <value cl="0.5068" cd="0.0185"/>
+        <value cl="0.5548" cd="0.0199"/>
+        <value cl="0.605" cd="0.0205"/>
+        <value cl="0.6608" cd="0.0208"/>
+        <value cl="0.7068" cd="0.0237"/>
+        <value cl="0.7504" cd="0.0284"/>
+        <value cl="0.7942" cd="0.0369"/>
+        <value cl="0.8274" cd="0.0478"/>
+        <value cl="0.8552" cd="0.0586"/>
+        <value cl="0.8631" cd="0.0727"/>
+      </re_set>
+      <re_set value="90000">
+        <value cl="-0.3825" cd="0.0325"/>
+        <value cl="-0.3242" cd="0.0267"/>
+        <value cl="-0.269" cd="0.0229"/>
+        <value cl="-0.2202" cd="0.0194"/>
+        <value cl="-0.1731" cd="0.0166"/>
+        <value cl="-0.124" cd="0.0149"/>
+        <value cl="-0.0326" cd="0.0115"/>
+        <value cl="-0.0015" cd="0.0114"/>
+        <value cl="0.0328" cd="0.0115"/>
+        <value cl="0.0712" cd="0.0118"/>
+        <value cl="0.1532" cd="0.0128"/>
+        <value cl="0.3102" cd="0.0125"/>
+        <value cl="0.3796" cd="0.012"/>
+        <value cl="0.4101" cd="0.0148"/>
+        <value cl="0.4581" cd="0.0164"/>
+        <value cl="0.5062" cd="0.018"/>
+        <value cl="0.5548" cd="0.0191"/>
+        <value cl="0.6096" cd="0.019"/>
+        <value cl="0.6612" cd="0.0203"/>
+        <value cl="0.7074" cd="0.0232"/>
+        <value cl="0.7509" cd="0.0277"/>
+        <value cl="0.7966" cd="0.0344"/>
+        <value cl="0.8293" cd="0.0466"/>
+        <value cl="0.8541" cd="0.0582"/>
+        <value cl="0.867" cd="0.0719"/>
+        <value cl="0.8675" cd="0.0892"/>
+      </re_set>
+      <re_set value="100000">
+        <value cl="-0.3826" cd="0.0325"/>
+        <value cl="-0.3242" cd="0.0262"/>
+        <value cl="-0.2694" cd="0.022"/>
+        <value cl="-0.2192" cd="0.0187"/>
+        <value cl="-0.1724" cd="0.0163"/>
+        <value cl="-0.1236" cd="0.0145"/>
+        <value cl="-0.0318" cd="0.0109"/>
+        <value cl="-0.0016" cd="0.0109"/>
+        <value cl="0.0322" cd="0.011"/>
+        <value cl="0.0708" cd="0.0113"/>
+        <value cl="0.2076" cd="0.0121"/>
+        <value cl="0.324" cd="0.0115"/>
+        <value cl="0.376" cd="0.0114"/>
+        <value cl="0.4089" cd="0.0146"/>
+      </re_set>
+      <re_set value="110000">
+        <value cl="-0.0017" cd="0.0104"/>
+        <value cl="0.0316" cd="0.0106"/>
+        <value cl="0.0705" cd="0.0108"/>
+        <value cl="0.2405" cd="0.0113"/>
+        <value cl="0.3301" cd="0.0108"/>
+        <value cl="0.3715" cd="0.0113"/>
+        <value cl="0.4082" cd="0.0143"/>
+        <value cl="0.4578" cd="0.0155"/>
+        <value cl="0.5048" cd="0.0171"/>
+        <value cl="0.558" cd="0.0172"/>
+        <value cl="0.6126" cd="0.0175"/>
+        <value cl="0.6142" cd="0.1053"/>
+        <value cl="0.6465" cd="0.093"/>
+        <value cl="0.662" cd="0.0194"/>
+        <value cl="0.6813" cd="0.0814"/>
+        <value cl="0.7096" cd="0.0221"/>
+        <value cl="0.7203" cd="0.0721"/>
+        <value cl="0.754" cd="0.0266"/>
+        <value cl="0.7586" cd="0.0622"/>
+        <value cl="0.7965" cd="0.0344"/>
+        <value cl="0.8348" cd="0.0439"/>
+        <value cl="0.8555" cd="0.0578"/>
+        <value cl="0.865" cd="0.0737"/>
+      </re_set>
+      <re_set value="120000">
+        <value cl="-0.0018" cd="0.01"/>
+        <value cl="0.031" cd="0.0102"/>
+        <value cl="0.0702" cd="0.0104"/>
+        <value cl="0.2598" cd="0.0106"/>
+        <value cl="0.3317" cd="0.0102"/>
+        <value cl="0.3656" cd="0.0116"/>
+        <value cl="0.4074" cd="0.0141"/>
+      </re_set>
+      <re_set value="130000">
+        <value cl="-0.0019" cd="0.0097"/>
+        <value cl="0.0304" cd="0.0098"/>
+        <value cl="0.0699" cd="0.0101"/>
+        <value cl="0.2697" cd="0.01"/>
+        <value cl="0.3308" cd="0.0098"/>
+        <value cl="0.36" cd="0.0122"/>
+        <value cl="0.4072" cd="0.0138"/>
+      </re_set>
+      <re_set value="140000">
+        <value cl="-0.002" cd="0.0094"/>
+        <value cl="0.0298" cd="0.0095"/>
+        <value cl="0.0696" cd="0.0098"/>
+        <value cl="0.2763" cd="0.0095"/>
+        <value cl="0.3289" cd="0.0095"/>
+        <value cl="0.3575" cd="0.0125"/>
+        <value cl="0.4064" cd="0.0137"/>
+      </re_set>
+      <re_set value="150000">
+        <value cl="-0.6431" cd="0.0913"/>
+        <value cl="-0.6261" cd="0.0816"/>
+        <value cl="-0.6035" cd="0.0721"/>
+        <value cl="-0.5751" cd="0.0632"/>
+        <value cl="-0.5411" cd="0.0557"/>
+        <value cl="-0.5065" cd="0.0461"/>
+        <value cl="-0.4638" cd="0.0428"/>
+        <value cl="-0.4217" cd="0.0345"/>
+        <value cl="-0.3725" cd="0.0293"/>
+        <value cl="-0.322" cd="0.0241"/>
+        <value cl="-0.2698" cd="0.0198"/>
+        <value cl="-0.2189" cd="0.017"/>
+        <value cl="-0.1711" cd="0.0144"/>
+        <value cl="-0.1225" cd="0.0129"/>
+        <value cl="-0.072" cd="0.0113"/>
+        <value cl="0.0293" cd="0.0092"/>
+        <value cl="0.0694" cd="0.0095"/>
+        <value cl="0.2806" cd="0.0091"/>
+        <value cl="0.3259" cd="0.0093"/>
+        <value cl="0.3565" cd="0.0124"/>
+        <value cl="0.4064" cd="0.0134"/>
+        <value cl="0.4557" cd="0.0146"/>
+        <value cl="0.5085" cd="0.0147"/>
+        <value cl="0.5617" cd="0.0153"/>
+        <value cl="0.6127" cd="0.0166"/>
+        <value cl="0.663" cd="0.0184"/>
+        <value cl="0.7102" cd="0.0212"/>
+        <value cl="0.7584" cd="0.0247"/>
+        <value cl="0.8013" cd="0.0329"/>
+        <value cl="0.8362" cd="0.0448"/>
+      </re_set>
+      <re_set value="170000">
+        <value cl="-0.0721" cd="0.0117"/>
+        <value cl="-0.0361" cd="0.0087"/>
+        <value cl="0.0283" cd="0.0088"/>
+        <value cl="0.1087" cd="0.0089"/>
+        <value cl="0.2829" cd="0.0085"/>
+        <value cl="0.3186" cd="0.0094"/>
+        <value cl="0.3557" cd="0.0122"/>
+        <value cl="0.4055" cd="0.0131"/>
+        <value cl="0.4554" cd="0.0141"/>
+        <value cl="0.5098" cd="0.014"/>
+        <value cl="0.5621" cd="0.0148"/>
+        <value cl="0.6134" cd="0.0162"/>
+        <value cl="0.6642" cd="0.0179"/>
+        <value cl="0.7109" cd="0.021"/>
+        <value cl="0.7599" cd="0.0242"/>
+        <value cl="0.8025" cd="0.033"/>
+        <value cl="0.8361" cd="0.0462"/>
+      </re_set>
+      <re_set value="200000">
+        <value cl="-0.0722" cd="0.0111"/>
+        <value cl="-0.0192" cd="0.009"/>
+        <value cl="0.016" cd="0.0083"/>
+        <value cl="0.1374" cd="0.0081"/>
+        <value cl="0.2311" cd="0.0079"/>
+        <value cl="0.279" cd="0.0079"/>
+        <value cl="0.3094" cd="0.0102"/>
+        <value cl="0.355" cd="0.0118"/>
+        <value cl="0.4059" cd="0.0125"/>
+      </re_set>
+      <re_set value="250000">
+        <value cl="-0.3164" cd="0.0231"/>
+        <value cl="-0.2678" cd="0.0189"/>
+        <value cl="-0.2191" cd="0.0159"/>
+        <value cl="-0.1712" cd="0.0137"/>
+        <value cl="-0.1234" cd="0.0119"/>
+        <value cl="-0.0731" cd="0.0106"/>
+        <value cl="-0.0168" cd="0.0103"/>
+        <value cl="0.0647" cd="0.0073"/>
+        <value cl="0.1387" cd="0.0071"/>
+      </re_set>
+      <re_set value="300000">
+        <value cl="0.0215" cd="0.0095"/>
+        <value cl="0.0925" cd="0.0066"/>
+        <value cl="0.1527" cd="0.0066"/>
+        <value cl="0.1972" cd="0.0066"/>
+        <value cl="0.2366" cd="0.0075"/>
+        <value cl="0.307" cd="0.0101"/>
+        <value cl="0.3555" cd="0.0106"/>
+        <value cl="0.4061" cd="0.0113"/>
+        <value cl="0.4601" cd="0.0112"/>
+        <value cl="0.5125" cd="0.0121"/>
+        <value cl="0.5653" cd="0.0131"/>
+        <value cl="0.6174" cd="0.0145"/>
+        <value cl="0.6695" cd="0.016"/>
+        <value cl="0.7164" cd="0.0195"/>
+        <value cl="0.7685" cd="0.0241"/>
+      </re_set>
+      <re_set value="350000">
+        <value cl="0.0416" cd="0.0089"/>
+        <value cl="0.1126" cd="0.0086"/>
+        <value cl="0.2378" cd="0.0082"/>
+        <value cl="0.2821" cd="0.0097"/>
+        <value cl="0.3559" cd="0.0102"/>
+        <value cl="0.406" cd="0.011"/>
+        <value cl="0.4607" cd="0.0107"/>
+        <value cl="0.5134" cd="0.0117"/>
+        <value cl="0.5665" cd="0.0126"/>
+        <value cl="0.6191" cd="0.014"/>
+        <value cl="0.6717" cd="0.0154"/>
+        <value cl="0.7228" cd="0.0178"/>
+        <value cl="0.7692" cd="0.028"/>
+      </re_set>
+      <re_set value="400000">
+        <value cl="0.0511" cd="0.0086"/>
+        <value cl="0.1129" cd="0.0083"/>
+        <value cl="0.1625" cd="0.0084"/>
+        <value cl="0.2065" cd="0.0075"/>
+        <value cl="0.2398" cd="0.0092"/>
+        <value cl="0.288" cd="0.0095"/>
+        <value cl="0.3563" cd="0.01"/>
+        <value cl="0.407" cd="0.0104"/>
+        <value cl="0.4603" cd="0.0106"/>
+        <value cl="0.514" cd="0.0114"/>
+        <value cl="0.5675" cd="0.0123"/>
+        <value cl="0.6204" cd="0.0136"/>
+        <value cl="0.6738" cd="0.0149"/>
+        <value cl="0.7242" cd="0.0181"/>
+      </re_set>
+      <re_set value="500000">
+        <value cl="0.0567" cd="0.008"/>
+        <value cl="0.1079" cd="0.0079"/>
+        <value cl="0.1571" cd="0.0081"/>
+        <value cl="0.2986" cd="0.0092"/>
+        <value cl="0.3399" cd="0.0093"/>
+        <value cl="0.4612" cd="0.0101"/>
+        <value cl="0.5152" cd="0.0108"/>
+        <value cl="0.5691" cd="0.0117"/>
+        <value cl="0.6222" cd="0.0131"/>
+        <value cl="0.6768" cd="0.0143"/>
+        <value cl="0.7271" cd="0.0189"/>
+      </re_set>
+    </calculation>
+  </polar>
+</airfoil>

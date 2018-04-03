@@ -1,0 +1,403 @@
+<airfoil version="1.0" description="">
+  <coordinates>
+    <point x="0" y="0"/>
+    <point x="0.2" y="0.135"/>
+    <point x="0.5" y="0.205"/>
+    <point x="1" y="0.28"/>
+    <point x="2" y="0.375"/>
+    <point x="3" y="0.445"/>
+    <point x="4" y="0.5"/>
+    <point x="5" y="0.55"/>
+    <point x="6" y="0.59"/>
+    <point x="7" y="0.625"/>
+    <point x="8" y="0.66"/>
+    <point x="9" y="0.69"/>
+    <point x="10" y="0.72"/>
+    <point x="11" y="0.745"/>
+    <point x="12" y="0.77"/>
+    <point x="13" y="0.79"/>
+    <point x="14" y="0.81"/>
+    <point x="15" y="0.83"/>
+    <point x="16" y="0.845"/>
+    <point x="17" y="0.86"/>
+    <point x="18" y="0.875"/>
+    <point x="19" y="0.89"/>
+    <point x="20" y="0.9"/>
+    <point x="21" y="0.91"/>
+    <point x="22" y="0.92"/>
+    <point x="23" y="0.93"/>
+    <point x="24" y="0.94"/>
+    <point x="25" y="0.95"/>
+    <point x="26" y="0.96"/>
+    <point x="27" y="0.965"/>
+    <point x="28" y="0.97"/>
+    <point x="29" y="0.975"/>
+    <point x="30" y="0.98"/>
+    <point x="31" y="0.985"/>
+    <point x="32" y="0.99"/>
+    <point x="33" y="0.995"/>
+    <point x="34" y="1"/>
+    <point x="35" y="1"/>
+    <point x="36" y="1"/>
+    <point x="37" y="1"/>
+    <point x="38" y="1"/>
+    <point x="39" y="1"/>
+    <point x="40" y="1"/>
+    <point x="41" y="1"/>
+    <point x="42" y="1"/>
+    <point x="43" y="1"/>
+    <point x="44" y="1"/>
+    <point x="45" y="0.995"/>
+    <point x="46" y="0.99"/>
+    <point x="47" y="0.985"/>
+    <point x="48" y="0.98"/>
+    <point x="49" y="0.975"/>
+    <point x="50" y="0.97"/>
+    <point x="51" y="0.965"/>
+    <point x="52" y="0.96"/>
+    <point x="53" y="0.955"/>
+    <point x="54" y="0.95"/>
+    <point x="55" y="0.94"/>
+    <point x="56" y="0.93"/>
+    <point x="57" y="0.92"/>
+    <point x="58" y="0.91"/>
+    <point x="59" y="0.9"/>
+    <point x="60" y="0.89"/>
+    <point x="61" y="0.88"/>
+    <point x="62" y="0.87"/>
+    <point x="63" y="0.86"/>
+    <point x="64" y="0.845"/>
+    <point x="65" y="0.83"/>
+    <point x="66" y="0.815"/>
+    <point x="67" y="0.8"/>
+    <point x="68" y="0.785"/>
+    <point x="69" y="0.77"/>
+    <point x="70" y="0.755"/>
+    <point x="71" y="0.74"/>
+    <point x="72" y="0.72"/>
+    <point x="73" y="0.7"/>
+    <point x="74" y="0.68"/>
+    <point x="75" y="0.66"/>
+    <point x="76" y="0.64"/>
+    <point x="77" y="0.62"/>
+    <point x="78" y="0.6"/>
+    <point x="79" y="0.58"/>
+    <point x="80" y="0.555"/>
+    <point x="81" y="0.53"/>
+    <point x="82" y="0.505"/>
+    <point x="83" y="0.48"/>
+    <point x="84" y="0.455"/>
+    <point x="85" y="0.425"/>
+    <point x="86" y="0.395"/>
+    <point x="87" y="0.365"/>
+    <point x="88" y="0.33"/>
+    <point x="89" y="0.295"/>
+    <point x="90" y="0.255"/>
+    <point x="91" y="0.215"/>
+    <point x="92" y="0.17"/>
+    <point x="93" y="0.12"/>
+    <point x="94" y="0.07"/>
+    <point x="95" y="0.015"/>
+    <point x="96" y="-0.045"/>
+    <point x="97" y="-0.11"/>
+    <point x="98" y="-0.18"/>
+    <point x="99" y="-0.265"/>
+    <point x="100" y="-0.36"/>
+    <point x="0" y="0"/>
+    <point x="0.2" y="-0.135"/>
+    <point x="0.5" y="-0.205"/>
+    <point x="1" y="-0.28"/>
+    <point x="2" y="-0.375"/>
+    <point x="3" y="-0.445"/>
+    <point x="4" y="-0.5"/>
+    <point x="5" y="-0.55"/>
+    <point x="6" y="-0.59"/>
+    <point x="7" y="-0.625"/>
+    <point x="8" y="-0.66"/>
+    <point x="9" y="-0.69"/>
+    <point x="10" y="-0.72"/>
+    <point x="11" y="-0.745"/>
+    <point x="12" y="-0.77"/>
+    <point x="13" y="-0.79"/>
+    <point x="14" y="-0.81"/>
+    <point x="15" y="-0.83"/>
+    <point x="16" y="-0.845"/>
+    <point x="17" y="-0.86"/>
+    <point x="18" y="-0.875"/>
+    <point x="19" y="-0.89"/>
+    <point x="20" y="-0.9"/>
+    <point x="21" y="-0.91"/>
+    <point x="22" y="-0.92"/>
+    <point x="23" y="-0.93"/>
+    <point x="24" y="-0.94"/>
+    <point x="25" y="-0.95"/>
+    <point x="26" y="-0.96"/>
+    <point x="27" y="-0.965"/>
+    <point x="28" y="-0.97"/>
+    <point x="29" y="-0.975"/>
+    <point x="30" y="-0.98"/>
+    <point x="31" y="-0.985"/>
+    <point x="32" y="-0.99"/>
+    <point x="33" y="-0.995"/>
+    <point x="34" y="-0.995"/>
+    <point x="35" y="-0.995"/>
+    <point x="36" y="-0.995"/>
+    <point x="37" y="-0.995"/>
+    <point x="38" y="-0.995"/>
+    <point x="39" y="-0.995"/>
+    <point x="40" y="-0.995"/>
+    <point x="41" y="-0.99"/>
+    <point x="42" y="-0.985"/>
+    <point x="43" y="-0.98"/>
+    <point x="44" y="-0.975"/>
+    <point x="45" y="-0.965"/>
+    <point x="46" y="-0.955"/>
+    <point x="47" y="-0.945"/>
+    <point x="48" y="-0.935"/>
+    <point x="49" y="-0.925"/>
+    <point x="50" y="-0.915"/>
+    <point x="51" y="-0.9"/>
+    <point x="52" y="-0.885"/>
+    <point x="53" y="-0.87"/>
+    <point x="54" y="-0.855"/>
+    <point x="55" y="-0.84"/>
+    <point x="56" y="-0.82"/>
+    <point x="57" y="-0.8"/>
+    <point x="58" y="-0.78"/>
+    <point x="59" y="-0.76"/>
+    <point x="60" y="-0.735"/>
+    <point x="61" y="-0.71"/>
+    <point x="62" y="-0.685"/>
+    <point x="63" y="-0.66"/>
+    <point x="64" y="-0.635"/>
+    <point x="65" y="-0.61"/>
+    <point x="66" y="-0.585"/>
+    <point x="67" y="-0.56"/>
+    <point x="68" y="-0.535"/>
+    <point x="69" y="-0.51"/>
+    <point x="70" y="-0.485"/>
+    <point x="71" y="-0.46"/>
+    <point x="72" y="-0.435"/>
+    <point x="73" y="-0.41"/>
+    <point x="74" y="-0.385"/>
+    <point x="75" y="-0.36"/>
+    <point x="76" y="-0.335"/>
+    <point x="77" y="-0.31"/>
+    <point x="78" y="-0.285"/>
+    <point x="79" y="-0.26"/>
+    <point x="80" y="-0.24"/>
+    <point x="81" y="-0.22"/>
+    <point x="82" y="-0.2"/>
+    <point x="83" y="-0.18"/>
+    <point x="84" y="-0.165"/>
+    <point x="85" y="-0.155"/>
+    <point x="86" y="-0.145"/>
+    <point x="87" y="-0.14"/>
+    <point x="88" y="-0.14"/>
+    <point x="89" y="-0.14"/>
+    <point x="90" y="-0.15"/>
+    <point x="91" y="-0.16"/>
+    <point x="92" y="-0.175"/>
+    <point x="93" y="-0.195"/>
+    <point x="94" y="-0.22"/>
+    <point x="95" y="-0.25"/>
+    <point x="96" y="-0.29"/>
+    <point x="97" y="-0.34"/>
+    <point x="98" y="-0.4"/>
+    <point x="99" y="-0.47"/>
+    <point x="100" y="-0.55"/>
+  </coordinates>
+  <polar>
+    <calculation name="default">
+      <re_set value="30000">
+        <value cl="-0.1424" cd="0.0179"/>
+        <value cl="-0.0908" cd="0.0167"/>
+        <value cl="-0.0365" cd="0.0166"/>
+        <value cl="0.017" cd="0.0165"/>
+        <value cl="0.0702" cd="0.0166"/>
+        <value cl="0.1233" cd="0.0167"/>
+        <value cl="0.177" cd="0.0168"/>
+      </re_set>
+      <re_set value="40000">
+        <value cl="-0.1278" cd="0.0188"/>
+        <value cl="-0.0875" cd="0.0144"/>
+        <value cl="-0.0324" cd="0.0143"/>
+        <value cl="0.0215" cd="0.0143"/>
+        <value cl="0.0751" cd="0.0143"/>
+        <value cl="0.1286" cd="0.0144"/>
+        <value cl="0.1838" cd="0.0146"/>
+      </re_set>
+      <re_set value="50000">
+        <value cl="-0.1239" cd="0.0178"/>
+        <value cl="-0.085" cd="0.0129"/>
+        <value cl="-0.0291" cd="0.0128"/>
+        <value cl="0.0251" cd="0.0128"/>
+        <value cl="0.1327" cd="0.0129"/>
+        <value cl="0.2096" cd="0.0172"/>
+        <value cl="0.3233" cd="0.0241"/>
+        <value cl="0.3833" cd="0.0281"/>
+        <value cl="0.4444" cd="0.0341"/>
+      </re_set>
+      <re_set value="60000">
+        <value cl="-0.1203" cd="0.017"/>
+        <value cl="-0.0829" cd="0.0117"/>
+        <value cl="-0.0264" cd="0.0117"/>
+        <value cl="0.028" cd="0.0117"/>
+        <value cl="0.1362" cd="0.0118"/>
+        <value cl="0.2131" cd="0.0166"/>
+      </re_set>
+      <re_set value="70000">
+        <value cl="-0.1173" cd="0.0161"/>
+        <value cl="-0.0666" cd="0.0117"/>
+        <value cl="-0.024" cd="0.0108"/>
+        <value cl="0.0305" cd="0.0108"/>
+        <value cl="0.0847" cd="0.0108"/>
+        <value cl="0.1392" cd="0.0109"/>
+        <value cl="0.2167" cd="0.0159"/>
+      </re_set>
+      <re_set value="80000">
+        <value cl="-0.1138" cd="0.0154"/>
+        <value cl="-0.0568" cd="0.0136"/>
+        <value cl="-0.022" cd="0.0101"/>
+        <value cl="0.0327" cd="0.0101"/>
+        <value cl="0.087" cd="0.0101"/>
+        <value cl="0.1418" cd="0.0102"/>
+        <value cl="0.2193" cd="0.0153"/>
+      </re_set>
+      <re_set value="90000">
+        <value cl="-0.2849" cd="0.0274"/>
+        <value cl="-0.2225" cd="0.0221"/>
+        <value cl="-0.1114" cd="0.0151"/>
+        <value cl="-0.0547" cd="0.0131"/>
+        <value cl="-0.0201" cd="0.0095"/>
+        <value cl="0.0348" cd="0.0095"/>
+        <value cl="0.1444" cd="0.0096"/>
+        <value cl="0.2203" cd="0.015"/>
+      </re_set>
+      <re_set value="100000">
+        <value cl="-0.2223" cd="0.0213"/>
+        <value cl="-0.1095" cd="0.0145"/>
+        <value cl="-0.0524" cd="0.0127"/>
+        <value cl="-0.0185" cd="0.009"/>
+        <value cl="0.0365" cd="0.009"/>
+        <value cl="0.091" cd="0.0091"/>
+        <value cl="0.1662" cd="0.0128"/>
+        <value cl="0.2215" cd="0.0145"/>
+        <value cl="0.2759" cd="0.0178"/>
+        <value cl="0.3338" cd="0.0216"/>
+        <value cl="0.4044" cd="0.0267"/>
+      </re_set>
+      <re_set value="110000">
+        <value cl="-0.2223" cd="0.021"/>
+        <value cl="-0.1643" cd="0.0174"/>
+        <value cl="-0.1079" cd="0.014"/>
+        <value cl="-0.0504" cd="0.0123"/>
+        <value cl="-0.0171" cd="0.0086"/>
+        <value cl="0.038" cd="0.0086"/>
+        <value cl="0.0926" cd="0.0086"/>
+        <value cl="0.1674" cd="0.0124"/>
+        <value cl="0.2225" cd="0.0141"/>
+        <value cl="0.277" cd="0.0176"/>
+        <value cl="0.3363" cd="0.0212"/>
+      </re_set>
+      <re_set value="120000">
+        <value cl="-0.2216" cd="0.021"/>
+        <value cl="-0.1067" cd="0.0136"/>
+        <value cl="-0.0488" cd="0.0119"/>
+        <value cl="-0.0158" cd="0.0083"/>
+        <value cl="0.0394" cd="0.0083"/>
+        <value cl="0.0941" cd="0.0083"/>
+        <value cl="0.1683" cd="0.012"/>
+        <value cl="0.2234" cd="0.0138"/>
+        <value cl="0.3378" cd="0.0215"/>
+      </re_set>
+      <re_set value="130000">
+        <value cl="-0.1056" cd="0.0133"/>
+        <value cl="-0.0475" cd="0.0116"/>
+        <value cl="-0.0146" cd="0.0079"/>
+        <value cl="0.0407" cd="0.0079"/>
+        <value cl="0.0955" cd="0.008"/>
+        <value cl="0.1691" cd="0.0118"/>
+        <value cl="0.2242" cd="0.0135"/>
+        <value cl="0.2792" cd="0.0171"/>
+        <value cl="0.3409" cd="0.021"/>
+      </re_set>
+      <re_set value="140000">
+        <value cl="-0.1047" cd="0.013"/>
+        <value cl="-0.0464" cd="0.0114"/>
+        <value cl="-0.0135" cd="0.0076"/>
+        <value cl="0.0419" cd="0.0076"/>
+        <value cl="0.0967" cd="0.0077"/>
+        <value cl="0.1698" cd="0.0115"/>
+        <value cl="0.225" cd="0.0133"/>
+      </re_set>
+      <re_set value="150000">
+        <value cl="-0.1039" cd="0.0128"/>
+        <value cl="-0.0456" cd="0.0112"/>
+        <value cl="-0.0124" cd="0.0074"/>
+        <value cl="0.043" cd="0.0074"/>
+        <value cl="0.0979" cd="0.0074"/>
+        <value cl="0.1705" cd="0.0114"/>
+        <value cl="0.2257" cd="0.0131"/>
+        <value cl="0.2816" cd="0.0167"/>
+      </re_set>
+      <re_set value="170000">
+        <value cl="-0.1026" cd="0.0126"/>
+        <value cl="-0.0442" cd="0.0108"/>
+        <value cl="-0.0097" cd="0.007"/>
+        <value cl="0.045" cd="0.0069"/>
+        <value cl="0.1" cd="0.007"/>
+        <value cl="0.1718" cd="0.0111"/>
+        <value cl="0.227" cd="0.0129"/>
+      </re_set>
+      <re_set value="200000">
+        <value cl="-0.1012" cd="0.0125"/>
+        <value cl="-0.0422" cd="0.0102"/>
+        <value cl="0.002" cd="0.0067"/>
+        <value cl="0.0475" cd="0.0064"/>
+        <value cl="0.1027" cd="0.0064"/>
+        <value cl="0.1737" cd="0.0105"/>
+        <value cl="0.2287" cd="0.0127"/>
+      </re_set>
+      <re_set value="250000">
+        <value cl="-0.1577" cd="0.0148"/>
+        <value cl="-0.0993" cd="0.0122"/>
+        <value cl="-0.0397" cd="0.0095"/>
+        <value cl="0.0158" cd="0.0064"/>
+        <value cl="0.051" cd="0.0057"/>
+        <value cl="0.1194" cd="0.009"/>
+        <value cl="0.1764" cd="0.0099"/>
+        <value cl="0.2315" cd="0.0121"/>
+      </re_set>
+      <re_set value="300000">
+        <value cl="-0.0976" cd="0.0115"/>
+        <value cl="-0.0377" cd="0.009"/>
+        <value cl="0.0227" cd="0.0065"/>
+        <value cl="0.0537" cd="0.0053"/>
+        <value cl="0.1215" cd="0.0086"/>
+        <value cl="0.1785" cd="0.0095"/>
+        <value cl="0.2342" cd="0.0116"/>
+      </re_set>
+      <re_set value="350000">
+        <value cl="0.1233" cd="0.0082"/>
+        <value cl="0.1803" cd="0.0092"/>
+        <value cl="0.2359" cd="0.0117"/>
+      </re_set>
+      <re_set value="400000">
+        <value cl="-0.0349" cd="0.0083"/>
+        <value cl="0.0219" cd="0.0076"/>
+        <value cl="0.0579" cd="0.0046"/>
+        <value cl="0.1248" cd="0.0079"/>
+        <value cl="0.1818" cd="0.0089"/>
+        <value cl="0.2381" cd="0.0116"/>
+      </re_set>
+      <re_set value="500000">
+        <value cl="-0.033" cd="0.0078"/>
+        <value cl="0.0239" cd="0.0072"/>
+        <value cl="0.0609" cd="0.0041"/>
+        <value cl="0.1273" cd="0.0075"/>
+        <value cl="0.1843" cd="0.0085"/>
+      </re_set>
+    </calculation>
+  </polar>
+</airfoil>

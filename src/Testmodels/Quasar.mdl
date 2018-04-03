@@ -1,0 +1,50 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="Standard" beschreibung="">
+      <ProfilInnen>E193  (10.22%)</ProfilInnen>
+      <ProfilAussen>E193  (10.22%)</ProfilAussen>
+      <Spannweite>3070</Spannweite>
+      <Flaechenbelastung>42</Flaechenbelastung>
+      <Wurzeltiefe>250</Wurzeltiefe>
+      <LageTrapezstoss>740</LageTrapezstoss>
+      <TiefeTrapezstoss>235</TiefeTrapezstoss>
+      <TiefeRandbogen>185</TiefeRandbogen>
+      <Leitwerkshebel>9.06</Leitwerkshebel>
+      <Stabilitaetsmass>14.4</Stabilitaetsmass>
+      <Schwerpunkt>0.5</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.2</ParamToCa>
+      <ParamHolmart>1</ParamHolmart>
+      <ParamAuslegung>Alltagssegler</ParamAuslegung>
+      <ParamMaxCa>0.6</ParamMaxCa>
+      <ParamMaxV>20</ParamMaxV>
+      <ParamArtSteckverbindung>1</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>20</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>10</HolmbreiteRandbogen>
+          <ProfildickeWurzel>8.71</ProfildickeWurzel>
+          <ProfildickeRandbogen>8</ProfildickeRandbogen>
+          <Knicke>
+            <Knick>
+              <Abstand>740</Abstand>
+              <Fluegeltiefe>235</Fluegeltiefe>
+              <Pfeilung>0</Pfeilung>
+              <Profildicke>8.71</Profildicke>
+            </Knick>
+          </Knicke>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>930</AbstandFluegelHlw>
+          <Spannweite>560</Spannweite>
+          <Wurzeltiefe>140</Wurzeltiefe>
+          <Aussentiefe>120</Aussentiefe>
+          <Pfeilung>1</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>

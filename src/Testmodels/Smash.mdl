@@ -1,0 +1,157 @@
+<modell>
+  <description></description>
+  <varianten>
+    <variante name="S-4083/1" beschreibung="">
+      <ProfilInnen>S4083 (8%)</ProfilInnen>
+      <ProfilAussen>S4083 (8%)</ProfilAussen>
+      <Spannweite>1470</Spannweite>
+      <Flaechenbelastung>12</Flaechenbelastung>
+      <Wurzeltiefe>200</Wurzeltiefe>
+      <LageTrapezstoss>450</LageTrapezstoss>
+      <TiefeTrapezstoss>200</TiefeTrapezstoss>
+      <TiefeRandbogen>110</TiefeRandbogen>
+      <Leitwerkshebel>5.6</Leitwerkshebel>
+      <Stabilitaetsmass>16.6</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+      <ParamFromCa>0.2</ParamFromCa>
+      <ParamToCa>0.9</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung></ParamAuslegung>
+      <ParamMaxCa>1</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>0</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>0</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>0</HolmbreiteRandbogen>
+          <ProfildickeWurzel>0</ProfildickeWurzel>
+          <ProfildickeRandbogen>0</ProfildickeRandbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+    <variante name="S-3021" beschreibung="">
+      <ProfilInnen>S 3021</ProfilInnen>
+      <ProfilAussen>S 3021</ProfilAussen>
+      <Spannweite>1480</Spannweite>
+      <Flaechenbelastung>11</Flaechenbelastung>
+      <Wurzeltiefe>200</Wurzeltiefe>
+      <LageTrapezstoss>400</LageTrapezstoss>
+      <TiefeTrapezstoss>200</TiefeTrapezstoss>
+      <TiefeRandbogen>160</TiefeRandbogen>
+      <Leitwerkshebel>5.35</Leitwerkshebel>
+      <Stabilitaetsmass>13.4</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.1</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung></ParamAuslegung>
+      <ParamMaxCa>1</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>0</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>0</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>0</HolmbreiteRandbogen>
+          <ProfildickeWurzel>0</ProfildickeWurzel>
+          <ProfildickeRandbogen>0</ProfildickeRandbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+    <variante name="MH-32" beschreibung="">
+      <ProfilInnen>MH 32</ProfilInnen>
+      <ProfilAussen>MH 32</ProfilAussen>
+      <Spannweite>1470</Spannweite>
+      <Flaechenbelastung>24</Flaechenbelastung>
+      <Wurzeltiefe>200</Wurzeltiefe>
+      <LageTrapezstoss>450</LageTrapezstoss>
+      <TiefeTrapezstoss>200</TiefeTrapezstoss>
+      <TiefeRandbogen>110</TiefeRandbogen>
+      <Leitwerkshebel>5.6</Leitwerkshebel>
+      <Stabilitaetsmass>13.5</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.1</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung></ParamAuslegung>
+      <ParamMaxCa>1</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>0</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>0</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>0</HolmbreiteRandbogen>
+          <ProfildickeWurzel>0</ProfildickeWurzel>
+          <ProfildickeRandbogen>0</ProfildickeRandbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+    <variante name="s-4083" beschreibung="">
+      <ProfilInnen>S 4083</ProfilInnen>
+      <ProfilAussen>S 4083</ProfilAussen>
+      <Spannweite>1470</Spannweite>
+      <Flaechenbelastung>12</Flaechenbelastung>
+      <Wurzeltiefe>200.1</Wurzeltiefe>
+      <LageTrapezstoss>450</LageTrapezstoss>
+      <TiefeTrapezstoss>200</TiefeTrapezstoss>
+      <TiefeRandbogen>110</TiefeRandbogen>
+      <Leitwerkshebel>5.6</Leitwerkshebel>
+      <Stabilitaetsmass>16.6</Stabilitaetsmass>
+      <Schwerpunkt>0.8</Schwerpunkt>
+      <ParamFromCa>0.1</ParamFromCa>
+      <ParamToCa>1.1</ParamToCa>
+      <ParamHolmart>0</ParamHolmart>
+      <ParamAuslegung></ParamAuslegung>
+      <ParamMaxCa>1</ParamMaxCa>
+      <ParamMaxV>40</ParamMaxV>
+      <ParamArtSteckverbindung>0</ParamArtSteckverbindung>
+      <Details>
+        <Flaeche>
+          <Randbogen>0</Randbogen>
+          <HolmbreiteWurzel>0</HolmbreiteWurzel>
+          <HolmbreiteRandbogen>0</HolmbreiteRandbogen>
+          <ProfildickeWurzel>0</ProfildickeWurzel>
+          <ProfildickeRandbogen>0</ProfildickeRandbogen>
+          <Knicke/>
+        </Flaeche>
+        <Hlw>
+          <AbstandFluegelHlw>0</AbstandFluegelHlw>
+          <Spannweite>0</Spannweite>
+          <Wurzeltiefe>0</Wurzeltiefe>
+          <Aussentiefe>0</Aussentiefe>
+          <Pfeilung>0</Pfeilung>
+          <Knicke/>
+        </Hlw>
+      </Details>
+    </variante>
+  </varianten>
+</modell>
