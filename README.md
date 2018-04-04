@@ -4,6 +4,8 @@ Lift-Off Aerodynamics Software for Windows
 
 ## Getting Started
 
+After two decades of development and maintainance we finally decided to open-source Liftoff and release it for free. We do this because we think is way more people will use software and we never had the intension to make a lot of money. We think its best also for Liftoff to spread it out widely. This way the community can participate and even enhance the software so it gets better for all of us.
+
 ### Users
 To get started with Lift-Off as a user by [downloading](http://idev.ch) and install the software using its Windows Installer. Then check out the [user-manuels](https://github.com/mduu/liftoff/tree/master/doc) for the basics.
 
