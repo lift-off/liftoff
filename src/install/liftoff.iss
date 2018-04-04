@@ -22,7 +22,7 @@ Name: airfoils; Description: {cm:ComponentAirfoilDatabase}; Types: custom full
 Name: modelle; Description: {cm:ComponentSamples}; Types: custom full
 
 [Setup]
-OutputDir=C:\Development\Delphi\projects\liftoff\dev\install\output
+OutputDir=.\output
 OutputBaseFilename=liftoffsetup
 Compression=zip/9
 AppCopyright=© by iDev.ch
@@ -33,7 +33,7 @@ DefaultDirName={pf}\Liftoff
 DisableStartupPrompt=true
 AppPublisher=iDev.ch
 AppPublisherURL=http://www.idev.ch/
-AppSupportURL=http://www.idev.ch/
+AppSupportURL=https://github.com/mduu/liftoff/issues
 AppUpdatesURL=http://www.idev.ch
 ShowTasksTreeLines=false
 WizardImageFile=..\images\wizard.bmp
