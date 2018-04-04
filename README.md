@@ -17,37 +17,24 @@ Lift-Off features a huge airfoil [database](https://github.com/mduu/liftoff/tree
 
 Basically each ``.airfoil``file contains the airfoils coordinates and its RE series calculated by a electronic wind tunnel software. For the coordinates one can use software like *Profili*. For the electronic wind tunnel one can pass the coordinates into a software called *Xfoil*. We are working on a dochmentation on how to create new ``.airfoil``files.
 
+### Developers
+
+If you like to contribute source-code to Lift-Off you need to set up the development environment first. See below for further instructions. Lift-Off is enirely written in Delphi (Pascal). You need to know Delphi/Pascal to code for Lift-Off.
+
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To write code for Lift-Off you need to set up your development environment first. THis requires:
 
-```
-Give examples
-```
+* Delphi 7
+* Developer Express Bars 5 VCL
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+If you have installed the prerequirements you should be able to compile LIft-Off using the ``src/liftoff.dpr`` project or the project-group found in ``src/liftoff.bpg``.
 
-Say what the step will be
+If you like to have desinger support for forms and data-modules you need to install the design-time packages for the libraries. One of them is our own iDev library in ``src/lib/idev.dpk``. The others are in ``externals/*``.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+To get multilanguage support while debugging copy the ``.lng`` files you need to the ``src/bin`` directory. This is optional for development. If no translation files are in the bin-folder german will be used out of the box.
 
 ## Contributing
 
@@ -55,20 +42,20 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/mduu/liftoff/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Marc Dürst** - *Lead Developemnt* - [mduu](https://github.com/mduu) | [@marcduerst](https://twitter.com/marcduerst)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mduu/liftoff/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL v3 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Ludwig Wiechers for his work with AEROCALC and AERODESIGN. His algorythms where the starting point for Lift-Off decades ago.
+* Hans Dürst for his endless time helping with testing and debugging Lift-Off as well as maintain the airfoil database
+* Christian Baron for contributing the POC of the spar calculations
