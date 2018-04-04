@@ -56,6 +56,7 @@ This project is licensed under the GPL v3 - see the [LICENSE.txt](LICENSE.txt) f
 
 ## Acknowledgments
 
-* Ludwig Wiechers for his work with AEROCALC and AERODESIGN. His algorythms where the starting point for Lift-Off decades ago.
+* H.-W. Bender for his early work with AEROCALC which was the origin.
+* Ludwig Wiechers for his work with AERODESIGN. His algorythms where the starting point for Lift-Off decades ago.
 * Hans Dürst for his endless time helping with testing and debugging Lift-Off as well as maintain the airfoil database
 * Christian Baron for contributing the POC of the spar calculations
