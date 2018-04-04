@@ -115,7 +115,7 @@ AutoIncBuild=1
 MajorVer=1
 MinorVer=7
 Release=0
-Build=226
+Build=227
 Debug=0
 PreRelease=0
 Special=0
@@ -126,14 +126,14 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=iDev.ch
 FileDescription=Liftoff
-FileVersion=1.7.0.226
+FileVersion=1.7.0.227
 InternalName=liftoff
-LegalCopyright=(c) by iDev.ch
+LegalCopyright=
 LegalTrademarks=
 OriginalFilename=liftoff.exe
 ProductName=Liftoff
 ProductVersion=1.7
-Comments=
+Licence=GPL-3
 [Excluded Packages]
 C:\Programme\Borland\Delphi7\Projects\Bpl\dclIndyCore70.bpl=Indy 10 Core Design Time
 c:\programme\borland\delphi7\Projects\Bpl\dclIndySuperCore70.bpl=Internet Direct (Indy) 10.00.0.17-B - Super Core

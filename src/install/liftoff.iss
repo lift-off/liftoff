@@ -8,7 +8,7 @@ Use7zip=false
 [Files]
 Source: ..\bin\liftoff.exe; DestDir: {app}; Components: core; Flags: overwritereadonly ignoreversion
 Source: Tools\profconv.exe; DestDir: {app}; Components: core
-Source: ..\*.lng; DestDir: {app}; Components: core; Flags: overwritereadonly ignoreversion
+Source: ..\translations\*.lng; DestDir: {app}; Components: core; Flags: overwritereadonly ignoreversion
 Source: history.htm; DestDir: {app}; Flags: ignoreversion
 Source: ..\samplemodels\*.mdl; DestDir: {app}\samplemodels\; Attribs: readonly; Flags: overwritereadonly ignoreversion replacesameversion
 Source: output\StepFourAirfoilSetup.exe; DestDir: {tmp}; Flags: deleteafterinstall overwritereadonly replacesameversion; Tasks: 
