@@ -48,7 +48,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Marc Dürst** - *Lead Developemnt* - [mduu](https://github.com/mduu) | [@marcduerst](https://twitter.com/marcduerst)
+* **Marc Dürst** - *Developer and Project Lead* - [mduu](https://github.com/mduu) | [@marcduerst](https://twitter.com/marcduerst)
+* **Hans Dürst** - *Domain Expert and Consultant*
 
 See also the list of [contributors](https://github.com/mduu/liftoff/contributors) who participated in this project.
 
