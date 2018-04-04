@@ -5,7 +5,7 @@ Lift-Off Aerodynamics Software for Windows
 ## Getting Started
 
 ### Users
-To get started with Lift-Off as a user download and install the software using its Windows Installer. Then check out the [user-manuels](https://github.com/mduu/liftoff/tree/master/doc) for the basics.
+To get started with Lift-Off as a user by [downloading](http://idev.ch) and install the software using its Windows Installer. Then check out the [user-manuels](https://github.com/mduu/liftoff/tree/master/doc) for the basics.
 
 ### Translators
 
