@@ -52,7 +52,7 @@ See also the list of [contributors](https://github.com/mduu/liftoff/contributors
 
 ## License
 
-This project is licensed under the GPL v3 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL v3 - see the [LICENSE.txt](LICENSE.txt) file for details
 
 ## Acknowledgments
 
