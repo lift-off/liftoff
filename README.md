@@ -17,7 +17,7 @@ If yout like to translate Lift-Off into a new language or update existing transl
 
 Lift-Off features a huge airfoil [database](https://github.com/mduu/liftoff/tree/master/src/airfoils) with currently more then 2200 airfoils. May commonly used airfoils are already available but we miss lack of newer airfoils. Help on integrating missing airfoils is very welcome and doesn't require programming skils.
 
-Basically each ``.airfoil``file contains the airfoils coordinates and its RE series calculated by a electronic wind tunnel software. For the coordinates one can use software like *Profili*. For the electronic wind tunnel one can pass the coordinates into a software called *Xfoil*. We are working on a dochmentation on how to create new ``.airfoil``files.
+Basically each ``.airfoil``file contains the airfoils coordinates and its RE series calculated by a electronic wind tunnel software. For the coordinates one can use software like *Profili*. For the electronic wind tunnel one can pass the coordinates into a software called *Xfoil*. We are working on a documentation on how to create new ``.airfoil``files.
 
 ### Developers
 
